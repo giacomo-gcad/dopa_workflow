@@ -11,9 +11,8 @@ The following sections are currently present:
 
 ## Pre Processing
 
-+  [WDPA](./preprocessing/#wdpa_preprocessing)
-+  [WDPA Unprotected Buffers](./preprocessing/#buffers)
-+  [Raster import in GRASS](./preprocessing/raster/)   
++  [WDPA](./wdpa_preprocessing/wdpa_preprocessing.rd)
+
 
 ## Processing
 

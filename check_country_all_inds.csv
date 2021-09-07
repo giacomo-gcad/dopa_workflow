@@ -1,0 +1,163 @@
+function_name|parameter_name|reporting_level|check_if_exists|Value_BRA|Value_ITA|Value_TZA|Problem|Action
+get_country_all_inds|agb_max_c_mg_prot|CL|agb_max_c_mg_prot|238.1630244|169.51919|130.2971808|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_max_c_mg_total|CL|agb_max_c_mg_total|241.8625495|201.5044744|130.2971808|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_max_c_mg_unprot|CL|agb_max_c_mg_unprot|241.8625495|201.5044744|128.3392383|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_mean_c_mg_prot|CL|agb_mean_c_mg_prot|118.6866864|30.94587973|18.70004147|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_mean_c_mg_total|CL|agb_mean_c_mg_total|40.68488232|17.68028747|14.13860158|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_mean_c_mg_unprot|CL|agb_mean_c_mg_unprot|36.37267412|17.30420924|13.79183834|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_min_c_mg_prot|CL|agb_min_c_mg_prot|0|0|0|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_min_c_mg_total|CL|agb_min_c_mg_total|0|0|0|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_min_c_mg_unprot|CL|agb_min_c_mg_unprot|0|0|0|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|agb_stdev_c_mg_prot|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|agb_stdev_c_mg_total|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|agb_stdev_c_mg_unprot|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|agb_tot_c_pg_prot|CL|agb_tot_c_pg_prot|28.92069767|0.295272619|0.738204821||
+get_country_all_inds|agb_tot_c_pg_total|CL|agb_tot_c_pg_total|54.9523061|0.935468737|1.518705129||
+get_country_all_inds|agb_tot_c_pg_unprot|CL|agb_tot_c_pg_unprot|26.03160843|0.640196118|0.780500308||
+get_country_all_inds|area_mar_km2|C|area_mar_km2|3674472.132|536284.7114|241684.8328||
+get_country_all_inds|area_mar_perc|C|area_mar_perc|30.243|64.008|20.446||
+get_country_all_inds|area_prot_km2|C|area_prot_km2|3544204.94|117621.57|367246.9455||
+get_country_all_inds|area_prot_mar_km2|C|area_prot_mar_km2|979078.306|52815.15828|6614.740433||
+get_country_all_inds|area_prot_mar_perc|C|area_prot_mar_perc|26.645|9.848|2.737||
+get_country_all_inds|area_prot_perc|C|area_prot_perc|29.171|14.039|31.068||
+get_country_all_inds|area_prot_terr_km2|C|area_prot_terr_km2|2565126.634|64806.41173|360632.205||
+get_country_all_inds|area_prot_terr_perc|C|area_prot_terr_perc|30.266|21.491|38.35||
+get_country_all_inds|area_terr_km2|C|area_terr_km2|8475381.183|301556.3116|940381.4254||
+get_country_all_inds|area_terr_perc|C|area_terr_perc|69.757|35.992|79.554||
+get_country_all_inds|area_tot_km2|C|area_tot_km2|12149853.32|837841.023|1182066.258||
+get_country_all_inds|bgb_max_c_mg_prot|CL|bgb_max_c_mg_prot|181.672589|67.24728197|69.0380585|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_max_c_mg_total|CL|bgb_max_c_mg_total|229.251138|78.68075175|69.0380585|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_max_c_mg_unprot|CL|bgb_max_c_mg_unprot|229.251138|78.68075175|68.06321524|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_mean_c_mg_prot|CL|bgb_mean_c_mg_prot|26.45058565|11.88207395|5.513690305|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_mean_c_mg_total|CL|bgb_mean_c_mg_total|9.717647654|6.593988302|4.235491064|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_mean_c_mg_unprot|CL|bgb_mean_c_mg_unprot|8.792593248|6.444071594|4.138321635|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_min_c_mg_prot|CL|bgb_min_c_mg_prot|0|0|0|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_min_c_mg_total|CL|bgb_min_c_mg_total|0|0|0|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_min_c_mg_unprot|CL|bgb_min_c_mg_unprot|0|0|0|data differ for about a 100 factor from DOPA40 data|check aggregation
+get_country_all_inds|bgb_stdev_c_mg_prot|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|bgb_stdev_c_mg_total|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|bgb_stdev_c_mg_unprot|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|bgb_tot_c_pg_prot|CL|bgb_tot_c_pg_prot|6.472418735|0.112970606|0.220292641||
+get_country_all_inds|bgb_tot_c_pg_total|CL|bgb_tot_c_pg_total|12.61299667|0.347969583|0.460913559||
+get_country_all_inds|bgb_tot_c_pg_unprot|CL|bgb_tot_c_pg_unprot|6.140577936|0.234998977|0.240620918||
+get_country_all_inds|carbon_max_c_mg_prot|CL|carbon_max_c_mg_prot|32116.71929|24462.30071|27606.88506||
+get_country_all_inds|carbon_max_c_mg_total|CL|carbon_max_c_mg_total|33108.53179|38022.12059|27606.88506||
+get_country_all_inds|carbon_max_c_mg_unprot|CL|carbon_max_c_mg_unprot|33108.53179|38022.12059|23466.26535||
+get_country_all_inds|carbon_mean_c_mg_prot|CL|carbon_mean_c_mg_prot|15435.25718|7664.703005|5636.60178||
+get_country_all_inds|carbon_mean_c_mg_total|CL|carbon_mean_c_mg_total|10177.76636|5865.2187|5021.319761||
+get_country_all_inds|carbon_mean_c_mg_unprot|CL|carbon_mean_c_mg_unprot|7896.251807|5375.120911|4638.666204||
+get_country_all_inds|carbon_min_c_mg_prot|CL|carbon_min_c_mg_prot|0|0|0||
+get_country_all_inds|carbon_min_c_mg_total|CL|carbon_min_c_mg_total|0|0|0||
+get_country_all_inds|carbon_min_c_mg_unprot|CL|carbon_min_c_mg_unprot|0|0|0||
+get_country_all_inds|carbon_stdev_c_mg_prot|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|carbon_stdev_c_mg_total|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|carbon_stdev_c_mg_unprot|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|carbon_tot_c_pg_prot|CL|carbon_tot_c_pg_prot|46.67179386|0.787281528|2.392703527||
+get_country_all_inds|carbon_tot_c_pg_total|CL|carbon_tot_c_pg_total|102.6888733|2.818725721|5.563079004||
+get_country_all_inds|carbon_tot_c_pg_unprot|CL|carbon_tot_c_pg_unprot|56.0170794|2.031444193|3.170375477||
+get_country_all_inds|country_id|C|country_id|38|143|279||
+get_country_all_inds|country_iso2|C|country_iso2|BR|IT|TZ||
+get_country_all_inds|country_iso3|C|country_iso3|BRA|ITA|TZA||
+get_country_all_inds|country_name|C|country_name|Brazil|Italy|Tanzania, United Republic of||
+get_country_all_inds|country_un_m49|C|country_un_m49|76|380|834||
+get_country_all_inds|gebco_max_m|CL|#N/A|#N/A|#N/A|#N/A|different field names|check sql AND results.dopa_indicators
+get_country_all_inds|gebco_mean_m|CL|#N/A|#N/A|#N/A|#N/A|different field names|check sql AND results.dopa_indicators
+get_country_all_inds|gebco_min_m|CL|#N/A|#N/A|#N/A|#N/A|different field names|check sql AND results.dopa_indicators
+get_country_all_inds|gebco_stdev_m|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|gfc_gain_km2|CL|gfc_gain_km2|34521.11452|390.2479344|1489.526051||
+get_country_all_inds|gfc_gain_perc|CL|gfc_gain_perc|0.407310465|0.129411297|0.158395946||
+get_country_all_inds|gfc_gain_prot_km2|CL|gfc_gain_prot_km2|2573.005815|112.1717945|296.2429422||
+get_country_all_inds|gfc_gain_prot_perc|CL|gfc_gain_prot_perc|0.030358585|0.037197628|0.031502424||
+get_country_all_inds|gfc_loss_km2|CL|gfc_loss_km2|565743.0822|3581.939135|25082.21339||
+get_country_all_inds|gfc_loss_perc|CL|gfc_loss_perc|6.675134368|1.187817663|2.667238284||
+get_country_all_inds|gfc_loss_prot_km2|CL|gfc_loss_prot_km2|61041.5649|963.1669538|6632.010012||
+get_country_all_inds|gfc_loss_prot_perc|CL|gfc_loss_prot_perc|0.720222059|0.319398705|0.705246811||
+get_country_all_inds|gfc_treecover_km2|CL|gfc_treecover_km2|92057619.23|616558.7241|1650921.288|wrong data|check aggregation
+get_country_all_inds|gfc_treecover_perc|CL|gfc_treecover_perc|1086.176742|204.4589021|175.5586876|wrong data|check aggregation
+get_country_all_inds|gfc_treecover_prot_km2|CL|gfc_treecover_prot_km2|10585982.52|31768.99325|182397.9174|wrong data|check aggregation
+get_country_all_inds|gfc_treecover_prot_perc|CL|gfc_treecover_prot_perc|124.9027305|10.53501188|19.39616335|wrong data|check aggregation
+get_country_all_inds|gsoc_max_c_mg_prot|CL|gsoc_max_c_mg_prot|18083.46694|15561.47072|20261.23921||
+get_country_all_inds|gsoc_max_c_mg_total|CL|gsoc_max_c_mg_total|20322.82151|37818.91343|20261.23921||
+get_country_all_inds|gsoc_max_c_mg_unprot|CL|gsoc_max_c_mg_unprot|20322.82151|37818.91343|15634.53826||
+get_country_all_inds|gsoc_mean_c_mg_prot|CL|gsoc_mean_c_mg_prot|3827.019786|3728.779992|3285.916932||
+get_country_all_inds|gsoc_mean_c_mg_total|CL|gsoc_mean_c_mg_total|3343.738007|2961.133634|3184.433998||
+get_country_all_inds|gsoc_mean_c_mg_unprot|CL|gsoc_mean_c_mg_unprot|3317.082071|2939.432639|3176.757068||
+get_country_all_inds|gsoc_min_c_mg_prot|CL|gsoc_min_c_mg_prot|0|0|0||
+get_country_all_inds|gsoc_min_c_mg_total|CL|gsoc_min_c_mg_total|0|0|0||
+get_country_all_inds|gsoc_min_c_mg_unprot|CL|gsoc_min_c_mg_unprot|0|0|0||
+get_country_all_inds|gsoc_stdev_c_mg_prot|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|gsoc_stdev_c_mg_total|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|gsoc_stdev_c_mg_unprot|CL|#N/A|#N/A|#N/A|#N/A|missing field|nothing
+get_country_all_inds|gsoc_tot_c_pg_prot|CL|gsoc_tot_c_pg_prot|11.46798932|0.388310289|1.458925531||
+get_country_all_inds|gsoc_tot_c_pg_total|CL|gsoc_tot_c_pg_total|35.65714253|1.559359691|3.639075758||
+get_country_all_inds|gsoc_tot_c_pg_unprot|CL|gsoc_tot_c_pg_unprot|24.18915321|1.171049402|2.180150227||
+get_country_all_inds|kba_avg_prot_perc|C|kba_avg_prot_perc|46.46|78.7|57.79||
+get_country_all_inds|kba_n_fully_prot|C|kba_n_fully_prot|62|75|31||
+get_country_all_inds|kba_n_not_protected|C|kba_n_not_protected|84|7|34||
+get_country_all_inds|kba_n_partially_prot|C|kba_n_partially_prot|125|242|54||
+get_country_all_inds|kba_n_tot|C|kba_n_tot|271|324|119||
+get_country_all_inds|land_natural_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_copernicus_lc_2019 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|land_natural_perc|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_copernicus_lc_2019 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|land_natural_prot_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_copernicus_lc_2019 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|land_natural_prot_perc|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_copernicus_lc_2019 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_increased_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_moderate_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_null_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_prot_increased_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_prot_moderate_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_prot_null_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_prot_severe_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_prot_stable_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_prot_stressed_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_severe_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_stable_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|lpd_stressed_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_lpd and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_core_1995_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_1995 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_core_2000_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2000and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_core_2005_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2005 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_core_2010_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2010 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_core_2015_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2015 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_edges_1995_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_1995 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_edges_2000_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2000and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_edges_2005_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2005 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_edges_2010_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2010 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_edges_2015_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2015 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_islets_1995_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_1995 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_islets_2000_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2000and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_islets_2005_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2005 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_islets_2010_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2010 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_islets_2015_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2015 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_margins_1995_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_1995 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_margins_2000_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2000and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_margins_2005_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2005 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_margins_2010_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2010 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_margins_2015_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2015 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_non_natural_1995_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_1995 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_non_natural_2000_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2000and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_non_natural_2005_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2005 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_non_natural_2010_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2010 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_non_natural_2015_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2015 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_perforation_1995_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_1995 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_perforation_2000_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2000and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_perforation_2005_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2005 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_perforation_2010_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2010 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mspa_perforation_2015_km2|CL|#N/A|#N/A|#N/A|#N/A|missing field|to be aggregated from results_202009.r_stats_cep_mspa_lc_2015 and added to indicators.sh and outputs.sh scripts
+get_country_all_inds|mta_perc|CL|mta_perc|82.35|94.73|85.76||
+get_country_all_inds|protconn|CL|protconn|20.19145099|8.947919604|21.20836633||
+get_country_all_inds|status|C|status|NULL|NULL|NULL||
+get_country_all_inds|water_p_1985_km2|CL|water_p_1985_km2|90851.50809|2944.080326|56550.15519||
+get_country_all_inds|water_p_netchange_km2|CL|water_p_netchange_km2|6579.751456|205.1651667|-416.3486568||
+get_country_all_inds|water_p_netchange_perc|CL|water_p_netchange_perc|7.242313963|6.968735358|-0.736246709||
+get_country_all_inds|water_p_now_km2|CL|water_p_now_km2|97431.25954|3149.245493|56133.80654||
+get_country_all_inds|water_p_prot_1985_km2|CL|water_p_prot_1985_km2|24230.74257|1511.591648|1738.769563||
+get_country_all_inds|water_p_prot_netchange_km2|CL|water_p_prot_netchange_km2|131.3183038|104.595303|120.3021145||
+get_country_all_inds|water_p_prot_netchange_perc|CL|water_p_prot_netchange_perc|0.541949152|6.919547556|6.918807246||
+get_country_all_inds|water_p_prot_now_km2|CL|water_p_prot_now_km2|24362.06087|1616.186951|1859.071677||
+get_country_all_inds|water_s_1985_km2|CL|water_s_1985_km2|34012.709|684.587449|1988.827256||
+get_country_all_inds|water_s_netchange_km2|CL|water_s_netchange_km2|16274.11892|202.9016168|3182.707366||
+get_country_all_inds|water_s_netchange_perc|CL|water_s_netchange_perc|47.84717066|29.63852421|160.0293518||
+get_country_all_inds|water_s_now_km2|CL|water_s_now_km2|50286.82791|887.4890658|5171.534622||
+get_country_all_inds|water_s_prot_1985_km2|CL|water_s_prot_1985_km2|9772.731341|209.6370076|1081.302456||
+get_country_all_inds|water_s_prot_netchange_km2|CL|water_s_prot_netchange_km2|4572.882833|103.3913594|585.8585079||
+get_country_all_inds|water_s_prot_netchange_perc|CL|water_s_prot_netchange_perc|46.79226997|49.3192307|54.18081726||
+get_country_all_inds|water_s_prot_now_km2|CL|water_s_prot_now_km2|14345.61417|313.028367|1667.160964||
