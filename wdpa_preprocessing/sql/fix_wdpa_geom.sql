@@ -5,8 +5,8 @@
 DROP TABLE IF EXISTS wdpa_check01;
 CREATE TEMPORARY TABLE wdpa_check01 AS
 WITH
-a AS (SELECT wdpaid FROM protected_sites.wdpa_geom_202009 WHERE geom_was_invalid IS TRUE),
-b AS (SELECT wdpaid,(ST_Dump(ST_Multi(wkb_geometry))).* FROM  protected_sites.wdpa_poly_input_202009 WHERE wdpaid IN (SELECT wdpaid FROM a)),
+a AS (SELECT wdpaid FROM protected_sites.wdpa_geom_202101 WHERE geom_was_invalid IS TRUE),
+b AS (SELECT wdpaid,(ST_Dump(ST_Multi(shape))).* FROM  protected_sites.wdpa_poly_input_202101 WHERE wdpaid IN (SELECT wdpaid FROM a)),
 c AS (SELECT wdpaid,UNNEST(path) path,geom,(ST_IsValidDetail(geom)).*,ST_GeometryType(geom) FROM b) -- this is important
 SELECT * FROM c;
 
@@ -26,9 +26,9 @@ DROP TABLE IF EXISTS wdpa_correction;
 CREATE TEMPORARY TABLE wdpa_correction AS
 SELECT 203484 wdpaid,ST_MULTI(geom) geom FROM wdpa_check03 WHERE 0=ANY(path) -- check before which is the correct ring
 
-UPDATE protected_sites.wdpa_geom_202009
+UPDATE protected_sites.wdpa_geom_202101
 SET geom=b.geom
 FROM (SELECT * FROM wdpa_correction) b
-WHERE wdpa_geom_202009.wdpaid=b.wdpaid; -- check before that the original geom doesn't contain further geometries (the check is coming from a dump)
+WHERE wdpa_geom_202101.wdpaid=b.wdpaid; -- check before that the original geom doesn't contain further geometries (the check is coming from a dump)
 
 -- if the original geom is multipart, ST_COLLECT the geoms FROM the ST_DUMP WHERE valid IS TRUE UNION the corrected geom 
