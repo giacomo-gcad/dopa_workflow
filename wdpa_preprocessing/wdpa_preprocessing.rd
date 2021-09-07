@@ -1,4 +1,4 @@
-### WDPA PREPROESSING
+# WDPA PREPROESSING
 
 After downloading of the WDPA zip file, a series of steps are run in order to pre-process and prepare all the necessary tables and layers for the subsequent analysis phase. All the scripts needed for this phase are stored into **/wdpa\_preprocessing/** folder.
 
@@ -12,9 +12,9 @@ Steps from 1 to 3 are devoted to the preparation of the three base wdpa datasets
 Steps from 4 to 8 are devoted to transfer of  PAs over 10 km2 and of buffers in GRASS for subsequent analysis.
 
 
-#### **1. SOURCE**
+## **1. SOURCE*
 
-#### **2. IMPORT**
+## **2. IMPORT**
 
   2.1 Imports in PG database relevant WDPA data: access the downloaded .zip file, imports attributes and geometries of points and polygons in three distinct tables of PG database.
    Objects are filtered as follows:

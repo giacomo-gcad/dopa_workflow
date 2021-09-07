@@ -11,7 +11,7 @@ The following sections are currently present:
 
 ## Pre Processing
 
-+  [WDPA](./wdpa_preprocessing/wdpa_preprocessing.rd)
++  [WDPA](./wdpa_preprocessing/wdpa_preprocessing.md)
 
 
 ## Processing

@@ -1,0 +1,10 @@
+GITHUB protconn LIST OF COMMANDS FOR SINCRO
+
+Gituhub Token (Note: GitToken2021) : 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
+
+git remote add dopa_workflow https://github.com/giacomo-gcad/protconn #only first time
+git add .
+git commit -m 'messaggio di commit'
+git status
+git push dopa_workflow master
+
