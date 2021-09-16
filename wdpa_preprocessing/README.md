@@ -14,6 +14,13 @@ Steps from 4 to 8 are devoted to transfer of  PAs over 10 km2 and of buffers in 
 
 ## **1. DATA SOURCES**
 
+WDPA data are downloaded monthly from [WCMC website](www.protected_planet.net). A script for download is controlled by a CRON command on server.
+The dataset downloaded consiist of a ESRI geodatabase, including the following feature classes (since June 2021 the gdb includes also OECM, the field value pa_def=0 is used to mark them):
+
++  WDPA_WDOECM_point_Mmmyyyy
++  WDPA_WDOECM_poly_Mmmyyyy
+
+
 ## **2. Data Import**
 
   2.1 Imports in PG database relevant WDPA data: access the downloaded .zip file, imports attributes and geometries of points and polygons in three distinct tables of PG database.

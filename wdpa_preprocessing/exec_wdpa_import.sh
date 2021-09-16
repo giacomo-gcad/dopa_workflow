@@ -7,8 +7,7 @@ start1=`date +%s`
 
 # READ VARIABLES FROM CONFIGURATION FILE
 SERVICEDIR="/globes/processing_current/servicefiles"
-#source ${SERVICEDIR}/wdpa_preprocessing.conf				## TO BE USED TO PREPROCESS GDB FILES WITHOUT OECM
-source ${SERVICEDIR}/wdpa_wdoecm_preprocessing.conf			## TO BE USED TO PREPROCESS GDB FILES WITH OECM
+source ${SERVICEDIR}/wdpa_preprocessing.conf			## TO BE USED TO PREPROCESS GDB FILES WITH OECM
 
 # set local
 LC_TIME=en_US.utf8
