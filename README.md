@@ -12,7 +12,7 @@ The following sections are currently present:
 ## Pre Processing
 
 +  [WDPA](./wdpa_preprocessing/README.md)
-+  [Themes](./raster_preprocessing/README.md)
++  [Themes](./raster_processing/README.md)
 
 
 ## Processing

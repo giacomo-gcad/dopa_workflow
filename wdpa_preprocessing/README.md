@@ -94,4 +94,4 @@ This flat is required in order to compute unprotected buffers (see Step 6)
 
 **SCRIPTS**:`exec_project_pa_bu.sh` and its slave `slave_project_pa_bu.sh`
 
-**NOTES**: Reprojection in Mollweide of PAs is required for computation of THDI (Terrestrial Habitat Diversity Profile) indicator (see [wdpa_processing](/wdpa_processing/wdpa_processing.md)  section)
+**NOTES**: Reprojection in Mollweide of PAs is required for computation of THDI (Terrestrial Habitat Diversity Profile) indicator (see [wdpa_processing](/wdpa_processing/#THDI)  section)
