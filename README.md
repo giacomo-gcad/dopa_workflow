@@ -11,15 +11,20 @@ The following sections are currently present:
 
 ## Pre Processing
 
-+  [WDPA](./wdpa_preprocessing/wdpa_preprocessing.md)
++  [WDPA](./wdpa_preprocessing/README.md)
++  [Themes](./raster_preprocessing/README.md)
 
 
 ## Processing
 
-### Computing Indicators
+### Computing Indicators ON CEP
 
-+  [categorical rasters](./processing/catrasters.md)
-+  [continuous rasters](./processing/conrasters.md)
++  [categorical rasters](./cep_analysis/#CATEGORICAL RASTERS) --to be written
++  [continuous rasters](./cep_analysis/#CONTINUOUS RASTERs) --to be written
+
+### Other Indicators (onn CEP)
++  [THDI](./wdpa_processing/#THDI) --to be written
++  [Pressures on buffers](./wdpa_processing/#Pressures) --to be written
 
 
 ## Authors
