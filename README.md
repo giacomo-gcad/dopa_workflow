@@ -19,8 +19,8 @@ The following sections are currently present:
 
 ### Computing Indicators ON CEP
 
-+  [categorical rasters](./cep_analysis/#CATEGORICAL RASTERS) --to be written
-+  [continuous rasters](./cep_analysis/#CONTINUOUS RASTERS) --to be written
++  [categorical rasters](./cep_analysis/#CATEGORICAL_RASTERS) --to be written
++  [continuous rasters](./cep_analysis/#CONTINUOUS_RASTERS) --to be written
 
 ### Other Indicators (onn CEP)
 +  [THDI](./wdpa_processing/#THDI) --to be written
