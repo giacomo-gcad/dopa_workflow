@@ -36,7 +36,7 @@ Most of the raster datasets are imported 'as they are' from the /spatial\_data/O
 `process_groads_step1.py`
 `process_groads_step2.py`
 
-* Raster files of the THDI package are not imported by the script. They are included in the GRASS database /globes/USERS/GIACOMO/eHabitat/hdi_db/global_MW/ehabitat/ (see more details in [THDI](./wdpa_processing/#THDI) section).
+* Raster files of the THDI package are not imported by the script. They are included in the GRASS database /globes/USERS/GIACOMO/eHabitat/hdi_db/global_MW/ehabitat/ (see more details in [THDI](./wdpa_processing/#THDI) section -TO BE WRITTEN).
 
 Processed/modified raster datasets are stored in /spatial\_data/Derived\_datasets/ 
 
