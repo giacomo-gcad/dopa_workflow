@@ -6,7 +6,7 @@ The following sections are currently present:
 
 ## Data sources
 
-+  [Base Layers](./sources/Base_Layers.md)
++  [Base Layers](./BaseLayers.md)
 
 
 ## Pre Processing
@@ -19,8 +19,8 @@ The following sections are currently present:
 
 ### Computing Indicators ON CEP
 
-+  [categorical rasters](./cep_analysis/#CATEGORICAL_RASTERS) --to be written
-+  [continuous rasters](./cep_analysis/#CONTINUOUS_RASTERS) --to be written
++  [categorical rasters](./cep_analysis/#CATEGORICAL_RASTERS) --to be completed
++  [continuous rasters](./cep_analysis/#CONTINUOUS_RASTERS) --to be completed
 
 ### Other Indicators (onn CEP)
 +  [THDI](./wdpa_processing/#THDI) --to be written
