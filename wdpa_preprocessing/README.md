@@ -11,7 +11,7 @@ Steps from 1 to 3 are devoted to the preparation of the three base wdpa datasets
 
 Steps from 4 to 8 are devoted to transfer of  PAs over 10 km2 and of buffers in GRASS for subsequent analysis.
 
-## **. Data Import**
+## **1. Data Import**
 
   1.1 Imports in PG database relevant WDPA data: access the downloaded .zip file, imports attributes and geometries of points and polygons in three distinct tables of PG database.
    Objects are filtered as follows:
