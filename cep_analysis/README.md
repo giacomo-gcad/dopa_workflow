@@ -1,21 +1,33 @@
 # COMPUTATION OF DOPA INDICATORS
 
 Most of thematic rater layers used of computation of indicators can be analysed using the [CEP](https://andreamandrici.github.io/dopa_workflow/flattening/) in order to get, with a single run, disaggregated data for country, ecoregion and pa.
+Based on the type of raster layer to be analyzed, two different GRASS functions are used:
++ Categorical rasters : [r.stats](https://grass.osgeo.org/grass78/manuals/r.stats.html)
+	The surface in square meters of each category of the raster is computed for each object (cid) of the CEP	
+
++ Continuous rasters: [r.univar](https://grass.osgeo.org/grass78/manuals/r.univar.html)
+		Basic statistics (n. of non null cells, min, max, range, mean, st.dev., variance, coeff. of variation, 1st, s2nd,  3rd quartile, 90th percentile) are computed for each object (cid) of the CEP.
+
+All parameters used by scripts are stored in the configuration file **[/servicefiles/cep\_processing.conf](/servicefiles/cep\_processing.conf)**. It has to be checked/edited before running the scripts.
+The analysis is performed in parallel, The number of cores used (parameter `NCORES`must be inversely proportional to the resolution of the raster analysed.  For high resolution rasters (30m, such as Global Surface Water) **maximum recommended values is 18**  (higher values will run out server memory with killed processes and unreliable results). Default number of cores is 64. 
+**N.B. always check/set the appropriate number of cores before running any script.**
+
+
 The procedure includes the following steps:
 
-1. exporting CEP tiles in raster (648 1-x1 degrees tiles, numbered using eid values)
-2. importing CEP tiles in GRASS database
-3. computing statistics in GRASS for each tile with a parallelized approach
-4. aggregating results
+1. Exporting CEP tiles in raster (648 1-x1 degrees tiles, numbered using eid values)
+2. Importing CEP tiles in GRASS database
+3. Computing statistics in GRASS for each tile with a parallelized approach
+4. Aggregating results
 
+### 1. Exporting CEP tiles in raster
 CEP tiles export procedure is part of the [flattening workflow](https://andreamandrici.github.io/dopa_workflow/flattening/)
 
-Steps 2-4 are executed by a series of scripts stored in **/cep_analysis/** folder.
-
+### 2. Importing CEP tiles in GRASS :
 CEP tiles import in GRASS database is performed by the script `exec_import_tiles.sh` and its slave `slave_import_tiles.sh`
+The GRASS function **r.external** is used to sequentially link tiff tiles to GRASS database
 
-
-In orter to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid [...]
+In order to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid [...]
 
 
 ## CATEGORICAL_RASTERS
@@ -28,6 +40,7 @@ In orter to optimize processing time, both CEP and thematic layers should be cut
 
 ## SPECIAL CASES
 [...]
+
 
 
 
