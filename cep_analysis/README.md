@@ -39,14 +39,17 @@ Only for a few rasters, described under [SPECIAL CASES](#SPECIAL CASES), specifi
 
 #### CATEGORICAL_RASTERS
 
-[...]
+[...]  (topic to be expanded)
 `exec_cep_rasterlayername_stats.sh` and `slave_cep_catraster_stats.sh`
 
 #### CONTINUOUS_RASTERS
-[...]
+[...]  (topic to be expanded)
 `exec_cep_rasterlayername_stats.sh` and `slave_cep_conraster_stats.sh`
 
 #### SPECIAL CASES
 [...]
+
+
+
 
 
