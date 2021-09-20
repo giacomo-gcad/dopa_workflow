@@ -32,7 +32,8 @@ In order to optimize processing time, both CEP and thematic layers should be cut
 
 ### 3. Computing statistics in GRASS
 A different `exec_cep_rasterlayername_stats.sh` exists for each raster to be analyzed. Raster layer name and mapset in GRASS database are defined in each script.
-Depending on the type of raster considered, each `exec_cep_rasterlayername_stats.sh` script calls the corresponding slave script.o base slave scripts perform the core of the analysis for categorical and continuous rasters, respectively:  `slave_cep_catraster_stats.sh` and `slave_cep_conraster_stats.sh`. 
+Depending on the type of raster considered, each `exec_cep_rasterlayername_stats.sh` script calls the corresponding slave script.
+Two base slave scripts perform the core of the analysis for categorical and continuous rasters, respectively:  `slave_cep_catraster_stats.sh` and `slave_cep_conraster_stats.sh`. 
 Only for a few rasters, described under [SPECIAL CASES](#SPECIAL CASES), specific slave scripts have to be executed.
 
 
