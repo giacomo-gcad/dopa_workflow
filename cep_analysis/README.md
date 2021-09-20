@@ -17,30 +17,35 @@ The procedure includes the following steps:
 
 1. Exporting CEP tiles in raster (648 1-x1 degrees tiles, numbered using eid values)
 2. Importing CEP tiles in GRASS database
-3. Computing statistics in GRASS for each tile with a parallelized approach
+3. Computing statistics in GRASS
 4. Aggregating results
 
 ### 1. Exporting CEP tiles in raster
-CEP tiles export procedure is part of the [flattening workflow](https://andreamandrici.github.io/dopa_workflow/flattening/)
+CEP tiles export procedure is part of the [flattening workflow](https://andreamandrici.github.io/dopa_workflow/flattening/) for the production of CEP.
 
 ### 2. Importing CEP tiles in GRASS :
 CEP tiles import in GRASS database is performed by the script `exec_import_tiles.sh` and its slave `slave_import_tiles.sh`
-The GRASS function **r.external** is used to sequentially link tiff tiles to GRASS database
+The GRASS function **r.external** is used to sequentially link tiff tiles to GRASS database.
 
-In order to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid [...]
+In order to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid [...] (topic to be expanded)
 
 
-## CATEGORICAL_RASTERS
+### 3. Computing statistics in GRASS
+A different `exec_cep_rasterlayername_stats.sh` exists for each raster to be analyzed. Raster layer name and mapset in GRASS database are defined in each script.
+Depending on the type of raster considered, each `exec_cep_rasterlayername_stats.sh` script calls the corresponding slave script.o base slave scripts perform the core of the analysis for categorical and continuous rasters, respectively:  `slave_cep_catraster_stats.sh` and `slave_cep_conraster_stats.sh`. 
+Only for a few rasters, described under [SPECIAL CASES](#SPECIAL CASES), specific slave scripts have to be executed.
+
+
+#### CATEGORICAL_RASTERS
+
 [...]
 `exec_cep_rasterlayername_stats.sh` and `slave_cep_catraster_stats.sh`
 
-## CONTINUOUS_RASTERS
+#### CONTINUOUS_RASTERS
 [...]
 `exec_cep_rasterlayername_stats.sh` and `slave_cep_conraster_stats.sh`
 
-## SPECIAL CASES
+#### SPECIAL CASES
 [...]
-
-
 
 
