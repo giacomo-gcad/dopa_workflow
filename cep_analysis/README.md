@@ -44,7 +44,18 @@ The two scripts perform the following operations:
 + aggregate the 648 csv tiles into a single one
 + build a table in pg dabatase and import csv
 
-When data are available only for land, processing time can be significantly reduced by processing only eid tiles including non null values in the considered raster. It is particularly useful for high resolution rasters such as GFC and GHS Built up.
+
+#### CONTINUOUS_RASTERS
+[...]  (topic to be expanded)
+`exec_cep_rasterlayername_stats.sh` and `slave_cep_conraster_stats.sh`
+
+#### SPECIAL CASES
+[...]
+
+#### NOTES
+1. In order to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid [...] (topic to be expanded)
+
+2. When data are available only for land, processing time can be significantly reduced by processing only eid tiles including non null values in the considered raster. It is particularly useful for high resolution rasters such as GFC and GHS Built up.
 This can be implemented by replacing
 
     for eid in {1..648} 
@@ -59,25 +70,18 @@ with
 
 Presently, list of tiles to be processed exist for the following themes:
 
-[GHSL Builtup](builtup_tiles_selected.txt)
-[GFC Treecover, Gain and Loss](treecover_tiles_selected.txt)
-[Worldclim](worldclim_tiles_selected.txt) (presently not analysed with CEP)
-[SeaSurface temperature](sst_tiles_selected.txt) (presently not analysed with CEP)
++ [GHSL Builtup](builtup_tiles_selected.txt)
+
++ [GFC Treecover, Gain and Loss](treecover_tiles_selected.txt)
+
++ [Worldclim](worldclim_tiles_selected.txt) (presently not analysed with CEP)
+
++ [SeaSurface temperature](sst_tiles_selected.txt) (presently not analysed with CEP)
+
 
 For Global Surface Water, analysis is lintesa dlimited to actually existing GSW tiles:
 
     for eid in {109..612} 
       do this and that
     done
-
-
-#### CONTINUOUS_RASTERS
-[...]  (topic to be expanded)
-`exec_cep_rasterlayername_stats.sh` and `slave_cep_conraster_stats.sh`
-
-#### SPECIAL CASES
-[...]
-
-#### NOTES
-1. In order to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid [...] (topic to be expanded)
 
