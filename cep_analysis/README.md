@@ -36,23 +36,48 @@ Only for a few rasters, described under [SPECIAL CASES](#SPECIAL CASES), specifi
 
 #### CATEGORICAL_RASTERS
 
-[...]  (topic to be expanded)
+Scripts:
+
 `exec_cep_rasterlayername_stats.sh` and `slave_cep_catraster_stats.sh`
 
 The two scripts perform the following operations:
 + run r.stats in parallel on each CEP tile, writing in output a csv file specific fot each tile.
-+ aggregate the 648 csv tiles into a single one
++ aggregate all the csv files into a single one
 + build a table in pg dabatase and import csv
 
 
 #### CONTINUOUS_RASTERS
-[...]  (topic to be expanded)
+
+Scripts:
+
 `exec_cep_rasterlayername_stats.sh` and `slave_cep_conraster_stats.sh`
+
+For memory management reasons, analysis of continuous layers is performed with two nested cycles: the main cycle is run in parallel over eid tiles, while for each eid tile a second cycle is run sequentially over each qid, adapting accordingly the working region for each cycle.
+Region parameters of each qid are extracted from the [qid_index.csv](../servicefiles/qid_index.csv) file, having the following structure:
+    
+	eid_id|qid|y_max|y_min|x_max|x_min
+
+The [qid_index.csv](../servicefiles/qid_index.csv) file can be generated in pg from the cep.grid_vector table with the following query:
+
+    SELECT 
+    'eid_'||eid::text eid_id,qid,y_max,y_min,x_max,x_min
+    FROM cep.grid_vector ORDER BY eid,qid
+
+The two scripts perform the following operations:
++ launch in parallel a slave script for each eid tile; the slave performs the followings:
+	+ set the region on each qid and run r.univar with extended statistics. A csv file is written i output foe each qid;
+	+ post-process each csv file:
+		- remove header;
+		- add eid and qid values at the beginning of each line;
+		- replace 'nan' with 0.
+	+ aggregate all csv files  for that eid.
++ aggregate all the csv files into a single one
++ build a table in pg dabatase and import the final csv.
 
 #### SPECIAL CASES
 [...]
 
-#### NOTES
+### NOTES
 1. In order to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid [...] (topic to be expanded)
 
 2. When data are available only for land, processing time can be significantly reduced by processing only eid tiles including non null values in the considered raster. It is particularly useful for high resolution rasters such as GFC and GHS Built up.
