@@ -72,7 +72,7 @@ The two scripts perform the following operations:
 		- replace 'nan' with 0.
 	+ aggregate all csv files  for that eid.
 + aggregate all the csv files into a single one
-+ build a table in pg dabatase and import the final csv.
++ build a table in pg database and import the final csv.
 
 #### SPECIAL CASES
 [...]
@@ -87,26 +87,26 @@ This can be implemented by replacing
       do this and that
     done
 
-with 
+	with 
 
-    for eid in $(cat /path_to_tiles_list_file/tiles_list.txt)
-      do this and that
-    done
+		for eid in $(cat /path_to_tiles_list_file/tiles_list.txt)
+		  do this and that
+		done
 
-Presently, list of tiles to be processed exist for the following themes:
+	Presently, list of tiles to be processed exist for the following themes:
 
-+ [GHSL Builtup](builtup_tiles_selected.txt)
+	+ [GHSL Builtup](builtup_tiles_selected.txt)
 
-+ [GFC Treecover, Gain and Loss](treecover_tiles_selected.txt)
+	+ [GFC Treecover, Gain and Loss](treecover_tiles_selected.txt)
 
-+ [Worldclim](worldclim_tiles_selected.txt) (presently not analysed with CEP)
+	+ [Worldclim](worldclim_tiles_selected.txt) (presently not analysed with CEP)
 
-+ [SeaSurface temperature](sst_tiles_selected.txt) (presently not analysed with CEP)
+	+ [SeaSurface temperature](sst_tiles_selected.txt) (presently not analysed with CEP)
 
 
-For Global Surface Water, analysis is lintesa dlimited to actually existing GSW tiles:
+	For Global Surface Water, analysis is lintesa dlimited to actually existing GSW tiles:
 
-    for eid in {109..612} 
-      do this and that
-    done
+		for eid in {109..612} 
+		  do this and that
+		done
 
