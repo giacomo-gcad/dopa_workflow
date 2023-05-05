@@ -12,7 +12,7 @@ source ${SERVICEDIR}/wdpa_wdoecm_preprocessing.conf
 
 dbpar2="-h ${host} -U ${user} -d ${db} -w"
 
-## PRE-PROCESS WDPA (part 2)
+## PRE-PROCESS WDPA-WDOECM (part 2)
 echo "Now pre-processing data...
 "
 
@@ -22,7 +22,7 @@ psql ${dbpar2}	-v vSCHEMA=${wdpa_schema} \
 				-v vwdpaididx='_wdpaid_idx' \
 				-v vidx='_idx' \
 				-v THRESHOLD=${area_threshold} \
-				-f ${SQLDIR}/wdpa_preprocessing_part_2.sql
+				-f ${SQLDIR}/wdpa_wdoecm_preprocessing_part_2.sql
 
 
 date

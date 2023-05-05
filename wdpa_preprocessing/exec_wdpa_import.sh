@@ -7,7 +7,10 @@ start1=`date +%s`
 
 # READ VARIABLES FROM CONFIGURATION FILE
 SERVICEDIR="/globes/processing_current/servicefiles"
-source ${SERVICEDIR}/wdpa_preprocessing.conf			## TO BE USED TO PREPROCESS GDB FILES WITH OECM
+## TO BE USED TO PREPROCESS GDB FILES WITHOUT OECM
+## source ${SERVICEDIR}/wdpa_preprocessing.conf
+## TO BE USED TO PREPROCESS GDB FILES WITH OECM
+source ${SERVICEDIR}/wdpa_wdoecm_preprocessing.conf			
 
 # set local
 LC_TIME=en_US.utf8
@@ -20,18 +23,21 @@ m2=`date -d $wdpadate"01" +%b`
 
 # SET DERIVED VARIABLES
 arch=${pref}"_"${m2}${y1}"_"${suff}
-fpath="/vsizip/"${vpath}"/"${y1}"/"${y2}${m1}"_"${arch}${ext1}"/"${arch}${ext2}   # DOES NOT WORK ANYMORE
+# fpath="/vsizip/"${vpath}"/"${y1}"/"${y2}${m1}"_"${arch}${ext1}"/"${arch}${ext2}   # DOES NOT WORK ANYMORE
 fpath_u=${upath}"/"${arch}${ext2}
-# poly=`ogrinfo -ro $fpath | grep poly | awk '{print $2}'`  # DOES NOT WORK ANYMORE
+# THE FOLLOWING TWO LINES DO NOT WORK ANYMORE
+# poly=`ogrinfo -ro $fpath | grep poly | awk '{print $2}'`
+# point=`ogrinfo -ro $fpath | grep point | awk '{print $2}'` 
 poly=`ogrinfo -ro ${upath}"/"${arch}${ext2}| grep 'poly' | awk '{print $2}'`
-#point=`ogrinfo -ro $fpath | grep point | awk '{print $2}'`   # DOES NOT WORK ANYMORE
 point=`ogrinfo -ro ${upath}"/"${arch}${ext2}| grep 'point' | awk '{print $2}'`
+source=`ogrinfo -ro ${upath}"/"${arch}${ext2}| grep 'source' | awk '{print $2}'`
 cpoly=`ogrinfo -ro -al -so $fpath_u ${poly} | grep 'Feature Count' | awk '{print $3}'`
 cpoint=`ogrinfo -ro -al -so $fpath_u ${point} | grep 'Feature Count' | awk '{print $3}'`
 ((ctot=${cpoly}+${cpoint}))
 atts_tab=${atts_table}"_"${y1}${m1}
 polytab=${poly_table}"_"${y1}${m1}
 pointtab=${point_table}"_"${y1}${m1}
+sourcetab=${source_table}"_"${y1}${m1}
 dbpar1="host=${host} user=${user} dbname=${db}"
 dbpar2="-h ${host} -U ${user} -d ${db} -w"
 
@@ -59,12 +65,14 @@ FROM ${point}
 
 echo "Importing ${poly} and ${point} attributes in "${wdpa_schema}"."${atts_tab}
 
+echo ${sql}
+
 ogr2ogr \
 -overwrite \
 -dialect sqlite \
 -sql """$sql""" \
 -f "PostgreSQL" PG:"host=${host} user=${user} dbname=${db}" \
-"""$fpath""" \
+"""$fpath_u""" \
 -nln ${wdpa_schema}"."${atts_tab}
 
 wait
@@ -99,7 +107,7 @@ SELECT * FROM "${poly}"
 -f "PostgreSQL" PG:"host=${host} user=${user} dbname=${db} active_schema=${wdpa_schema}" \
 -nln ${wdpa_schema}.${polytab} \
 -nlt "MULTIPOLYGON" \
-${fpath}
+${fpath_u}
 
 echo "
 Layer "${poly}" imported in " ${db}
@@ -116,17 +124,33 @@ SELECT * FROM "${point}"
 -f "PostgreSQL" PG:"host=${host} user=${user} dbname=${db} active_schema=${wdpa_schema}" \
 -nln ${wdpa_schema}.${pointtab} \
 -nlt "MULTIPOINT" \
-${fpath}
-
-wait 
+${fpath_u}
 
 echo "
 Layer "${point}" imported in " ${db} 
 echo " "
 
+wait 
+
+## IMPORT METADATA TABLE
+ogr2ogr \
+-overwrite \
+-skipfailures \
+-explodecollections \
+-dialect sqlite \
+-sql "
+SELECT * FROM "${source}" 
+" \
+-f "PostgreSQL" PG:"host=${host} user=${user} dbname=${db} active_schema=${wdpa_schema}" \
+-nln ${wdpa_schema}.${sourcetab} \
+${fpath_u}
+
+echo "
+Layer "${source}" imported in " ${db}
+
 echo "---------------------------------------------------------------------------------------------"
 echo "Tables with polygons, points and attributes imported in postgis."
-echo "Now Now run exec_wdpa_preprocessing_part_1.sh"
+echo "Now run exec_wdpa_preprocessing_part_1.sh"
 echo "---------------------------------------------------------------------------------------------"
 
 date

@@ -83,9 +83,9 @@ The two scripts perform the following operations:
 2. When data are available only for land, processing time can be significantly reduced by processing only eid tiles including non null values in the considered raster. It is particularly useful for high resolution rasters such as GFC and GHS Built up.
 This can be implemented by replacing
 
-    for eid in {1..648} 
-      do this and that
-    done
+		for eid in {1..648} 
+		  do this and that
+		done
 
 	with 
 
@@ -93,7 +93,7 @@ This can be implemented by replacing
 		  do this and that
 		done
 
-	Presently, list of tiles to be processed exist for the following themes:
+	Presently, lists of tiles to be processed exist for the following themes:
 
 	+ [GHSL Builtup](builtup_tiles_selected.txt)
 
@@ -104,7 +104,7 @@ This can be implemented by replacing
 	+ [SeaSurface temperature](sst_tiles_selected.txt) (presently not analysed with CEP)
 
 
-	For Global Surface Water, analysis is lintesa dlimited to actually existing GSW tiles:
+	For Global Surface Water, analysis is delimited to actually existing GSW tiles:
 
 		for eid in {109..612} 
 		  do this and that

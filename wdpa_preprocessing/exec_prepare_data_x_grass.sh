@@ -19,19 +19,13 @@ dbpar="-h ${host} -U ${user} -d ${db}"
 PA_LIST_FILE=${SERVICEDIR}/${pa_list}".txt"
 PA_TC_LIST_FILE=${SERVICEDIR}/${pa_tc_list}".txt"
 PA_MA_LIST_FILE=${SERVICEDIR}/${pa_ma_list}".txt"
-BU_LIST_FILE=${SERVICEDIR}/${bu_list}".txt"
-BU_TC_LIST_FILE=${SERVICEDIR}/${bu_tc_list}".txt"
-BU_MA_LIST_FILE=${SERVICEDIR}/${bu_ma_list}".txt"
 
 # CREATE SCHEMAS AND LISTS. EXPORTS LISTS IN .txt FILE
-psql ${dbpar} -v paschema=${pa_schema} -v buschema=${bu_schema} -v wdpaschema=${wdpa_schema} -v vDATE=${wdpadate} -f ${SQLDIR}/prepare_data_x_grass.sql
+psql ${dbpar} -v paschema=${pa_schema} -v wdpaschema=${wdpa_schema} -v vDATE=${wdpadate} -f ${SQLDIR}/prepare_data_x_grass.sql
 
 psql ${dbpar} -c '\copy (SELECT * FROM '${pa_schema}'.list_pa) to '${PA_LIST_FILE}' with csv'
 psql ${dbpar} -c '\copy (SELECT * FROM '${pa_schema}'.list_pa_tc) to '${PA_TC_LIST_FILE}' with csv'
 psql ${dbpar} -c '\copy (SELECT * FROM '${pa_schema}'.list_pa_ma) to '${PA_MA_LIST_FILE}' with csv'
-psql ${dbpar} -c '\copy (SELECT * FROM '${bu_schema}'.list_bu) to '${BU_LIST_FILE}' with csv'
-psql ${dbpar} -c '\copy (SELECT * FROM '${bu_schema}'.list_bu_tc) to '${BU_TC_LIST_FILE}' with csv'
-psql ${dbpar} -c '\copy (SELECT * FROM '${bu_schema}'.list_bu_ma) to '${BU_MA_LIST_FILE}' with csv'
 
 echo " "
 echo "Schemas and lists for PAs and buffers created"
@@ -43,28 +37,13 @@ for PA in $(cat ${PA_LIST_FILE})
     echo "DROP VIEW IF EXISTS ${pa_schema}.${PA};
     CREATE VIEW ${pa_schema}.${PA} AS
             SELECT a.wdpaid,a.gname,a.geom
-            FROM (SELECT wdpaid,'pa_'||wdpaid::text gname,geom FROM ${wdpa_schema}.wdpa_o5_${wdpadate}) a
+            FROM (SELECT wdpaid,'pa_'||wdpaid::text gname,geom FROM ${wdpa_schema}.wdpa_wdoecm_o5_${wdpadate}) a
             WHERE a.gname='${PA}'
 	"|psql ${dbpar} 
 done
 
 echo " "
 echo "Individual views for PAs created"
-echo " "
-
-# CREATE INDIVIDUAL VIEWS FOR BUs
-for BU in $(cat ${BU_LIST_FILE})
-    do
-    echo "DROP VIEW IF EXISTS ${bu_schema}.${BU};
-    CREATE VIEW ${bu_schema}.${BU} AS
-            SELECT a.wdpaid,a.gname,a.geom
-            FROM (SELECT wdpaid,'bu_'||wdpaid::text gname,geom FROM ${wdpa_schema}.wdpa_o5_buffers_${wdpadate}) a
-            WHERE a.gname='${BU}'
-	"|psql ${dbpar} 
-done
-
-echo " "
-echo "Individual views for BUs created"
 echo " "
 
 enddate_final=`date +%s`
