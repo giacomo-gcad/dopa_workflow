@@ -104,7 +104,7 @@ This can be implemented by replacing
 	+ [SeaSurface temperature](sst_tiles_selected.txt) (presently not analysed with CEP)
 
 
-	For Global Surface Water, analysis is delimited to actually existing GSW tiles:
+	For Global Surface Water, analysis is limited to actually existing GSW tiles:
 
 		for eid in {109..612} 
 		  do this and that
