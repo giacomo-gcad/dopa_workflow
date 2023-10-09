@@ -26,7 +26,7 @@ runtime=$(((enddate-startdate) / 60))
 echo "-----------------------------------------------------------------------------------"
 echo "Script $(basename "$0") ended at $(date)"
 echo "-----------------------------------------------------------------------------------"
-echo "Stats on CEP and ${IN_RASTER} computed in "${runtime}" minutes"
+echo "CEP tiles import computed in "${runtime}" minutes"
 echo "-----------------------------------------------------------------------------------"
 
 exit

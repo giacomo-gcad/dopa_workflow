@@ -1,0 +1,28 @@
+Script exec_proj_builtup_r2022a.sh started at Fri Feb  3 12:35:17 CET 2023
+----------------------------------------------------------------
+GHSL builtup tiles reprojected  in 0 minutes 
+----------------------------------------------------------------
+Creating output file that is 405000P x 202500L.
+Processing /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1975_GLOBE_R2022A_54009_100_V1_0.tif [1/1] : 0Creating output file that is 405000P x 202500L.
+Processing /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1980_GLOBE_R2022A_54009_100_V1_0.tif [1/1] : 0Creating output file that is 405000P x 202500L.
+Processing /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2000_GLOBE_R2022A_54009_100_V1_0.tif [1/1] : 0Creating output file that is 405000P x 202500L.
+Processing /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1990_GLOBE_R2022A_54009_100_V1_0.tif [1/1] : 0Creating output file that is 405000P x 202500L.
+Processing /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2020_GLOBE_R2022A_54009_100_V1_0.tif [1/1] : 0Creating output file that is 405000P x 202500L.
+Processing /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2010_GLOBE_R2022A_54009_100_V1_0.tif [1/1] : 0Using internal nodata values (e.g. 65535) for image /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2000_GLOBE_R2022A_54009_100_V1_0.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2000_GLOBE_R2022A_54009_100_V1_0.tif to destination /spatial_data/Derived_Datasets/RASTER/GHSL/R2022A/builtup/GHS_BUILT_S_E2000_GLOBE_R2022A_54009_100_V1_0.tif.
+.Using internal nodata values (e.g. 65535) for image /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1990_GLOBE_R2022A_54009_100_V1_0.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1990_GLOBE_R2022A_54009_100_V1_0.tif to destination /spatial_data/Derived_Datasets/RASTER/GHSL/R2022A/builtup/GHS_BUILT_S_E1990_GLOBE_R2022A_54009_100_V1_0.tif.
+.Using internal nodata values (e.g. 65535) for image /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2020_GLOBE_R2022A_54009_100_V1_0.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2020_GLOBE_R2022A_54009_100_V1_0.tif to destination /spatial_data/Derived_Datasets/RASTER/GHSL/R2022A/builtup/GHS_BUILT_S_E2020_GLOBE_R2022A_54009_100_V1_0.tif.
+.Using internal nodata values (e.g. 65535) for image /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1975_GLOBE_R2022A_54009_100_V1_0.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1975_GLOBE_R2022A_54009_100_V1_0.tif to destination /spatial_data/Derived_Datasets/RASTER/GHSL/R2022A/builtup/GHS_BUILT_S_E1975_GLOBE_R2022A_54009_100_V1_0.tif.
+.Using internal nodata values (e.g. 65535) for image /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2010_GLOBE_R2022A_54009_100_V1_0.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E2010_GLOBE_R2022A_54009_100_V1_0.tif to destination /spatial_data/Derived_Datasets/RASTER/GHSL/R2022A/builtup/GHS_BUILT_S_E2010_GLOBE_R2022A_54009_100_V1_0.tif.
+.Using internal nodata values (e.g. 65535) for image /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1980_GLOBE_R2022A_54009_100_V1_0.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2022A/GHS_BUILT_S_E1980_GLOBE_R2022A_54009_100_V1_0.tif to destination /spatial_data/Derived_Datasets/RASTER/GHSL/R2022A/builtup/GHS_BUILT_S_E1980_GLOBE_R2022A_54009_100_V1_0.tif.
+.............101010101010..................202020202020..................303030303030..................404040404040..................505050505050..................606060606060..................707070707070..................808080808080..................909090909090..................100 - done.
+100 - done.
+100 - done.
+100 - done.
+100 - done.
+100 - done.

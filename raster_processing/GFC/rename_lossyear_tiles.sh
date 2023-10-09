@@ -1,509 +1,520 @@
 #!/bin/bash
-# RENAME lossyear TILES AS EID TILES
+# RENAME TREECOVER TILES AS EID TILES  ${theme}
 
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_373.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_437.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_589.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_550.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_127.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_182.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_227.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_122.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_584.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_117.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_579.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_326.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_187.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_555.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_307.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_157.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_410.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_447.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_521.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_262.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_112.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_162.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_147.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_222.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_292.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_232.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_331.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_197.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_415.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_506.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_363.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_152.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_257.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_378.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_400.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_484.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_297.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_594.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_192.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_341.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_368.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_267.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_405.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_474.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_336.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_511.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_545.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_479.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_516.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_302.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_442.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_597.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_602.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_128.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_165.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_564.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_607.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_133.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_526.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_416.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_170.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_138.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_491.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_202.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_175.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_381.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_456.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_612.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_421.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_569.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_325.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_244.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_281.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_356.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_207.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_239.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_323.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_386.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_466.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_396.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_212.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_505.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_143.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_286.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_180.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_249.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_318.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_181.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_276.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_308.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_431.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_391.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_346.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_426.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_501.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_531.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_574.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_351.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_496.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_313.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_536.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_461.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_593.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_588.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_126.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_161.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_121.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_583.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_196.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_414.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_116.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_156.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_483.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_446.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_377.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_151.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_409.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_330.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_291.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_226.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_261.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_554.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_191.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_231.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_256.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_186.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_520.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_111.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_436.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_372.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_221.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_399.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_578.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_367.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_549.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_266.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_271.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_362.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_340.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_296.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_473.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_559.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_146.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_451.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_306.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_598.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_478.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_335.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_301.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_404.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_544.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_603.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_515.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_129.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_441.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_166.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_134.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_608.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_510.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_203.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_417.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_139.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_492.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_457.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_171.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_176.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_565.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_422.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_357.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_527.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_382.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_240.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_324.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_245.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_282.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_287.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_144.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_467.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_208.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_213.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_577.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_387.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_392.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_432.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_250.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_560.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_570.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_272.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_592.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_347.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_452.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_361.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_319.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_502.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_145.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_309.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_277.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_587.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_125.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_497.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_427.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_160.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_352.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_120.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_582.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_575.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_532.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_314.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_195.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_413.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_482.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_445.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_115.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_155.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_329.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_150.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_408.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_462.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_376.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_599.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_225.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_260.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_553.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_230.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_190.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_255.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_519.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_435.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_366.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_371.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_537.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_185.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_558.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_339.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_290.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_450.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_220.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_270.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_472.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_110.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_604.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_295.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_130.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_398.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_548.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_235.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_265.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_167.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_487.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_477.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_403.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_135.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_609.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_305.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_204.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_418.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_334.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_493.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_300.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_591.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_543.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_140.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_458.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_172.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_358.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_383.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_177.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_423.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_566.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_283.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_246.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_528.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_209.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_440.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_561.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_288.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_514.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_241.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_468.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_393.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_348.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_453.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_388.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_289.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_214.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_509.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_586.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_251.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_124.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_503.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_273.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_109.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_320.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_397.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_236.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_571.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_159.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_119.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_428.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_581.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_600.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_488.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_498.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_194.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_278.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_412.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_310.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_481.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_353.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_114.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_444.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_154.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_375.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_328.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_315.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_149.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_224.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_259.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_552.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_576.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_407.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_189.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_605.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_463.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_518.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_338.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_131.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_365.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_449.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_557.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_229.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_184.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_219.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_533.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_471.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_254.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_538.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_370.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_434.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_234.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_343.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_168.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_294.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_590.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_269.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_136.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_610.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_523.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_402.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_199.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_205.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_419.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_476.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_547.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_264.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_494.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_459.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_486.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_141.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_173.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_384.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_304.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_359.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_333.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_567.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_178.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_585.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_247.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_299.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_284.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_123.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_210.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_529.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_562.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_454.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_349.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_394.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_424.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_439.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_215.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_542.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_252.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_601.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_504.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_253.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_237.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_158.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_433.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_508.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_242.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_321.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_118.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_344.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_580.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_524.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_389.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_200.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_274.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_411.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_429.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_513.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_193.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_480.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_153.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_499.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_443.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_113.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_489.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_050W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_374.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_311.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_606.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_572.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_132.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_327.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_354.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_148.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_223.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_279.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_448.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_258.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_188.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_337.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_556.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_551.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_060W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_517.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_150W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_364.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_464.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_541.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_316.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_183.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_169.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_233.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_137.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_539.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_406.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_611.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_070W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_228.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_379.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_198.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_470.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_170W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_218.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_420.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_163.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_522.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_293.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_140W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_401.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_206.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_174.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_030W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_268.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50S_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_142.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_100W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_369.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_060E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_385.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_010W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_342.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_495.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_460.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_360.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_040W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_303.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_020W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_485.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_120W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_475.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_455.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_563.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_534.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_248.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_080W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_263.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_179.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_285.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_211.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_568.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_546.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_160E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_395.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_530.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_332.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_090W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_298.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_238.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_070E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_350.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_130W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_438.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_216.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_000E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_595.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30S_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_201.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_160W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_507.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_380.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40S_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_164.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_469.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_180W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_217.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_525.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_322.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_425.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20S_080E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_243.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_30N_150E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_430.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_040E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_275.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_030E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_490.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_050E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_312.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_20N_110E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_390.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10S_090E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_280.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_020E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_345.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_50N_130E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_500.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_10N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_355.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_80N_010E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_596.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_00N_100E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_317.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_110W.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_512.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_70N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_573.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_40N_140E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_465.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_170E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_540.tif
-mv /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/Hansen_GFC-2019-v1.7_lossyear_60N_120E.tif /spatial_data/Derived_Datasets/RASTER/GFC/lossyear_over30_ll/lossyear_tile_535.tif
+base_indir="/spatial_data/Original_Datasets/GLOBAL_FOREST_CHANGE/archives/2022_V1.1"
+base_outdir="/spatial_data/Derived_Datasets/RASTER/GFC/2022_V1.1"
+temp_dir="/spatial_data/Derived_Datasets/RASTER/temp"  	# CREATED BY THE SCRIPT
+rootstring="Hansen_GFC-2022-v1.10_"						# REMEMBER TO UPDATE THIS STRING ACCORDING TO THE VERSION USED
+TREE_LIST_FILE=${base_indir}"/treecover_filelist.txt" 	# MUST EXIST BEFORE RUNNING THE SCRIPT
+GAIN_LIST_FILE=${base_indir}"/gain_filelist.txt" 		# MUST EXIST BEFORE RUNNING THE SCRIPT
+LOSS_LIST_FILE=${base_indir}"/lossyear_filelist.txt" 	# MUST EXIST BEFORE RUNNING THE SCRIPT
+
+for theme in lossyear_over30_ll
+do
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_060W.tif ${base_outdir}/${theme}/tile_373.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_140W.tif ${base_outdir}/${theme}/tile_437.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_060W.tif ${base_outdir}/${theme}/tile_589.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_090W.tif ${base_outdir}/${theme}/tile_550.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_000E.tif ${base_outdir}/${theme}/tile_127.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_170W.tif ${base_outdir}/${theme}/tile_182.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_080W.tif ${base_outdir}/${theme}/tile_227.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_050W.tif ${base_outdir}/${theme}/tile_122.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_110W.tif ${base_outdir}/${theme}/tile_584.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_100W.tif ${base_outdir}/${theme}/tile_117.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_160W.tif ${base_outdir}/${theme}/tile_579.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_170W.tif ${base_outdir}/${theme}/tile_326.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_120W.tif ${base_outdir}/${theme}/tile_187.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_040W.tif ${base_outdir}/${theme}/tile_555.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_000E.tif ${base_outdir}/${theme}/tile_307.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_060W.tif ${base_outdir}/${theme}/tile_157.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_050W.tif ${base_outdir}/${theme}/tile_410.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_040W.tif ${base_outdir}/${theme}/tile_447.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_020W.tif ${base_outdir}/${theme}/tile_521.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_090W.tif ${base_outdir}/${theme}/tile_262.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_150W.tif ${base_outdir}/${theme}/tile_112.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_010W.tif ${base_outdir}/${theme}/tile_162.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_160W.tif ${base_outdir}/${theme}/tile_147.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_130W.tif ${base_outdir}/${theme}/tile_222.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_150W.tif ${base_outdir}/${theme}/tile_292.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_030W.tif ${base_outdir}/${theme}/tile_232.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_120W.tif ${base_outdir}/${theme}/tile_331.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_020W.tif ${base_outdir}/${theme}/tile_197.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_000E.tif ${base_outdir}/${theme}/tile_415.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_170W.tif ${base_outdir}/${theme}/tile_506.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_160W.tif ${base_outdir}/${theme}/tile_363.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_110W.tif ${base_outdir}/${theme}/tile_152.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_140W.tif ${base_outdir}/${theme}/tile_257.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_010W.tif ${base_outdir}/${theme}/tile_378.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_150W.tif ${base_outdir}/${theme}/tile_400.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_030W.tif ${base_outdir}/${theme}/tile_484.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_100W.tif ${base_outdir}/${theme}/tile_297.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_010W.tif ${base_outdir}/${theme}/tile_594.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_070W.tif ${base_outdir}/${theme}/tile_192.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_020W.tif ${base_outdir}/${theme}/tile_341.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_110W.tif ${base_outdir}/${theme}/tile_368.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_040W.tif ${base_outdir}/${theme}/tile_267.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_100W.tif ${base_outdir}/${theme}/tile_405.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_130W.tif ${base_outdir}/${theme}/tile_474.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_070W.tif ${base_outdir}/${theme}/tile_336.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_120W.tif ${base_outdir}/${theme}/tile_511.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_140W.tif ${base_outdir}/${theme}/tile_545.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_080W.tif ${base_outdir}/${theme}/tile_479.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_070W.tif ${base_outdir}/${theme}/tile_516.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_050W.tif ${base_outdir}/${theme}/tile_302.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_090W.tif ${base_outdir}/${theme}/tile_442.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_020E.tif ${base_outdir}/${theme}/tile_597.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_070E.tif ${base_outdir}/${theme}/tile_602.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_010E.tif ${base_outdir}/${theme}/tile_128.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_020E.tif ${base_outdir}/${theme}/tile_165.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_050E.tif ${base_outdir}/${theme}/tile_564.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_120E.tif ${base_outdir}/${theme}/tile_607.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_060E.tif ${base_outdir}/${theme}/tile_133.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_030E.tif ${base_outdir}/${theme}/tile_526.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_010E.tif ${base_outdir}/${theme}/tile_416.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_070E.tif ${base_outdir}/${theme}/tile_170.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_110E.tif ${base_outdir}/${theme}/tile_138.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_040E.tif ${base_outdir}/${theme}/tile_491.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_030E.tif ${base_outdir}/${theme}/tile_202.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_120E.tif ${base_outdir}/${theme}/tile_175.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_020E.tif ${base_outdir}/${theme}/tile_381.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_050E.tif ${base_outdir}/${theme}/tile_456.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_170E.tif ${base_outdir}/${theme}/tile_612.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_060E.tif ${base_outdir}/${theme}/tile_421.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_100E.tif ${base_outdir}/${theme}/tile_569.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_180W.tif ${base_outdir}/${theme}/tile_325.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_090E.tif ${base_outdir}/${theme}/tile_244.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_100E.tif ${base_outdir}/${theme}/tile_281.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_130E.tif ${base_outdir}/${theme}/tile_356.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_080E.tif ${base_outdir}/${theme}/tile_207.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_040E.tif ${base_outdir}/${theme}/tile_239.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_160E.tif ${base_outdir}/${theme}/tile_323.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_070E.tif ${base_outdir}/${theme}/tile_386.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_150E.tif ${base_outdir}/${theme}/tile_466.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_170E.tif ${base_outdir}/${theme}/tile_396.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_130E.tif ${base_outdir}/${theme}/tile_212.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_180W.tif ${base_outdir}/${theme}/tile_505.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_160E.tif ${base_outdir}/${theme}/tile_143.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_150E.tif ${base_outdir}/${theme}/tile_286.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_170E.tif ${base_outdir}/${theme}/tile_180.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_140E.tif ${base_outdir}/${theme}/tile_249.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_110E.tif ${base_outdir}/${theme}/tile_318.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_180W.tif ${base_outdir}/${theme}/tile_181.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_050E.tif ${base_outdir}/${theme}/tile_276.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_010E.tif ${base_outdir}/${theme}/tile_308.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_160E.tif ${base_outdir}/${theme}/tile_431.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_120E.tif ${base_outdir}/${theme}/tile_391.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_030E.tif ${base_outdir}/${theme}/tile_346.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_110E.tif ${base_outdir}/${theme}/tile_426.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_140E.tif ${base_outdir}/${theme}/tile_501.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_080E.tif ${base_outdir}/${theme}/tile_531.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_150E.tif ${base_outdir}/${theme}/tile_574.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_080E.tif ${base_outdir}/${theme}/tile_351.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_090E.tif ${base_outdir}/${theme}/tile_496.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_060E.tif ${base_outdir}/${theme}/tile_313.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_130E.tif ${base_outdir}/${theme}/tile_536.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_100E.tif ${base_outdir}/${theme}/tile_461.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_020W.tif ${base_outdir}/${theme}/tile_593.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_070W.tif ${base_outdir}/${theme}/tile_588.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_010W.tif ${base_outdir}/${theme}/tile_126.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_020W.tif ${base_outdir}/${theme}/tile_161.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_060W.tif ${base_outdir}/${theme}/tile_121.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_120W.tif ${base_outdir}/${theme}/tile_583.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_030W.tif ${base_outdir}/${theme}/tile_196.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_010W.tif ${base_outdir}/${theme}/tile_414.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_110W.tif ${base_outdir}/${theme}/tile_116.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_070W.tif ${base_outdir}/${theme}/tile_156.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_040W.tif ${base_outdir}/${theme}/tile_483.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_050W.tif ${base_outdir}/${theme}/tile_446.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_020W.tif ${base_outdir}/${theme}/tile_377.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_120W.tif ${base_outdir}/${theme}/tile_151.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_060W.tif ${base_outdir}/${theme}/tile_409.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_130W.tif ${base_outdir}/${theme}/tile_330.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_160W.tif ${base_outdir}/${theme}/tile_291.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_090W.tif ${base_outdir}/${theme}/tile_226.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_100W.tif ${base_outdir}/${theme}/tile_261.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_050W.tif ${base_outdir}/${theme}/tile_554.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_080W.tif ${base_outdir}/${theme}/tile_191.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_040W.tif ${base_outdir}/${theme}/tile_231.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_150W.tif ${base_outdir}/${theme}/tile_256.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_130W.tif ${base_outdir}/${theme}/tile_186.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_030W.tif ${base_outdir}/${theme}/tile_520.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_160W.tif ${base_outdir}/${theme}/tile_111.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_150W.tif ${base_outdir}/${theme}/tile_436.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_070W.tif ${base_outdir}/${theme}/tile_372.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_140W.tif ${base_outdir}/${theme}/tile_221.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_160W.tif ${base_outdir}/${theme}/tile_399.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_170W.tif ${base_outdir}/${theme}/tile_578.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_120W.tif ${base_outdir}/${theme}/tile_367.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_100W.tif ${base_outdir}/${theme}/tile_549.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_050W.tif ${base_outdir}/${theme}/tile_266.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_000E.tif ${base_outdir}/${theme}/tile_271.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_170W.tif ${base_outdir}/${theme}/tile_362.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_030W.tif ${base_outdir}/${theme}/tile_340.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_110W.tif ${base_outdir}/${theme}/tile_296.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_140W.tif ${base_outdir}/${theme}/tile_473.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_000E.tif ${base_outdir}/${theme}/tile_559.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_170W.tif ${base_outdir}/${theme}/tile_146.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_000E.tif ${base_outdir}/${theme}/tile_451.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_010W.tif ${base_outdir}/${theme}/tile_306.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_030E.tif ${base_outdir}/${theme}/tile_598.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_090W.tif ${base_outdir}/${theme}/tile_478.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_080W.tif ${base_outdir}/${theme}/tile_335.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_060W.tif ${base_outdir}/${theme}/tile_301.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_110W.tif ${base_outdir}/${theme}/tile_404.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_150W.tif ${base_outdir}/${theme}/tile_544.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_080E.tif ${base_outdir}/${theme}/tile_603.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_080W.tif ${base_outdir}/${theme}/tile_515.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_020E.tif ${base_outdir}/${theme}/tile_129.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_100W.tif ${base_outdir}/${theme}/tile_441.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_030E.tif ${base_outdir}/${theme}/tile_166.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_070E.tif ${base_outdir}/${theme}/tile_134.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_130E.tif ${base_outdir}/${theme}/tile_608.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_130W.tif ${base_outdir}/${theme}/tile_510.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_040E.tif ${base_outdir}/${theme}/tile_203.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_020E.tif ${base_outdir}/${theme}/tile_417.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_120E.tif ${base_outdir}/${theme}/tile_139.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_050E.tif ${base_outdir}/${theme}/tile_492.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_060E.tif ${base_outdir}/${theme}/tile_457.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_080E.tif ${base_outdir}/${theme}/tile_171.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_130E.tif ${base_outdir}/${theme}/tile_176.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_060E.tif ${base_outdir}/${theme}/tile_565.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_070E.tif ${base_outdir}/${theme}/tile_422.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_140E.tif ${base_outdir}/${theme}/tile_357.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_040E.tif ${base_outdir}/${theme}/tile_527.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_030E.tif ${base_outdir}/${theme}/tile_382.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_050E.tif ${base_outdir}/${theme}/tile_240.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_170E.tif ${base_outdir}/${theme}/tile_324.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_100E.tif ${base_outdir}/${theme}/tile_245.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_110E.tif ${base_outdir}/${theme}/tile_282.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_160E.tif ${base_outdir}/${theme}/tile_287.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_170E.tif ${base_outdir}/${theme}/tile_144.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_160E.tif ${base_outdir}/${theme}/tile_467.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_090E.tif ${base_outdir}/${theme}/tile_208.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_140E.tif ${base_outdir}/${theme}/tile_213.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_180W.tif ${base_outdir}/${theme}/tile_577.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_080E.tif ${base_outdir}/${theme}/tile_387.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_130E.tif ${base_outdir}/${theme}/tile_392.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_170E.tif ${base_outdir}/${theme}/tile_432.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_150E.tif ${base_outdir}/${theme}/tile_250.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_010E.tif ${base_outdir}/${theme}/tile_560.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_110E.tif ${base_outdir}/${theme}/tile_570.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_010E.tif ${base_outdir}/${theme}/tile_272.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_030W.tif ${base_outdir}/${theme}/tile_592.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_040E.tif ${base_outdir}/${theme}/tile_347.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_010E.tif ${base_outdir}/${theme}/tile_452.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_180W.tif ${base_outdir}/${theme}/tile_361.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_120E.tif ${base_outdir}/${theme}/tile_319.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_150E.tif ${base_outdir}/${theme}/tile_502.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_180W.tif ${base_outdir}/${theme}/tile_145.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_020E.tif ${base_outdir}/${theme}/tile_309.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_060E.tif ${base_outdir}/${theme}/tile_277.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_080W.tif ${base_outdir}/${theme}/tile_587.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_020W.tif ${base_outdir}/${theme}/tile_125.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_100E.tif ${base_outdir}/${theme}/tile_497.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_120E.tif ${base_outdir}/${theme}/tile_427.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_030W.tif ${base_outdir}/${theme}/tile_160.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_090E.tif ${base_outdir}/${theme}/tile_352.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_070W.tif ${base_outdir}/${theme}/tile_120.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_130W.tif ${base_outdir}/${theme}/tile_582.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_160E.tif ${base_outdir}/${theme}/tile_575.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_090E.tif ${base_outdir}/${theme}/tile_532.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_070E.tif ${base_outdir}/${theme}/tile_314.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_040W.tif ${base_outdir}/${theme}/tile_195.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_020W.tif ${base_outdir}/${theme}/tile_413.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_050W.tif ${base_outdir}/${theme}/tile_482.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_060W.tif ${base_outdir}/${theme}/tile_445.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_120W.tif ${base_outdir}/${theme}/tile_115.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_080W.tif ${base_outdir}/${theme}/tile_155.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_140W.tif ${base_outdir}/${theme}/tile_329.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_130W.tif ${base_outdir}/${theme}/tile_150.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_070W.tif ${base_outdir}/${theme}/tile_408.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_110E.tif ${base_outdir}/${theme}/tile_462.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_030W.tif ${base_outdir}/${theme}/tile_376.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_040E.tif ${base_outdir}/${theme}/tile_599.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_100W.tif ${base_outdir}/${theme}/tile_225.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_110W.tif ${base_outdir}/${theme}/tile_260.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_060W.tif ${base_outdir}/${theme}/tile_553.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_050W.tif ${base_outdir}/${theme}/tile_230.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_090W.tif ${base_outdir}/${theme}/tile_190.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_160W.tif ${base_outdir}/${theme}/tile_255.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_040W.tif ${base_outdir}/${theme}/tile_519.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_160W.tif ${base_outdir}/${theme}/tile_435.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_130W.tif ${base_outdir}/${theme}/tile_366.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_080W.tif ${base_outdir}/${theme}/tile_371.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_140E.tif ${base_outdir}/${theme}/tile_537.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_140W.tif ${base_outdir}/${theme}/tile_185.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_010W.tif ${base_outdir}/${theme}/tile_558.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_040W.tif ${base_outdir}/${theme}/tile_339.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_170W.tif ${base_outdir}/${theme}/tile_290.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_010W.tif ${base_outdir}/${theme}/tile_450.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_150W.tif ${base_outdir}/${theme}/tile_220.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_010W.tif ${base_outdir}/${theme}/tile_270.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_150W.tif ${base_outdir}/${theme}/tile_472.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_170W.tif ${base_outdir}/${theme}/tile_110.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_090E.tif ${base_outdir}/${theme}/tile_604.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_120W.tif ${base_outdir}/${theme}/tile_295.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_030E.tif ${base_outdir}/${theme}/tile_130.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_170W.tif ${base_outdir}/${theme}/tile_398.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_110W.tif ${base_outdir}/${theme}/tile_548.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_000E.tif ${base_outdir}/${theme}/tile_235.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_060W.tif ${base_outdir}/${theme}/tile_265.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_040E.tif ${base_outdir}/${theme}/tile_167.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_000E.tif ${base_outdir}/${theme}/tile_487.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_100W.tif ${base_outdir}/${theme}/tile_477.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_120W.tif ${base_outdir}/${theme}/tile_403.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_080E.tif ${base_outdir}/${theme}/tile_135.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_140E.tif ${base_outdir}/${theme}/tile_609.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_020W.tif ${base_outdir}/${theme}/tile_305.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_050E.tif ${base_outdir}/${theme}/tile_204.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_030E.tif ${base_outdir}/${theme}/tile_418.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_090W.tif ${base_outdir}/${theme}/tile_334.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_060E.tif ${base_outdir}/${theme}/tile_493.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_070W.tif ${base_outdir}/${theme}/tile_300.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_040W.tif ${base_outdir}/${theme}/tile_591.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_160W.tif ${base_outdir}/${theme}/tile_543.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_130E.tif ${base_outdir}/${theme}/tile_140.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_070E.tif ${base_outdir}/${theme}/tile_458.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_090E.tif ${base_outdir}/${theme}/tile_172.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_150E.tif ${base_outdir}/${theme}/tile_358.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_040E.tif ${base_outdir}/${theme}/tile_383.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_140E.tif ${base_outdir}/${theme}/tile_177.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_080E.tif ${base_outdir}/${theme}/tile_423.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_070E.tif ${base_outdir}/${theme}/tile_566.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_120E.tif ${base_outdir}/${theme}/tile_283.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_110E.tif ${base_outdir}/${theme}/tile_246.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_050E.tif ${base_outdir}/${theme}/tile_528.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_100E.tif ${base_outdir}/${theme}/tile_209.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_110W.tif ${base_outdir}/${theme}/tile_440.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_020E.tif ${base_outdir}/${theme}/tile_561.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_170E.tif ${base_outdir}/${theme}/tile_288.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_090W.tif ${base_outdir}/${theme}/tile_514.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_060E.tif ${base_outdir}/${theme}/tile_241.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_170E.tif ${base_outdir}/${theme}/tile_468.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_140E.tif ${base_outdir}/${theme}/tile_393.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_050E.tif ${base_outdir}/${theme}/tile_348.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_020E.tif ${base_outdir}/${theme}/tile_453.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_090E.tif ${base_outdir}/${theme}/tile_388.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_180W.tif ${base_outdir}/${theme}/tile_289.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_150E.tif ${base_outdir}/${theme}/tile_214.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_140W.tif ${base_outdir}/${theme}/tile_509.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_090W.tif ${base_outdir}/${theme}/tile_586.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_160E.tif ${base_outdir}/${theme}/tile_251.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_030W.tif ${base_outdir}/${theme}/tile_124.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_160E.tif ${base_outdir}/${theme}/tile_503.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_020E.tif ${base_outdir}/${theme}/tile_273.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_180W.tif ${base_outdir}/${theme}/tile_109.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_130E.tif ${base_outdir}/${theme}/tile_320.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_180W.tif ${base_outdir}/${theme}/tile_397.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_010E.tif ${base_outdir}/${theme}/tile_236.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_120E.tif ${base_outdir}/${theme}/tile_571.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_040W.tif ${base_outdir}/${theme}/tile_159.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_080W.tif ${base_outdir}/${theme}/tile_119.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_130E.tif ${base_outdir}/${theme}/tile_428.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_140W.tif ${base_outdir}/${theme}/tile_581.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_050E.tif ${base_outdir}/${theme}/tile_600.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_010E.tif ${base_outdir}/${theme}/tile_488.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_110E.tif ${base_outdir}/${theme}/tile_498.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_050W.tif ${base_outdir}/${theme}/tile_194.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_070E.tif ${base_outdir}/${theme}/tile_278.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_030W.tif ${base_outdir}/${theme}/tile_412.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_030E.tif ${base_outdir}/${theme}/tile_310.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_060W.tif ${base_outdir}/${theme}/tile_481.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_100E.tif ${base_outdir}/${theme}/tile_353.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_130W.tif ${base_outdir}/${theme}/tile_114.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_070W.tif ${base_outdir}/${theme}/tile_444.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_090W.tif ${base_outdir}/${theme}/tile_154.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_040W.tif ${base_outdir}/${theme}/tile_375.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_150W.tif ${base_outdir}/${theme}/tile_328.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_080E.tif ${base_outdir}/${theme}/tile_315.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_140W.tif ${base_outdir}/${theme}/tile_149.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_110W.tif ${base_outdir}/${theme}/tile_224.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_120W.tif ${base_outdir}/${theme}/tile_259.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_070W.tif ${base_outdir}/${theme}/tile_552.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_170E.tif ${base_outdir}/${theme}/tile_576.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_080W.tif ${base_outdir}/${theme}/tile_407.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_100W.tif ${base_outdir}/${theme}/tile_189.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_100E.tif ${base_outdir}/${theme}/tile_605.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_120E.tif ${base_outdir}/${theme}/tile_463.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_050W.tif ${base_outdir}/${theme}/tile_518.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_050W.tif ${base_outdir}/${theme}/tile_338.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_040E.tif ${base_outdir}/${theme}/tile_131.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_140W.tif ${base_outdir}/${theme}/tile_365.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_020W.tif ${base_outdir}/${theme}/tile_449.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_020W.tif ${base_outdir}/${theme}/tile_557.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_060W.tif ${base_outdir}/${theme}/tile_229.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_150W.tif ${base_outdir}/${theme}/tile_184.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_160W.tif ${base_outdir}/${theme}/tile_219.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_100E.tif ${base_outdir}/${theme}/tile_533.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_160W.tif ${base_outdir}/${theme}/tile_471.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_170W.tif ${base_outdir}/${theme}/tile_254.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_150E.tif ${base_outdir}/${theme}/tile_538.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_090W.tif ${base_outdir}/${theme}/tile_370.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_170W.tif ${base_outdir}/${theme}/tile_434.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_010W.tif ${base_outdir}/${theme}/tile_234.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_000E.tif ${base_outdir}/${theme}/tile_343.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_050E.tif ${base_outdir}/${theme}/tile_168.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_130W.tif ${base_outdir}/${theme}/tile_294.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_050W.tif ${base_outdir}/${theme}/tile_590.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_020W.tif ${base_outdir}/${theme}/tile_269.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_090E.tif ${base_outdir}/${theme}/tile_136.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_150E.tif ${base_outdir}/${theme}/tile_610.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_000E.tif ${base_outdir}/${theme}/tile_523.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_130W.tif ${base_outdir}/${theme}/tile_402.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_000E.tif ${base_outdir}/${theme}/tile_199.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_060E.tif ${base_outdir}/${theme}/tile_205.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_040E.tif ${base_outdir}/${theme}/tile_419.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_110W.tif ${base_outdir}/${theme}/tile_476.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_120W.tif ${base_outdir}/${theme}/tile_547.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_070W.tif ${base_outdir}/${theme}/tile_264.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_070E.tif ${base_outdir}/${theme}/tile_494.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_080E.tif ${base_outdir}/${theme}/tile_459.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_010W.tif ${base_outdir}/${theme}/tile_486.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_140E.tif ${base_outdir}/${theme}/tile_141.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_100E.tif ${base_outdir}/${theme}/tile_173.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_050E.tif ${base_outdir}/${theme}/tile_384.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_030W.tif ${base_outdir}/${theme}/tile_304.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_160E.tif ${base_outdir}/${theme}/tile_359.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_100W.tif ${base_outdir}/${theme}/tile_333.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_080E.tif ${base_outdir}/${theme}/tile_567.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_150E.tif ${base_outdir}/${theme}/tile_178.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_100W.tif ${base_outdir}/${theme}/tile_585.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_120E.tif ${base_outdir}/${theme}/tile_247.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_080W.tif ${base_outdir}/${theme}/tile_299.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_130E.tif ${base_outdir}/${theme}/tile_284.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_040W.tif ${base_outdir}/${theme}/tile_123.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_110E.tif ${base_outdir}/${theme}/tile_210.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_060E.tif ${base_outdir}/${theme}/tile_529.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_030E.tif ${base_outdir}/${theme}/tile_562.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_030E.tif ${base_outdir}/${theme}/tile_454.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_060E.tif ${base_outdir}/${theme}/tile_349.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_150E.tif ${base_outdir}/${theme}/tile_394.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_090E.tif ${base_outdir}/${theme}/tile_424.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_120W.tif ${base_outdir}/${theme}/tile_439.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_160E.tif ${base_outdir}/${theme}/tile_215.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_170W.tif ${base_outdir}/${theme}/tile_542.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_170E.tif ${base_outdir}/${theme}/tile_252.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_060E.tif ${base_outdir}/${theme}/tile_601.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_170E.tif ${base_outdir}/${theme}/tile_504.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_180W.tif ${base_outdir}/${theme}/tile_253.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_020E.tif ${base_outdir}/${theme}/tile_237.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_050W.tif ${base_outdir}/${theme}/tile_158.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_180W.tif ${base_outdir}/${theme}/tile_433.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_150W.tif ${base_outdir}/${theme}/tile_508.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_070E.tif ${base_outdir}/${theme}/tile_242.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_140E.tif ${base_outdir}/${theme}/tile_321.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_090W.tif ${base_outdir}/${theme}/tile_118.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_010E.tif ${base_outdir}/${theme}/tile_344.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_150W.tif ${base_outdir}/${theme}/tile_580.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_010E.tif ${base_outdir}/${theme}/tile_524.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_100E.tif ${base_outdir}/${theme}/tile_389.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_010E.tif ${base_outdir}/${theme}/tile_200.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_030E.tif ${base_outdir}/${theme}/tile_274.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_040W.tif ${base_outdir}/${theme}/tile_411.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_140E.tif ${base_outdir}/${theme}/tile_429.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_100W.tif ${base_outdir}/${theme}/tile_513.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_060W.tif ${base_outdir}/${theme}/tile_193.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_070W.tif ${base_outdir}/${theme}/tile_480.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_100W.tif ${base_outdir}/${theme}/tile_153.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_120E.tif ${base_outdir}/${theme}/tile_499.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_080W.tif ${base_outdir}/${theme}/tile_443.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_140W.tif ${base_outdir}/${theme}/tile_113.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_020E.tif ${base_outdir}/${theme}/tile_489.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_050W.tif ${base_outdir}/${theme}/tile_374.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_040E.tif ${base_outdir}/${theme}/tile_311.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_110E.tif ${base_outdir}/${theme}/tile_606.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_130E.tif ${base_outdir}/${theme}/tile_572.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_050E.tif ${base_outdir}/${theme}/tile_132.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_160W.tif ${base_outdir}/${theme}/tile_327.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_110E.tif ${base_outdir}/${theme}/tile_354.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_150W.tif ${base_outdir}/${theme}/tile_148.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_120W.tif ${base_outdir}/${theme}/tile_223.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_080E.tif ${base_outdir}/${theme}/tile_279.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_030W.tif ${base_outdir}/${theme}/tile_448.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_130W.tif ${base_outdir}/${theme}/tile_258.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_110W.tif ${base_outdir}/${theme}/tile_188.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_060W.tif ${base_outdir}/${theme}/tile_337.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_030W.tif ${base_outdir}/${theme}/tile_556.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_080W.tif ${base_outdir}/${theme}/tile_551.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_060W.tif ${base_outdir}/${theme}/tile_517.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_150W.tif ${base_outdir}/${theme}/tile_364.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_130E.tif ${base_outdir}/${theme}/tile_464.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_180W.tif ${base_outdir}/${theme}/tile_541.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_090E.tif ${base_outdir}/${theme}/tile_316.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_160W.tif ${base_outdir}/${theme}/tile_183.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_060E.tif ${base_outdir}/${theme}/tile_169.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_020W.tif ${base_outdir}/${theme}/tile_233.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_100E.tif ${base_outdir}/${theme}/tile_137.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_160E.tif ${base_outdir}/${theme}/tile_539.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_090W.tif ${base_outdir}/${theme}/tile_406.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_160E.tif ${base_outdir}/${theme}/tile_611.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_070W.tif ${base_outdir}/${theme}/tile_228.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_000E.tif ${base_outdir}/${theme}/tile_379.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_010W.tif ${base_outdir}/${theme}/tile_198.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_170W.tif ${base_outdir}/${theme}/tile_470.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_170W.tif ${base_outdir}/${theme}/tile_218.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_050E.tif ${base_outdir}/${theme}/tile_420.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_000E.tif ${base_outdir}/${theme}/tile_163.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_010W.tif ${base_outdir}/${theme}/tile_522.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_140W.tif ${base_outdir}/${theme}/tile_293.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_140W.tif ${base_outdir}/${theme}/tile_401.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_070E.tif ${base_outdir}/${theme}/tile_206.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_110E.tif ${base_outdir}/${theme}/tile_174.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_030W.tif ${base_outdir}/${theme}/tile_268.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50S_150E.tif ${base_outdir}/${theme}/tile_142.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_100W.tif ${base_outdir}/${theme}/tile_369.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_060E.tif ${base_outdir}/${theme}/tile_385.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_010W.tif ${base_outdir}/${theme}/tile_342.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_080E.tif ${base_outdir}/${theme}/tile_495.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_090E.tif ${base_outdir}/${theme}/tile_460.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_170E.tif ${base_outdir}/${theme}/tile_360.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_040W.tif ${base_outdir}/${theme}/tile_303.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_020W.tif ${base_outdir}/${theme}/tile_485.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_120W.tif ${base_outdir}/${theme}/tile_475.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_040E.tif ${base_outdir}/${theme}/tile_455.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_040E.tif ${base_outdir}/${theme}/tile_563.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_110E.tif ${base_outdir}/${theme}/tile_534.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_130E.tif ${base_outdir}/${theme}/tile_248.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_080W.tif ${base_outdir}/${theme}/tile_263.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_160E.tif ${base_outdir}/${theme}/tile_179.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_140E.tif ${base_outdir}/${theme}/tile_285.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_120E.tif ${base_outdir}/${theme}/tile_211.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_090E.tif ${base_outdir}/${theme}/tile_568.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_130W.tif ${base_outdir}/${theme}/tile_546.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_160E.tif ${base_outdir}/${theme}/tile_395.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_070E.tif ${base_outdir}/${theme}/tile_530.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_110W.tif ${base_outdir}/${theme}/tile_332.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_090W.tif ${base_outdir}/${theme}/tile_298.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_030E.tif ${base_outdir}/${theme}/tile_238.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_070E.tif ${base_outdir}/${theme}/tile_350.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_130W.tif ${base_outdir}/${theme}/tile_438.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_170E.tif ${base_outdir}/${theme}/tile_216.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_000E.tif ${base_outdir}/${theme}/tile_595.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30S_020E.tif ${base_outdir}/${theme}/tile_201.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_160W.tif ${base_outdir}/${theme}/tile_507.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_010E.tif ${base_outdir}/${theme}/tile_380.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40S_010E.tif ${base_outdir}/${theme}/tile_164.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_180W.tif ${base_outdir}/${theme}/tile_469.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_180W.tif ${base_outdir}/${theme}/tile_217.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_020E.tif ${base_outdir}/${theme}/tile_525.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_150E.tif ${base_outdir}/${theme}/tile_322.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_100E.tif ${base_outdir}/${theme}/tile_425.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20S_080E.tif ${base_outdir}/${theme}/tile_243.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_30N_150E.tif ${base_outdir}/${theme}/tile_430.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_040E.tif ${base_outdir}/${theme}/tile_275.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_030E.tif ${base_outdir}/${theme}/tile_490.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_050E.tif ${base_outdir}/${theme}/tile_312.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_20N_110E.tif ${base_outdir}/${theme}/tile_390.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10S_090E.tif ${base_outdir}/${theme}/tile_280.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_020E.tif ${base_outdir}/${theme}/tile_345.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_50N_130E.tif ${base_outdir}/${theme}/tile_500.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_10N_120E.tif ${base_outdir}/${theme}/tile_355.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_80N_010E.tif ${base_outdir}/${theme}/tile_596.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_00N_100E.tif ${base_outdir}/${theme}/tile_317.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_110W.tif ${base_outdir}/${theme}/tile_512.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_70N_140E.tif ${base_outdir}/${theme}/tile_573.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_40N_140E.tif ${base_outdir}/${theme}/tile_465.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_170E.tif ${base_outdir}/${theme}/tile_540.tif
+	mv ${base_outdir}/${theme}/${rootstring}lossyear_60N_120E.tif ${base_outdir}/${theme}/tile_535.tif
+done
 
 exit

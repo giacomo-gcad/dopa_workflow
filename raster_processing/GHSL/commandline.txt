@@ -1,0 +1,1 @@
+gdalbuildvrt -te -180 -90 -170 -80 /spatial_data/Derived_Datasets/RASTER/GHSL/population_9arcsec/pop_1975__1.vrt /spatial_data/Original_Datasets/GHSL/uncompressed/population/9arcsec/GHS_POP_E1975_GLOBE_R2019A_4326_9ss_V1_0.tif

@@ -1,5 +1,5 @@
 #!/bin/bash
-##COMPUTE LAND COVER CHANGE ON ESA CCI datasets (1995 and 2015)
+##COMPUTE LAND COVER CHANGE ON ESA CCI datasets (1995 and 2020)
 
 eid=$1
 TMP_MAPSET=$2

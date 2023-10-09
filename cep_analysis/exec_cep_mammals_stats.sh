@@ -29,7 +29,7 @@ FINALCSV="r_stats_"${OUTCSV_ROOT}"_${wdpadate}"
 ## PART I: COMPUTATION OF STATISTICS
 
 echo "Input raster: "${IN_RASTER}@${IN_RASTER_MAPSET}
-echo "now running r.stats in parallel on 648 CEP tiles and "${NCORES}" threads"
+echo "now running r.stats in parallel on 648 CEP tiles and "${IN_RASTER}" using "${NCORES}" threads"
 
 for eid in {1..648}
 do	

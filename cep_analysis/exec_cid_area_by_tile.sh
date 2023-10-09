@@ -19,7 +19,7 @@ FINAL_CSV="cid_area_by_tile"
 
 ## PART I : COMPUTATION OF STATISTICS
 echo "CEP Version: "${CEP_MAPSET}
-echo "Now running r.stats in parallel on 648 CEP tiles and "${NCORES}" cores"
+echo "Now running r.stats in parallel on 648 CEP tiles using "${NCORES}" cores"
 
 for reg in {1..648}
 # for reg in {71..80}
@@ -59,7 +59,7 @@ wait
 ## PART IV : CREATE PG TABLE AND IMPORT FINAL CSV IN POSTGIS
 psql ${dbpar2} -t -v vNAME=${FINAL_CSV} -v vSCHEMA=${RESULTSCH} -f ./sql/create_table_cid_area.sql
 psql ${dbpar2} -t -c "\copy ${RESULTSCH}.${FINAL_CSV} FROM '${RESULTSPATH}/${FINAL_CSV}.csv' delimiter '|' csv"
-psql ${dbpar2} -t -c "DELETE FROM ${RESULTSCH}.${FINALCSV} WHERE cid =0"
+psql ${dbpar2} -t -c "DELETE FROM ${RESULTSCH}.${FINAL_CSV} WHERE cid=0"
 
 ## PART V : CLEAN UP (delete mapsets and intermediate results)
 rm -rf ${LOCATION_LL_PATH}/tmp*
@@ -78,6 +78,6 @@ runtime=$(((enddate-startdate) / 60))
 echo "-----------------------------------------------------------------------------------"
 echo "Script $(basename "$0") ended at $(date)"
 echo "-----------------------------------------------------------------------------------"
-echo "Stats on CEP and ${IN_RASTER} computed in "${runtime}" minutes"
+echo "Cid area by tiles computed in "${runtime}" minutes"
 echo "-----------------------------------------------------------------------------------"
 exit

@@ -41,7 +41,3 @@ The following sections are currently present:
 
 Many thanks to Andrea Mandrici. 
 
-____
-
-[Go to the code](https://github.com/giacomo-gcad/dopa_workflow)
-

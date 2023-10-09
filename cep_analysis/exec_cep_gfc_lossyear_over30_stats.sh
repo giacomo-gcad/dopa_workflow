@@ -30,7 +30,7 @@ FINALCSV="r_stats_"${OUTCSV_ROOT}"_${wdpadate}"
 ## PART I: COMPUTATION OF STATISTICS
 
 echo "Input raster: "${IN_RASTER}
-echo "now running r.stats in parallel on 504 CEP tiles and ${NCORES} threads"
+echo "now running r.stats in parallel on 504 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
 
 ## for eid in $(cat /globes/processing_current/cep_analysis/treecover_tiles_selected.txt)
 for eid in {109..612}

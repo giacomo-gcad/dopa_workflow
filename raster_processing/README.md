@@ -20,9 +20,7 @@ The following datasets are physically imported (with r.import) instead of linked
 
 * Worldclim (tavg, tmax and tmin)
 
-* Global Livestock of the world v.3
-
-Also, Sea Surface Temperature data (distributed as NETCDF file, too complex to be managed with r.external) are physically imported with r.in.gdal.
+* Sea Surface Temperature data (tavg, tmax and tmin)
 
 Most of the raster datasets are imported 'as they are' from the /spatial\_data/Original\_Datasets folder but there are some exceptions. For each exception listed below, scripts for raster processing before import in GRASS database are provided in  **[/raster_processing/](/raster_processing/)** folder.
 
@@ -41,6 +39,4 @@ Most of the raster datasets are imported 'as they are' from the /spatial\_data/O
 Processed/modified raster datasets are stored in /spatial\_data/Derived\_datasets/ 
 
 Scripts to pre-process each of the above mentioned derived rasters are stored in /globes/processing\_current/raster\_processing/ 
-
-
 

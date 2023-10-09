@@ -7,8 +7,8 @@ DROP TABLE IF EXISTS :vSCHEMA.:vNAME;
 CREATE TABLE :vSCHEMA.:vNAME (
 qid integer,
 cid integer,
-lc_1995 integer,
-lc_2015 integer,
+:LC_DATE1 integer,
+:LC_DATE2 integer,
 area_m2 double precision
 );
 

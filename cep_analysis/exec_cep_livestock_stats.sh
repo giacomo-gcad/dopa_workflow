@@ -27,7 +27,7 @@ do
 	FINALCSV="r_univar_"${OUTCSV_ROOT}"_"${wdpadate}
 
 	## PART I: COMPUTATION OF STATISTICS
-	echo "now running r.univar in parallel on 648 CEP tiles and ${NCORES} threads"
+	echo "now running r.univar in parallel on 648 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
 
 	for eid in {1..648}
 	do	

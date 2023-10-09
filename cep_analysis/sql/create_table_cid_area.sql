@@ -5,7 +5,7 @@
 
 DROP TABLE IF EXISTS :vSCHEMA.:vNAME;
 CREATE TABLE :vSCHEMA.:vNAME (
-qid integer,
+eid integer,
 cid integer,
 area_m2 double precision
 );

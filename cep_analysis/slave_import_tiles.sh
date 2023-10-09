@@ -14,5 +14,3 @@ echo "#!/bin/bash
     grass ${CEP_MAPSET_PATH} --exec ./dyn/import_ceptile_${til}.sh
 	echo "Tile ${til} imported"
 exit
-
-

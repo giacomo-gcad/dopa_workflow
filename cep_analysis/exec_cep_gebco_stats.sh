@@ -1,5 +1,5 @@
 #!/bin/bash
-##COMPUTE STATISTICS ON CEP AND A USER DEFINED CATEGORICAL RASTER
+##COMPUTE STATISTICS ON CEP AND A USER DEFINED CONTINUOUS RASTER
 
 echo "-----------------------------------------------------------------------------------"
 echo "--- Script $(basename "$0") started at $(date)"
@@ -15,8 +15,8 @@ source ${SERVICEDIR}/cep_processing.conf
 NCORES=54
 
 ########################################################################################################
-# DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="gebco2020"
+# DEFINE CONTINUOUS RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.UNIVAR
+IN_RASTER="gebco2023"
 IN_RASTER_MAPSET="CONRASTERS"
 ########################################################################################################
 
@@ -29,7 +29,7 @@ FINALCSV="r_univar_"${OUTCSV_ROOT}"_${wdpadate}"
 ## PART I: COMPUTATION OF STATISTICS
 
 echo "Input raster: "${IN_RASTER}@${IN_RASTER_MAPSET}
-echo "now running r.univar in parallel on 648 CEP tiles and "${NCORES}" threads"
+echo "now running r.univar in parallel on 648 CEP tiles and "${IN_RASTER}" using "${NCORES}" threads"
 
 for eid in {1..648}
 # for eid in {109..612}

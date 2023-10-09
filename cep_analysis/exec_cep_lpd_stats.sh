@@ -16,7 +16,7 @@ NCORES=64
 
 ########################################################################################################
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="lpd"
+IN_RASTER="lpd_v2"
 IN_RASTER_MAPSET="CATRASTERS"
 ########################################################################################################
 
@@ -29,7 +29,7 @@ FINALCSV="r_stats_"${OUTCSV_ROOT}"_${wdpadate}"
 ## PART I: COMPUTATION OF STATISTICS
 
 echo "Input raster: "${IN_RASTER}
-echo "now running r.stats in parallel on 268 CEP tiles and ${NCORES} threads"
+echo "now running r.stats in parallel on 648 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
 
 for eid in {1..648}
 do	

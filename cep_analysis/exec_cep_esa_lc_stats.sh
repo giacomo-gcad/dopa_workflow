@@ -20,14 +20,14 @@ PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
 IN_RASTER_MAPSET="CATRASTERS"
 
 # # LOOP THROUGH MULTIPLE RASTERS
-for IN_RASTER in esalc_1995 esalc_2000 esalc_2005 esalc_2010 esalc_2015
+for IN_RASTER in esalc_1995 esalc_2000 esalc_2005 esalc_2010 esalc_2015 esalc_2020
 do
 	OUTCSV_ROOT="cep_"${IN_RASTER}
 	FINALCSV="r_stats_"${OUTCSV_ROOT}"_${wdpadate}"
 
 	## PART I: COMPUTATION OF STATISTICS
 	echo "Input raster: "${IN_RASTER}@${IN_RASTER_MAPSET}
-	echo "now running r.stats in parallel on 648 CEP tiles and "${NCORES}" threads"
+	echo "now running r.stats in parallel on 648 CEP tiles and "${IN_RASTER}" using "${NCORES}" threads"
 
 	for eid in {1..648}
 	do	

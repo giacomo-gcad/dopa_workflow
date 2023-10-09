@@ -4,7 +4,7 @@
 UNEP-WCMC & IUCN (2021). Protected Planet: The World Database on Protected Areas (WDPA) [www.protectedplanet.net](www.protectedplanet.net), [January/2021], Cambridge, UK: UNEP-WCMC and IUCN.
 
 WDPA database is downloaded monthly from [WCMC website](www.protected_planet.net). A script for download is controlled by a CRON command on server.
-The dataset downloaded consiist of a ESRI geodatabase, including the following feature classes:
+The dataset downloaded consist of an ESRI geodatabase, including the following feature classes:
 
 - WDPA_WDOECM_point_Mmmyyyy
 - WDPA_WDOECM_poly_Mmmyyyy

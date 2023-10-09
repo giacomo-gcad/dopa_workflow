@@ -12,7 +12,7 @@ SERVICEDIR="/globes/processing_current/servicefiles"
 source ${SERVICEDIR}/cep_processing.conf
 
 ## OVERRIDE NCORES DEFINED IN CONF FILE
-NCORES=40
+NCORES=44
 
 ########################################################################################################
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
@@ -30,7 +30,7 @@ FINALCSV="r_univar_"${OUTCSV_ROOT}"_${wdpadate}"
 ## PART I: COMPUTATION OF STATISTICS
 
 echo "Input raster: "${IN_RASTER}
-echo "now running r.univar in parallel on 504 CEP tiles and ${NCORES} threads"
+echo "now running r.univar in parallel on 504 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
 
 ##for eid in $(cat /globes/processing_current/cep_analysis/treecover_tiles_selected.txt)
 for eid in {109..612}

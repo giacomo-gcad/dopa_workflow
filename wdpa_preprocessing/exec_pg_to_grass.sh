@@ -8,7 +8,7 @@ startdate=`date +%s`
 
 # READ VARIABLES FROM CONFIGURATION FILE
 SERVICEDIR="/globes/processing_current/servicefiles"
-source ${SERVICEDIR}/wdpa_preprocessing.conf
+source ${SERVICEDIR}/wdpa_wdoecm_preprocessing.conf
 
 
 startdate_p1=`date +%s`

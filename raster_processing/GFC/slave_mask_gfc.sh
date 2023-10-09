@@ -26,19 +26,19 @@ mkdir -p ${lossyear_outdir_ll}
 for FIL in $(cat ${TREE_LIST_FILE}|awk "NR >= (${TIL}+1) && NR <= (${TIL}+${TILESIZE})")
     do
 	tr_inp=${tree_indir}/${FIL}
-	mask=${temp_dir}/mask_${FIL:35:47}
+	mask=${temp_dir}/mask_${FIL:36:48}
 	tr_out2=${tree_outdir_ll}/${FIL}
-	ga_inp=${gain_indir}/${rootstring}"gain_"${FIL:35:47}
-	ga_out1=${gain_outdir_ll}/${rootstring}"gain_"${FIL:35:47}
-	ly_inp=${lossyear_indir}/${rootstring}"lossyear_"${FIL:35:47}
-	ly_out1=${lossyear_outdir_ll}/${rootstring}"lossyear_"${FIL:35:47}
+	ga_inp=${gain_indir}/${rootstring}"gain_"${FIL:36:48}
+	ga_out1=${gain_outdir_ll}/${rootstring}"gain_"${FIL:36:48}
+	ly_inp=${lossyear_indir}/${rootstring}"lossyear_"${FIL:36:48}
+	ly_out1=${lossyear_outdir_ll}/${rootstring}"lossyear_"${FIL:36:48}
     echo "
 gdal_calc.py -A ${tr_inp} --outfile=${mask} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"0*(A<=29)+1*(A>29)*(A<=100)\" --NoDataValue=255 --overwrite
 gdal_calc.py -A ${tr_inp} -B ${mask} --outfile=${tr_out2} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite
 gdal_calc.py -A ${ga_inp} -B ${mask} --outfile=${ga_out1} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite
 gdal_calc.py -A ${ly_inp} -B ${mask} --outfile=${ly_out1} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite
-"> ./dyn/mask_gfc_${FIL:35:43}.sh
-    chmod u+x ./dyn/mask_gfc_${FIL:35:43}.sh
-    ./dyn/mask_gfc_${FIL:35:43}.sh
+"> ./dyn/mask_gfc_${FIL:36:44}.sh
+    chmod u+x ./dyn/mask_gfc_${FIL:36:44}.sh
+    ./dyn/mask_gfc_${FIL:36:44}.sh
 done
 exit

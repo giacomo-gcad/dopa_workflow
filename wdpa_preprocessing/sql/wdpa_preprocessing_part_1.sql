@@ -20,7 +20,6 @@ WHERE STATUS NOT IN ('Not Reported', 'Proposed')
 AND
 DESIG_ENG NOT IN ('UNESCO-MAB Biosphere Reserve')
 -- commented out on April 2021, no more need to remove it.
--- AND WDPAID NOT IN (903141) -- from February 2018: wdpaid 903141 (Primeval Beech Forests of the Carpathians and Other Regions of Europe) is excluded from all the analysis
 AND pa_def='1'                                                 -- ADDED ON JULY 2021 TO EXCLUDE OECM FROM PREPROCESSING
 GROUP BY WDPAID
 HAVING COUNT(WDPAID) > 1
@@ -41,7 +40,6 @@ WHERE STATUS NOT IN ('Not Reported', 'Proposed')
 AND
 DESIG_ENG NOT IN ('UNESCO-MAB Biosphere Reserve')
 -- commented out on April 2021, no more need to remove it.
--- AND WDPAID NOT IN (903141) -- from February 2018: wdpaid 903141 (Primeval Beech Forests of the Carpathians and Other Regions of Europe) is excluded from all the analysis
 AND pa_def='1'                                               -- ADDED ON JULY 2021 TO EXCLUDE OECM FROM PREPROCESSING
 GROUP BY WDPAID
 HAVING COUNT(WDPAID) = 1)
@@ -178,5 +176,3 @@ ADD COLUMN geom_was_invalid boolean DEFAULT FALSE;
 UPDATE :vSCHEMA.wdpa_geom_:vDATE
 SET geom_was_invalid = TRUE 
 WHERE ST_IsValid(geom) IS FALSE;
-
-

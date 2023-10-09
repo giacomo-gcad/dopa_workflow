@@ -27,7 +27,7 @@ NCORES=18
 
 ## PART I: COMPUTATION OF STATISTICS
 echo "Input raster: "${IN_RASTER}
-echo "now running r.stats in parallel on 383 CEP tiles and ${NCORES} threads"
+echo "now running r.stats in parallel on 383 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
 
 for eid in $(cat /globes/processing_current/cep_analysis/builtup_tiles_selected.txt)
 do	
