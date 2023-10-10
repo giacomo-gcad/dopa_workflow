@@ -27,17 +27,15 @@ The following sections are currently present:
 
 ### Computing Indicators ON [CEP](https://andreamandrici.github.io/dopa_workflow/flattening/)
 
-+  [categorical rasters](./cep_analysis/#CATEGORICAL_RASTERS) --to be completed
-+  [continuous rasters](./cep_analysis/#CONTINUOUS_RASTERS) --to be completed
++  [categorical rasters](./cep_analysis/#CATEGORICAL_RASTERS)
++  [continuous rasters](./cep_analysis/#CONTINUOUS_RASTERS)
 
 ### Other Indicators (non CEP)
 +  [THDI](./wdpa_processing/#THDI) --to be written
-+  [Pressures on buffers](./wdpa_processing/#Pressures) --to be written
 
 
 ## Authors
 
-*  Giacomo Delli.
-
-Many thanks to Andrea Mandrici. 
+* Giacomo Delli (computation of indicators).
+* Andrea Mandrici (computation of CEP). 
 
