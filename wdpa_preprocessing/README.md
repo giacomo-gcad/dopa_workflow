@@ -30,11 +30,11 @@ Steps from 4 to 8 are devoted to transfer of  PAs over 10 km2 and of buffers in 
 
 `exec_wdpa_import.sh`
 
-`exec_wdpa_preprocessing_part_1.sh` and its slave `wdpa_preprocessing_part_1.sql`
+`exec_wdpa_wdoecm_preprocessing_part_1.sh` and its slave `wdpa_wdoecm_preprocessing_part_1.sql`
 
 `fix_wdpa_geom.sql` , to be executed in postgis **STEP BY STEP**, checking results after each step and, in case of need, manually repairing invalid geometries.
 
-`exec_wdpa_preprocessing_part_2.sh` and its slave `wdpa_preprocessing_part_2.sql`
+`exec_wdpa_wdoecm_preprocessing_part_2.sh` and its slave `exec_wdpa_wdoecm_preprocessing_part_2.sql`
 
 ## **2. Creation of 10 km buffers**
 
@@ -46,7 +46,7 @@ Steps from 4 to 8 are devoted to transfer of  PAs over 10 km2 and of buffers in 
 
 **SCRIPTS**: `exec_buffers_processing.sh` and its slave `wdpa_buffers_processing.sql`; 
 
-**N.B.** The 10km buffers computed here on PAs over 5 km2 are 'gross' buffers, while the 'unprotected' buffers are computed in GRASS (see Step 6 below).
+**N.B.** The 10km buffers computed here on PAs over 5 km2 are 'gross' buffers, while the 'unprotected' buffers are built as flat layer, using the same procedure used for [CEP](https://andreamandrici.github.io/dopa_workflow/flattening/).
 
 
 ## **3. Data preparation for GRASS**
@@ -62,35 +62,22 @@ Text files with lists of PAs and buffers are used in all the GRASS based scripts
 
 **SCRIPTS**: `exec_prepare_data_x_grass.sh` and its slave `prepare_data_x_grass.sql`
 
-## **4. Creation of wdpa_flat** (required to produce at a later stage unprotected buffers in GRASS)
-This flat is required in order to compute unprotected buffers (see Step 6)
+## **4. Data transfer from PG to GRASS**
 
-  4.1 Import in GRASS database the whole WDPA dataset, without attributes table.
+  4.1 Iterates views of PAs to export each view in shapefile with ogr2ogr.
 
-  4.2 Running in parallel on 32 different regions, converts to raster the vector WDPA at 3 arc-seconds resolution (about 90m at the equator).
+  4.2	Imports individual shapefiles of PAs in GRASS database using v.in.ogr.
 
-  4.3 Using r.patch, mosaic the 32 raster tiles into a single raster layer.
-
-**SCRIPTS**:`exec_make_flat.sh` and its slave `slave_make_flat.sh`
-
-## **5. Data transfer from PG to GRASS**
-
-  5.1 Iterates views of PAs to export each view in shapefile with ogr2ogr.
-
-  5.2	Imports individual shapefiles of PAs and buffers in GRASS database using v.in.ogr.
-
-  5.3 Import and process individual shapefiles of BUs: buffers are erased with wdpa_flat in order to keep only their unprotected portion.
-
-**SCRIPTS**:`exec_pg_to_grass.sh` and its slaves `slave_pg_to_grass.sh` and `slave_unprot_buffer.sh`
+**SCRIPTS**:`exec_pg_to_grass.sh` and its slave `slave_pg_to_grass.sh` 
 
 **N.B.** Recommended n. of cores for this step: **no more than 40 cores (edit wdpa_preprocessing.conf accordingly)**. Using more than 40 cores may result in FATAL errors of ogr2ogr (too many connections).
 
-## **6. Reprojection in Mollweide of individual PAs and BUs layers** 
-
-  6.1 Iterates vector layers in GRASS database (WGS84LL location) of PAs and buffers and reproject them in Mollweide. Results are stored into MOLLWEIDE location.
+## **5. Reprojection in Mollweide of individual PAs ** 
+ 
+  5.1 Iterates vector layers in GRASS database (WGS84LL location) of PAs and reproject them in Mollweide. Results are stored into MOLLWEIDE location.
 
 **SCRIPTS**:`exec_project_pa_bu.sh` and its slave `slave_project_pa_bu.sh`
 
 **NOTES**: Reprojection in Mollweide of PAs is required for computation of THDI (Terrestrial Habitat Diversity Profile) indicator (see [wdpa_processing](/wdpa_processing/#THDI)  section).
-Preparation of Unprotected buffers using the flattening approach sa for CEP is under test. If successful, computation of buffers and their reprojection in Mollweide could be limited to PAs.
+
 
