@@ -1,4 +1,4 @@
-# WDPA PREPROESSING
+# WDPA PREPROCESSING
 
 After downloading of the WDPA zip file, a series of steps are run in order to pre-process and prepare all the necessary tables and layers for the subsequent analysis phase. All the scripts needed for this phase are stored into **/wdpa\_preprocessing/** folder.
 
