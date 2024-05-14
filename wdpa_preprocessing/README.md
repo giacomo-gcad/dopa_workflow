@@ -7,9 +7,9 @@ All parameters used by scripts are stored in the configuration file **[/servicef
 
 N.B. passwords for connection to PostgreSQL database are not explicitly written  in the .conf file. Instead, they are read from the docker .pgpass file. Different settings on different docker machines could have different beahvours and it could be needed to edit the definition of the 'dbpar1' and/or 'dbpar2' in the exec* scripts.
 
-Steps from 1 to 3 are devoted to the preparation of the three base wdpa datasets: all PAs, PAs over 5 km2 and 10km buffers on PAs over 10 km2.
+Steps from 1 to 3 are devoted to the preparation of the base wdpa dataset (containing all relevant PAs) to be used for the preparation of the CEP. Also, a layer with  10km buffers on PAs over 10 km2 is created.
 
-Steps from 4 to 8 are devoted to transfer of  PAs over 10 km2 and of buffers in GRASS for subsequent analysis.
+Steps from 4 to 8 are devoted to transfer of PAs over 5 km2 and of buffers in GRASS for subsequent computation of .
 
 ## **1. Data Import**
 
