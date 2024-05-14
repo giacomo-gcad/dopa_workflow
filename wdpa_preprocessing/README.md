@@ -72,7 +72,7 @@ Text files with lists of PAs and buffers are used in all the GRASS based scripts
 
 **N.B.** Recommended n. of cores for this step: **no more than 40 cores (edit wdpa_preprocessing.conf accordingly)**. Using more than 40 cores may result in FATAL errors of ogr2ogr (too many connections).
 
-## **5. Reprojection in Mollweide of individual PAs ** 
+## **5. Reprojection in Mollweide of individual PAs** 
  
   5.1 Iterates vector layers in GRASS database (WGS84LL location) of PAs and reproject them in Mollweide. Results are stored into MOLLWEIDE location.
 
