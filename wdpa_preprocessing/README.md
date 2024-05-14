@@ -1,4 +1,4 @@
-# WDPA PREPROESSING
+# WDPA PREPROCESSING
 
 After downloading of the WDPA zip file, a series of steps are run in order to pre-process and prepare all the necessary tables and layers for the subsequent analysis phase. All the scripts needed for this phase are stored into **/wdpa\_preprocessing/** folder.
 
@@ -7,9 +7,9 @@ All parameters used by scripts are stored in the configuration file **[/servicef
 
 N.B. passwords for connection to PostgreSQL database are not explicitly written  in the .conf file. Instead, they are read from the docker .pgpass file. Different settings on different docker machines could have different beahvours and it could be needed to edit the definition of the 'dbpar1' and/or 'dbpar2' in the exec* scripts.
 
-Steps from 1 to 3 are devoted to the preparation of the three base wdpa datasets: all PAs, PAs over 5 km2 and 10km buffers on PAs over 10 km2.
+Steps from 1 to 3 are devoted to the preparation of the base wdpa dataset (containing all relevant PAs) to be used for the preparation of the CEP. Also, a layer with  10km buffers on PAs over 10 km2 is created.
 
-Steps from 4 to 8 are devoted to transfer of  PAs over 10 km2 and of buffers in GRASS for subsequent analysis.
+Steps from 4 to 8 are devoted to transfer of PAs over 5 km2 and of buffers in GRASS for subsequent computation of .
 
 ## **1. Data Import**
 
@@ -72,7 +72,7 @@ Text files with lists of PAs and buffers are used in all the GRASS based scripts
 
 **N.B.** Recommended n. of cores for this step: **no more than 40 cores (edit wdpa_preprocessing.conf accordingly)**. Using more than 40 cores may result in FATAL errors of ogr2ogr (too many connections).
 
-## **5. Reprojection in Mollweide of individual PAs ** 
+## **5. Reprojection in Mollweide of individual PAs** 
  
   5.1 Iterates vector layers in GRASS database (WGS84LL location) of PAs and reproject them in Mollweide. Results are stored into MOLLWEIDE location.
 
