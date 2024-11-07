@@ -63,6 +63,7 @@ wait
 ## PART IV : CLEAN UP (delete mapsets and intermediate files)
 rm -rf ${LOCATION_LL_PATH}/ltc_*
 rm -f ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv
+echo dyn/*.sh |xargs rm -f
 
 enddate=`date +%s`
 runtime=$(((enddate-startdate) / 60))

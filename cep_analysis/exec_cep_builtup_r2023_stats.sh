@@ -13,7 +13,7 @@ source ${SERVICEDIR}/cep_processing.conf
 
 ########################################################################################################
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="builtup2000"
+IN_RASTER="builtup2020"
 IN_RASTER_MAPSET="BUILTUP2023"
 ########################################################################################################
 
@@ -33,7 +33,7 @@ for eid in {1..648}
 do	
 	TMP_MAPSET=rst_${eid}
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
-	OUTCSV=${OUTCSV_ROOT}_${eid}.csv
+	OUTCSV=${OUTCSV_ROOT}_${eid}
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
 	echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}_${eid}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
 done | parallel -j ${NCORES}

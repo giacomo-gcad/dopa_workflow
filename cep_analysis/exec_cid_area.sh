@@ -16,15 +16,15 @@ NCORES=40
 
 ########################################################################################################
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="mammals"
-IN_RASTER_MAPSET="SPECIES"
+IN_RASTER="esalc_2020"
+IN_RASTER_MAPSET="CATRASTERS"
 ########################################################################################################
 
 ## Derived variables
 LOCATION_LL_PATH=${DATABASE}/${LOCATION_LL}
 PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
 OUTCSV_ROOT="cep_"${IN_RASTER}
-FINALCSV="cid_area_cep_"${wdpadate}"_"${IN_RASTER}
+FINALCSV="cid_area_cep_"${IN_RASTER}"_"${wdpadate}
 
 ## PART I: COMPUTATION OF STATISTICS
 

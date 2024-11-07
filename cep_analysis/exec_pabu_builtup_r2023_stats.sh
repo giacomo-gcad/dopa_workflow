@@ -13,7 +13,7 @@ source ${SERVICEDIR}/cep_processing.conf
 
 ########################################################################################################
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="builtup2000"
+IN_RASTER="builtup2020"
 IN_RASTER_MAPSET="BUILTUP2023"
 ########################################################################################################
 
@@ -68,7 +68,7 @@ psql ${dbpar2} -t -c "\copy ${RESULTSCH}.${FINALCSV} FROM '${RESULTSPATH}/${FINA
 
 
 ## PART V: COMPUTE AREA OF CIDs at BUILT UP RESOLUTION (NEEDED FOR POSTPROCESSING)
-IN_RASTER="builtup2000"
+IN_RASTER="builtup2020"
 	
 for eid in $(cat pabu_builtup_common_tiles.txt)
 do

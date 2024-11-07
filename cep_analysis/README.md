@@ -1,6 +1,6 @@
 # COMPUTATION OF DOPA INDICATORS
 
-Most of thematic rater layers used of computation of indicators can be analysed using the [CEP](https://andreamandrici.github.io/dopa_workflow/flattening/) in order to get, with a single run, disaggregated data for country, ecoregion and pa.
+Most of thematic raster layers used for computation of indicators can be analysed using the [CEP](https://andreamandrici.github.io/dopa_workflow/flattening/) in order to get, with a single run, disaggregated data for country, ecoregion and PA.
 Based on the type of raster layer to be analyzed, two different GRASS functions are used:
 + Categorical rasters : [r.stats](https://grass.osgeo.org/grass82/manuals/r.stats.html)
 	The surface in square meters of each category of the raster is computed for each object (cid) of the CEP	
@@ -64,11 +64,11 @@ The [qid_index.csv](../servicefiles/qid_index.csv) file can be generated in pg f
 
 The two scripts perform the following operations:
 + launch in parallel a slave script for each eid tile; the slave performs the followings:
-	+ set the region on each qid and run r.univar with extended statistics. A csv file is written i output foe each qid;
+	+ set the region on each qid and run r.univar with extended statistics. A csv file is written in output foe each qid;
 	+ post-process each csv file:
 		- remove header;
 		- add eid and qid values at the beginning of each line;
-		- replace 'nan' with 0.
+		- replace 'nan' and '-nan' with 0.
 	+ aggregate all csv files  for that eid.
 + aggregate all the csv files into a single one
 + build a table in pg database and import the final csv.
@@ -82,7 +82,10 @@ The following indicators, for which PAs are the only reporting level, are comput
 - Marine Habitat Diversity Indicator (MHDI)  for marine protected areas
 
 ### NOTES
-1. In order to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid [...] (topic to be expanded)
+1. In order to optimize processing time, both CEP and thematic layers should be cutted in tiles using the same grid.  
+This is not needed for certain datasets (such as Global Surface Water and Global Forest Change) that are already distributed as 10x10 degress tiles.  
+Still, renaming each tile in GRASS db using the same numeric identified of CEP tiles (eid) allows to perform the analysis on pairs of tiles insted of 1 tile vs. a global dataset. This decreases the amount of memory required and, as a consequence, allows to increase the number of cores used for parallelization [...] (topic to be expanded)
+Also, it's not needed for medium to low resolution (= >100m) datasets such as LPD, ESA-CCI land cover, etc.
 
 2. When data are available only for land, processing time can be significantly reduced by processing only eid tiles including non null values in the considered raster. It is particularly useful for high resolution rasters such as GFC and GHS Built up.
 This can be implemented by replacing
@@ -108,5 +111,3 @@ This can be implemented by replacing
 		for eid in {109..612} 
 		  do this and that
 		done
-
-

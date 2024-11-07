@@ -58,7 +58,7 @@ do
 	psql ${dbpar2} -t -c "DELETE FROM ${RESULTSCH}.${FINALCSV} WHERE cid =0"
 
 	## PART V : CLEAN UP (delete intermediate results)
-	rm -f ./dyn/rstats_*.sh
+	echo dyn/*.sh |xargs rm -f
 
 	for eid in {1..648}
 	do	
@@ -69,6 +69,7 @@ done
 
 ## PART VI : CLEAN UP (delete mapsets)
 rm -rf ${LOCATION_LL_PATH}/rst_*
+
 
 enddate=`date +%s`
 runtime=$(((enddate-startdate) / 60))

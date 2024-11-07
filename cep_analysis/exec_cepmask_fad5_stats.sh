@@ -11,13 +11,19 @@ startdate=`date +%s`
 SERVICEDIR="/globes/processing_current/servicefiles"
 source ${SERVICEDIR}/cep_processing.conf
 
-## OVERRIDE NCORES DEFINED IN CONF FILE
-NCORES=54
+## If the script is called by compute_stats_cep_masked.sh, the year parameter is inherited, otherwise it has to be manually set
+year=$1
+# year="2020"
+
+
+## OVERRIDE PARAMETERS DEFINED IN CONF FILE
+CEPMASK_MAPSET="GAUL_EEZ"
+NCORES=70
 
 ########################################################################################################
 # DEFINE CONTINUOUS RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.UNIVAR
-IN_RASTER="gebco2024"
-IN_RASTER_MAPSET="CONRASTERS"
+IN_RASTER="fad5_23_"${year}"_masked"
+IN_RASTER_MAPSET="CATRASTERS"
 ########################################################################################################
 
 ## Derived variables
@@ -26,20 +32,21 @@ PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
 OUTCSV_ROOT="cep_"${IN_RASTER}
 FINALCSV="r_univar_"${OUTCSV_ROOT}"_${wdpadate}"
 
+startdate_w=`date +%s`
+
 ## PART I: COMPUTATION OF STATISTICS
 
 echo "Input raster: "${IN_RASTER}@${IN_RASTER_MAPSET}
 echo "now running r.univar in parallel on 648 CEP tiles and "${IN_RASTER}" using "${NCORES}" threads"
 
 for eid in {1..648}
-# for eid in {109..612}
 do	
 	TMP_MAPSET=qwe_${eid}
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 	OUTCSV=${OUTCSV_ROOT}_${eid}
 	grass ${PERMANENT_LL_MAPSET} -f --exec g.mapset --o --q -c ${TMP_MAPSET}
 	wait
-	echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+	echo "/globes/processing_current/cep_analysis/slave_cep_fad5_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEPMASK_MAPSET} ${year}"
 done | parallel -j ${NCORES}
 
 wait
@@ -64,14 +71,10 @@ wait
 ## PART IV : CLEAN UP (delete mapsets and intermediate files)
 rm -rf ${LOCATION_LL_PATH}/qwe_*
 rm -f ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv
-echo dyn/*.sh |xargs rm -f
 
-enddate=`date +%s`
-runtime=$(((enddate-startdate) / 60))
+enddate_w=`date +%s`
+runtime_w=$(((enddate_w-startdate_w) / 60))
 
 echo "---------------------------------------------------------------------------------------"
-echo "Script $(basename "$0") ended at $(date)"
+echo "Stats on CEP and ${IN_RASTER} computed in "${runtime_w}" minutes using "${NCORES}" cores "
 echo "---------------------------------------------------------------------------------------"
-echo "Stats on CEP and ${IN_RASTER} computed in "${runtime}" minutes using "${NCORES}" cores "
-echo "---------------------------------------------------------------------------------------"
-exit

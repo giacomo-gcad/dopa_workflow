@@ -1,5 +1,5 @@
 #!/bin/bash
-##COMPUTE STATISTICS ON CEP AND A USER DEFINED CATEGORICAL RASTER
+##COMPUTE STATISTICS ON CEP AND A USER DEFINED CONTINUOUS RASTER
 
 echo "-----------------------------------------------------------------------------------"
 echo "--- Script $(basename "$0") started at $(date)"
@@ -13,11 +13,16 @@ source ${SERVICEDIR}/cep_processing.conf
 
 ## OVERRIDE NCORES DEFINED IN CONF FILE
 NCORES=64
+CEP_MAPSET="GAUL_EEZ"
+######################################
+# YEAR TO BE CHECKED BEFORE RUNNING
+year="2016"
 
+######################################
 ########################################################################################################
-# DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="gsoc_tot"
-IN_RASTER_MAPSET="CONRASTERS"
+# DEFINE CONTINUOUS RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.UNIVAR
+IN_RASTER="fad5_23_${year}_masked"
+IN_RASTER_MAPSET="CATRASTERS"
 ########################################################################################################
 
 ## Derived variables
@@ -26,10 +31,12 @@ PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
 OUTCSV_ROOT="cep_"${IN_RASTER}
 FINALCSV="r_univar_"${OUTCSV_ROOT}"_${wdpadate}"
 
+startdate_w=`date +%s`
+
 ## PART I: COMPUTATION OF STATISTICS
 
 echo "Input raster: "${IN_RASTER}@${IN_RASTER_MAPSET}
-echo "now running r.stats in parallel on 648 CEP tiles and "${NCORES}" threads"
+echo "now running r.univar in parallel on 648 CEP tiles and "${IN_RASTER}" using "${NCORES}" threads"
 
 for eid in {1..648}
 do	
@@ -38,7 +45,7 @@ do
 	OUTCSV=${OUTCSV_ROOT}_${eid}
 	grass ${PERMANENT_LL_MAPSET} -f --exec g.mapset --o --q -c ${TMP_MAPSET}
 	wait
-	echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+	echo "./slave_cep_fad5_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET} ${year}"
 done | parallel -j ${NCORES}
 
 wait
@@ -64,12 +71,21 @@ wait
 rm -rf ${LOCATION_LL_PATH}/qwe_*
 rm -f ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv
 
+enddate_w=`date +%s`
+runtime_w=$(((enddate_w-startdate_w) / 60))
+
+echo "---------------------------------------------------------------------------------------"
+echo "Stats on CEP and ${IN_RASTER} computed in "${runtime_w}" minutes using "${NCORES}" cores "
+echo "---------------------------------------------------------------------------------------"
+
+wait
+
 enddate=`date +%s`
 runtime=$(((enddate-startdate) / 60))
-
 echo "---------------------------------------------------------------------------------------"
 echo "Script $(basename "$0") ended at $(date)"
 echo "---------------------------------------------------------------------------------------"
-echo "Stats on CEP and ${IN_RASTER} computed in "${runtime}" minutes using "${NCORES}" cores "
+echo "Stats computed in "${runtime}" minutes using "${NCORES}" cores "
 echo "---------------------------------------------------------------------------------------"
+
 exit

@@ -12,18 +12,18 @@ SERVICEDIR="/globes/processing_current/servicefiles"
 source ${SERVICEDIR}/cep_processing.conf
 
 ## OVERRIDE NCORES DEFINED IN CONF FILE
-NCORES=15
+NCORES=30
 
 ########################################################################################################
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="gsw_transitions_2021"
-IN_RASTER_MAPSET="CATRASTERS"
+IN_RASTER="gsw"
+IN_RASTER_MAPSET="GSW"
 ########################################################################################################
 
 ## Derived variables
 LOCATION_LL_PATH=${DATABASE}/${LOCATION_LL}
 PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
-OUTCSV_ROOT="cep_"${IN_RASTER}
+OUTCSV_ROOT="cep_"${IN_RASTER}"_transitions_2021"
 FINALCSV="r_stats_"${OUTCSV_ROOT}"_"${wdpadate}
 
 ## PART I: COMPUTATION OF STATISTICS
@@ -37,7 +37,7 @@ do
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 	OUTCSV=${OUTCSV_ROOT}_${eid}.csv
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
-	echo "./slave_cep_catraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+	echo "./slave_cep_catraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}_${eid}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
 done | parallel -j ${NCORES}
 
 wait
@@ -62,7 +62,7 @@ psql ${dbpar2} -t -c "DELETE FROM ${RESULTSCH}.${FINALCSV} WHERE cid =0"
 
 ## PART V : CLEAN UP (delete mapsets and intermediate results)
 rm -rf ${LOCATION_LL_PATH}/rst_*
-rm -f ./dyn/rstats_*.sh
+echo dyn/*.sh |xargs rm -f
 
 for eid in {109..612}
 do	

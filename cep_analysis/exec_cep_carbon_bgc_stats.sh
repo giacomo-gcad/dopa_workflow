@@ -16,7 +16,7 @@ NCORES=54
 
 ########################################################################################################
 # DEFINE CONTINUOUS RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.UNIVAR
-IN_RASTER="bgc2020_100m"
+IN_RASTER="bgc2021_100m"
 IN_RASTER_MAPSET="CARBON"
 ########################################################################################################
 
@@ -63,6 +63,7 @@ wait
 ## PART IV : CLEAN UP (delete mapsets and intermediate files)
 rm -rf ${LOCATION_LL_PATH}/qwe_*
 rm -f ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv
+echo dyn/*.sh |xargs rm -f
 
 enddate=`date +%s`
 runtime=$(((enddate-startdate) / 60))

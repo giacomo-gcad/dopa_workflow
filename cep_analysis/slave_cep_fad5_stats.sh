@@ -7,6 +7,7 @@ RESULTSPATH=$3
 IN_RASTER=$4
 OUTCSV=$5
 CEP_MAPSET=$6
+YEAR=$7
 
 SERVICEDIR="/globes/processing_current/servicefiles"
 starttime=`date +%s`
@@ -32,7 +33,7 @@ do
 ## SET REGION
 ${region_str}
 ## ANALYZE IN_RASTER WITH R.UNIVAR
-r.univar --q -e -t map=${IN_RASTER} zones=ceptile_${eid}@${CEP_MAPSET} output=${SUBDIR}/z_${OUTCSV}_${qid}.csv
+r.univar --q -e -t map=${IN_RASTER} zones=cepmask_${YEAR}_${eid}@${CEP_MAPSET} output=${SUBDIR}/z_${OUTCSV}_${qid}.csv
 exit
 " > ./dyn/runivar_${eid}_${qid}.sh
 	chmod u+x ./dyn/runivar_${eid}_${qid}.sh

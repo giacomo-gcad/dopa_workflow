@@ -35,7 +35,7 @@ echo "now running r.univar in parallel on 504 CEP tiles and "${IN_RASTER}" using
 ##for eid in $(cat /globes/processing_current/cep_analysis/treecover_tiles_selected.txt)
 for eid in {109..612}
 do	
-	TMP_MAPSET=qwe_${eid}
+	TMP_MAPSET=rst_${eid}
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 	OUTCSV=${OUTCSV_ROOT}_${eid}
 	grass ${PERMANENT_LL_MAPSET} -f --exec g.mapset --o --q -c ${TMP_MAPSET}
@@ -63,8 +63,9 @@ psql ${dbpar2} -t -c "\copy ${RESULTSCH}.${FINALCSV} FROM '${RESULTSPATH}/${FINA
 wait
 
 ## PART IV : CLEAN UP (delete mapsets and intermediate files)
-rm -rf ${LOCATION_LL_PATH}/qwe_*
+rm -rf ${LOCATION_LL_PATH}/rst_*
 rm -f ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv
+echo dyn/*.sh |xargs rm -f
 
 enddate=`date +%s`
 runtime=$(((enddate-startdate) / 60))
