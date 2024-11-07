@@ -74,7 +74,7 @@ The two scripts perform the following operations:
 + build a table in pg database and import the final csv.
 
 #### SPECIAL CASES
-The following indicators, for which PAs are the only reporting level, are computed out of CEP workflow, using as input the individual layers of each PA imported in GRASS.  
+1. The following indicators, for which PAs are the only reporting level, are computed out of CEP workflow, using as input the individual layers of each PA imported in GRASS.  
 
 - Monthly climate statistics (Rainfall, Tmax, Tmean and Tmin) for terrestrial protected areas
 - Sea Surface temperature (SST)  for marine protected areas
@@ -111,3 +111,5 @@ This can be implemented by replacing
 		for eid in {109..612} 
 		  do this and that
 		done
+  
+3. A [master script](./cep_analysis/master_cep_themes_stats.sh) has been created to run in sequence the scripts for the analysis of all  presently used thematic datasets, writing a specific logfile for each script.
