@@ -1,6 +1,6 @@
 # DOPA workflow
 
-This is repo for [DOPA](https://dopa.jrc.ec.europa.eu/en) workflow.
+This is repo for [DOPA](https://dopa.jrc.ec.europa.eu/dopa/) workflow.
 
 This repo provides the workflow for 
 
@@ -14,7 +14,7 @@ The following sections are currently present:
 
 ## Data sources
 
-+  [Base Layers](./BaseLayers.md)
++  [Base Layers](https://andreamandrici.github.io/dopa_workflow/sources/Base_Layers.html)
 
 
 ## Pre Processing

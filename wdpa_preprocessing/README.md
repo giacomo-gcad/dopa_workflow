@@ -26,7 +26,7 @@ Steps from 4 to 8 are devoted to transfer of PAs over 5 km2 and of buffers in GR
 
   1.4 Creation of final wdpa table with attributes and wdpa_o5 (>5 sq.km.) table.
 
-**SCRIPTS** (to be executed in this order): 
+**SCRIPTS** (to be executed in this sequence): 
 
 `exec_wdpa_import.sh`
 
