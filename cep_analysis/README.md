@@ -112,4 +112,4 @@ This can be implemented by replacing
 		  do this and that
 		done
   
-3. A [master script](./cep_analysis/master_cep_themes_stats.sh) has been created to run in sequence the scripts for the analysis of all  presently used thematic datasets, writing a specific logfile for each script.
+3. A [master script](./master_cep_themes_stats.sh) has been created to run in sequence the scripts for the analysis of all  presently used thematic datasets, writing a specific logfile for each script.
