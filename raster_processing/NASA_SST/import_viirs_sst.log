@@ -1,0 +1,3802 @@
+Script import_viirs_sst_new.sh started at Thu Oct 10 02:49:17 PM CEST 2024
+SNPP_VIIRS.20120101_20120131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201201> created.
+SNPP_VIIRS.20120201_20120229.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201202> created.
+SNPP_VIIRS.20120301_20120331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201203> created.
+SNPP_VIIRS.20120401_20120430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201204> created.
+SNPP_VIIRS.20120501_20120531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201205> created.
+SNPP_VIIRS.20120601_20120630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201206> created.
+SNPP_VIIRS.20120701_20120731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201207> created.
+SNPP_VIIRS.20120801_20120831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201208> created.
+SNPP_VIIRS.20120901_20120930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201209> created.
+SNPP_VIIRS.20121001_20121031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201210> created.
+SNPP_VIIRS.20121101_20121130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201211> created.
+SNPP_VIIRS.20121201_20121231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201212> created.
+SNPP_VIIRS.20210101_20210131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202101> created.
+SNPP_VIIRS.20210201_20210228.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202102> created.
+SNPP_VIIRS.20210301_20210331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202103> created.
+SNPP_VIIRS.20210401_20210430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202104> created.
+SNPP_VIIRS.20210501_20210531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202105> created.
+SNPP_VIIRS.20210601_20210630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202106> created.
+SNPP_VIIRS.20210701_20210731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202107> created.
+SNPP_VIIRS.20210801_20210831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202108> created.
+SNPP_VIIRS.20210901_20210930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202109> created.
+SNPP_VIIRS.20211001_20211031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202110> created.
+SNPP_VIIRS.20211101_20211130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202111> created.
+SNPP_VIIRS.20211201_20211231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202112> created.
+SNPP_VIIRS.20220101_20220131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202201> created.
+SNPP_VIIRS.20220201_20220228.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202202> created.
+SNPP_VIIRS.20220301_20220331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202203> created.
+SNPP_VIIRS.20220401_20220430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202204> created.
+SNPP_VIIRS.20220501_20220531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202205> created.
+SNPP_VIIRS.20220601_20220630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202206> created.
+SNPP_VIIRS.20220701_20220731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202207> created.
+SNPP_VIIRS.20220801_20220831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202208> created.
+SNPP_VIIRS.20220901_20220930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202209> created.
+SNPP_VIIRS.20221001_20221031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202210> created.
+SNPP_VIIRS.20221101_20221130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202211> created.
+SNPP_VIIRS.20221201_20221231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202212> created.
+SNPP_VIIRS.20130101_20130131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201301> created.
+SNPP_VIIRS.20130201_20130228.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201302> created.
+SNPP_VIIRS.20130301_20130331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201303> created.
+SNPP_VIIRS.20130401_20130430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201304> created.
+SNPP_VIIRS.20130501_20130531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201305> created.
+SNPP_VIIRS.20130601_20130630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201306> created.
+SNPP_VIIRS.20130701_20130731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201307> created.
+SNPP_VIIRS.20130801_20130831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201308> created.
+SNPP_VIIRS.20130901_20130930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201309> created.
+SNPP_VIIRS.20131001_20131031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201310> created.
+SNPP_VIIRS.20131101_20131130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201311> created.
+SNPP_VIIRS.20131201_20131231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201312> created.
+SNPP_VIIRS.20140101_20140131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201401> created.
+SNPP_VIIRS.20140201_20140228.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201402> created.
+SNPP_VIIRS.20140301_20140331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201403> created.
+SNPP_VIIRS.20140401_20140430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201404> created.
+SNPP_VIIRS.20140501_20140531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201405> created.
+SNPP_VIIRS.20140601_20140630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201406> created.
+SNPP_VIIRS.20140701_20140731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201407> created.
+SNPP_VIIRS.20140801_20140831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201408> created.
+SNPP_VIIRS.20140901_20140930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201409> created.
+SNPP_VIIRS.20141001_20141031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201410> created.
+SNPP_VIIRS.20141101_20141130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201411> created.
+SNPP_VIIRS.20141201_20141231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201412> created.
+SNPP_VIIRS.20150101_20150131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201501> created.
+SNPP_VIIRS.20150201_20150228.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201502> created.
+SNPP_VIIRS.20150301_20150331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201503> created.
+SNPP_VIIRS.20150401_20150430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201504> created.
+SNPP_VIIRS.20150501_20150531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201505> created.
+SNPP_VIIRS.20150601_20150630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201506> created.
+SNPP_VIIRS.20150701_20150731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201507> created.
+SNPP_VIIRS.20150801_20150831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201508> created.
+SNPP_VIIRS.20150901_20150930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201509> created.
+SNPP_VIIRS.20151001_20151031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201510> created.
+SNPP_VIIRS.20151101_20151130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201511> created.
+SNPP_VIIRS.20151201_20151231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201512> created.
+SNPP_VIIRS.20160101_20160131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201601> created.
+SNPP_VIIRS.20160201_20160229.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201602> created.
+SNPP_VIIRS.20160301_20160331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201603> created.
+SNPP_VIIRS.20160401_20160430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201604> created.
+SNPP_VIIRS.20160501_20160531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201605> created.
+SNPP_VIIRS.20160601_20160630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201606> created.
+SNPP_VIIRS.20160701_20160731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201607> created.
+SNPP_VIIRS.20160801_20160831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201608> created.
+SNPP_VIIRS.20160901_20160930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201609> created.
+SNPP_VIIRS.20161001_20161031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201610> created.
+SNPP_VIIRS.20161101_20161130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201611> created.
+SNPP_VIIRS.20161201_20161231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201612> created.
+SNPP_VIIRS.20170101_20170131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201701> created.
+SNPP_VIIRS.20170201_20170228.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201702> created.
+SNPP_VIIRS.20170301_20170331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201703> created.
+SNPP_VIIRS.20170401_20170430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201704> created.
+SNPP_VIIRS.20170501_20170531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201705> created.
+SNPP_VIIRS.20170601_20170630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201706> created.
+SNPP_VIIRS.20170701_20170731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201707> created.
+SNPP_VIIRS.20170801_20170831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201708> created.
+SNPP_VIIRS.20170901_20170930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201709> created.
+SNPP_VIIRS.20171001_20171031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201710> created.
+SNPP_VIIRS.20171101_20171130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201711> created.
+SNPP_VIIRS.20171201_20171231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201712> created.
+SNPP_VIIRS.20180101_20180131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201801> created.
+SNPP_VIIRS.20180201_20180228.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201802> created.
+SNPP_VIIRS.20180301_20180331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201803> created.
+SNPP_VIIRS.20180401_20180430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201804> created.
+SNPP_VIIRS.20180501_20180531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201805> created.
+SNPP_VIIRS.20180601_20180630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201806> created.
+SNPP_VIIRS.20180701_20180731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201807> created.
+SNPP_VIIRS.20180801_20180831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201808> created.
+SNPP_VIIRS.20180901_20180930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201809> created.
+SNPP_VIIRS.20181001_20181031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201810> created.
+SNPP_VIIRS.20181101_20181130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201811> created.
+SNPP_VIIRS.20181201_20181231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305204 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201812> created.
+SNPP_VIIRS.20190101_20190131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201901> created.
+SNPP_VIIRS.20190201_20190228.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201902> created.
+SNPP_VIIRS.20190301_20190331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201903> created.
+SNPP_VIIRS.20190401_20190430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201904> created.
+SNPP_VIIRS.20190501_20190531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201905> created.
+SNPP_VIIRS.20190601_20190630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201906> created.
+SNPP_VIIRS.20190701_20190731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201907> created.
+SNPP_VIIRS.20190801_20190831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201908> created.
+SNPP_VIIRS.20190901_20190930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201909> created.
+SNPP_VIIRS.20191001_20191031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201910> created.
+SNPP_VIIRS.20191101_20191130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201911> created.
+SNPP_VIIRS.20191201_20191231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_201912> created.
+SNPP_VIIRS.20200101_20200131.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202001> created.
+SNPP_VIIRS.20200201_20200229.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202002> created.
+SNPP_VIIRS.20200301_20200331.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202003> created.
+SNPP_VIIRS.20200401_20200430.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202004> created.
+SNPP_VIIRS.20200501_20200531.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202005> created.
+SNPP_VIIRS.20200601_20200630.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202006> created.
+SNPP_VIIRS.20200701_20200731.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202007> created.
+SNPP_VIIRS.20200801_20200831.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202008> created.
+SNPP_VIIRS.20200901_20200930.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202009> created.
+SNPP_VIIRS.20201001_20201031.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202010> created.
+SNPP_VIIRS.20201101_20201130.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202011> created.
+SNPP_VIIRS.20201201_20201231.L3m.MO.SST.sst.4km.nc
+No projection information available
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Over-riding projection check
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000122077 cells
+360 degree EW extent is exceeded by 0.000244169 cells (East: 180, West:
+-180)
+Reading band 1 of 1...
+Link to raster map <sst_202012> created.
+External files imported in grass
+Default TGIS driver / database set to:
+driver: sqlite
+database: $GISDBASE/$LOCATION_NAME/$MAPSET/tgis/sqlite.db
+WARNING: Temporal database connection defined as:
+         /globes/USERS/GIACOMO/GRASSDATA/WGS84LL/NASA_SST/tgis/sqlite.db
+         But database file does not exist.
+Creating temporal database:
+/globes/USERS/GIACOMO/GRASSDATA/WGS84LL/NASA_SST/tgis/sqlite.db
+   0%90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+  37%90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+  75%90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+ 100%
+   0%  37%  75% 100%
+Thu Oct 10 02:54:44 PM CEST 2024
+Time series created
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+projection: 3 (Latitude-Longitude)
+zone:       0
+datum:      wgs84
+ellipsoid:  wgs84
+north:      89:59:59.990849N
+south:      90:00:00.045781S
+west:       180:00:00.018313W
+east:       180:00:00.018313E
+nsres:      0:02:30.000008
+ewres:      0:02:30.000004
+rows:       4320
+cols:       8640
+cells:      37324800
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+average computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+minimum computed.
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+90 degree south is exceeded by 0.00012208 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+   0%   3%   6%   9%  12%  15%  18%  21%  24%  27%  30%  33%  36%  39%  42%  45%  48%  51%  54%  57%  60%  63%  66%  69%  72%  75%  78%  81%  84%  87%  90%  93%  96%  99% 100%
+90 degree south is exceeded by 0.000305207 cells
+360 degree EW extent is exceeded by 0.000244173 cells (East: 180, West:
+-180)
+maximum computed.
+Average, minimum and maximum values computed
+----------------------------------------------------------------------
+VIIRS SST MONTHLY DATA IMPORTED AND PROCESSED in 19 minutes 
+----------------------------------------------------------------------

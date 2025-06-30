@@ -6,15 +6,8 @@ startdate=`date +%s`
 
 set -o nounset  # Break if a variable is unset
 
-## SET VARIABLES
-NCORES=56
-base_indir="/spatial_data/Original_Datasets/GLOBAL_FOREST_CHANGE/archives/2022_V1.1"
-base_outdir="/spatial_data/Derived_Datasets/RASTER/GFC/2022_V1.1"
-temp_dir="/spatial_data/Derived_Datasets/RASTER/temp"  	# CREATED BY THE SCRIPT
-rootstring="Hansen_GFC-2022-v1.10_"						# REMEMBER TO UPDATE THIS STRING ACCORDING TO THE VERSION USED
-TREE_LIST_FILE=${base_indir}"/treecover_filelist.txt" 	# MUST EXIST BEFORE RUNNING THE SCRIPT
-GAIN_LIST_FILE=${base_indir}"/gain_filelist.txt" 		# MUST EXIST BEFORE RUNNING THE SCRIPT
-LOSS_LIST_FILE=${base_indir}"/lossyear_filelist.txt" 	# MUST EXIST BEFORE RUNNING THE SCRIPT
+# READ VARIABLES FROM CONFIGURATION FILE
+source gfc_parameters.conf
 
 ## Derived variables
 ((NTILES=${NCORES}-1))
@@ -30,6 +23,7 @@ for TIL in $(for i in $(eval echo {0..${NTILES}}); do ((start=${TILESIZE}*$i)); 
     echo "./slave_mask_gfc.sh ${TIL} ${TILESIZE} ${TREE_LIST_FILE} ${base_indir} ${base_outdir} ${temp_dir} ${rootstring}"
 done | parallel -j ${NCORES}
 
+echo "GFC tiles masked"
 wait
 
 ## STEP 2 RENAME TILES USING EID GRID NUMBERS
@@ -43,6 +37,8 @@ wait
 ./rename_gain_tiles.sh 
 wait
 
+echo "GFC tiles renamed"
+
 # # STEP 3: BUILD VIRTUAL CATALOGS
 gdalbuildvrt ${base_outdir}/temp_treecover_over30_ll.vrt ${base_outdir}/treecover_over30_ll/*.tif -overwrite &
 gdalbuildvrt ${base_outdir}/temp_gain_over30_ll.vrt ${base_outdir}/gain_over30_ll/*.tif -overwrite &
@@ -55,12 +51,16 @@ sed 's/relativeToVRT="0"/relativeToVRT="1"/g' ${base_outdir}/temp_gain_over30_ll
 sed 's/relativeToVRT="0"/relativeToVRT="1"/g' ${base_outdir}/temp_lossyear_over30_ll.vrt >${base_outdir}/lossyear_over30_ll.vrt
 
 wait
+echo "GFC virtual catalogs built"
+
 
 # # STEP 4: COMPUTE STATISTICS ON VIRTUAL CATALOGS
 gdalinfo -approx_stats ${base_outdir}/treecover_over30_ll.vrt &
 gdalinfo -approx_stats ${base_outdir}/gain_over30_ll.vrt &
 gdalinfo -approx_stats ${base_outdir}/lossyear_over30_ll.vrt &
 wait
+
+echo "GFC stats computed on vrt"
 
 rm ${temp_dir} -rf
 rm -f ./dyn/*

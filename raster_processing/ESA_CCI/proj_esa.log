@@ -1,0 +1,369 @@
+Script exec_proj_esa.sh started at Tue Jan 28 10:24:09 UTC 2020
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7.tif.
+Using internal nodata values (e.g. 0) for image /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7.tif to destination /spatial_data/Derived_Datasets/RASTER/ESA_CCI/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7.tif.
+0Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-1995-v2.0.7.tif.
+Using internal nodata values (e.g. 0) for image /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-1995-v2.0.7.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-1995-v2.0.7.tif to destination /spatial_data/Derived_Datasets/RASTER/ESA_CCI/ESACCI-LC-L4-LCCS-Map-300m-P1Y-1995-v2.0.7.tif.
+0Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2000-v2.0.7.tif.
+Using internal nodata values (e.g. 0) for image /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2000-v2.0.7.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2000-v2.0.7.tif to destination /spatial_data/Derived_Datasets/RASTER/ESA_CCI/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2000-v2.0.7.tif.
+0Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2010-v2.0.7.tif.
+Using internal nodata values (e.g. 0) for image /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2010-v2.0.7.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2010-v2.0.7.tif to destination /spatial_data/Derived_Datasets/RASTER/ESA_CCI/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2010-v2.0.7.tif.
+0Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2005-v2.0.7.tif.
+Using internal nodata values (e.g. 0) for image /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2005-v2.0.7.tif.
+Copying nodata values from source /spatial_data/Original_Datasets/ESA_CCI/uncompressed/1992-2015/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2005-v2.0.7.tif to destination /spatial_data/Derived_Datasets/RASTER/ESA_CCI/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2005-v2.0.7.tif.
+0...............1010101010...............2020202020...............30303030..30............404040.4040...............50505050.50............606060.....6060.........707070...7070...............808080...8080..........909090..90...90............100 - done.
+100 - done.
+100 - done.
+100 - done.
+100 - done.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 0,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 16200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 24300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,0,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,0,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,8100,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 97200,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 105300,60750,8100,4050, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 121500,48600,8100,8100, skipping.
+ERROR 1: Too many points (441 out of 441) failed to transform, unable to compute output bounds.
+Warning 1: Unable to compute source region for output window 113400,56700,16200,8100, skipping.
+Copying color table from /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI2015_spa6.tif to new file.
+Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI2015_spa6.tif.
+0Copying color table from /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI2000_spa6.tif to new file.
+Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI2000_spa6.tif.
+0Copying color table from /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI2010_spa6.tif to new file.
+Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI2010_spa6.tif.
+0Copying color table from /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI1995_spa6.tif to new file.
+Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI1995_spa6.tif.
+0Copying color table from /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI2005_spa6.tif to new file.
+Creating output file that is 129600P x 64800L.
+Processing input file /spatial_data/Original_Datasets/MSPA_LC/uncompressed/CCI_SPA_1995_2015/CCI2005_spa6.tif.
+0...............1010101010..............2020.202020...............303030...3030..........404040.....4040............5050505050.............606060.....6060........707070....7070...............808080...8080..........909090..9090...............100 - done.
+100 - done.
+100 - done.
+100 - done.
+100 - done.
+---------------------------------------------------------------
+ESA-CCI and MSPA_LC files reprojected  in 13 minutes 
+---------------------------------------------------------------

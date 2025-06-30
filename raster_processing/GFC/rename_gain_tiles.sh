@@ -1,13 +1,8 @@
 #!/bin/bash
 # RENAME TREECOVER TILES AS EID TILES  ${theme}
 
-base_indir="/spatial_data/Original_Datasets/GLOBAL_FOREST_CHANGE/archives/2022_V1.1"
-base_outdir="/spatial_data/Derived_Datasets/RASTER/GFC/2022_V1.1"
-temp_dir="/spatial_data/Derived_Datasets/RASTER/temp"  	# CREATED BY THE SCRIPT
-rootstring="Hansen_GFC-2022-v1.10_"						# REMEMBER TO UPDATE THIS STRING ACCORDING TO THE VERSION USED
-TREE_LIST_FILE=${base_indir}"/treecover_filelist.txt" 	# MUST EXIST BEFORE RUNNING THE SCRIPT
-GAIN_LIST_FILE=${base_indir}"/gain_filelist.txt" 		# MUST EXIST BEFORE RUNNING THE SCRIPT
-LOSS_LIST_FILE=${base_indir}"/lossyear_filelist.txt" 	# MUST EXIST BEFORE RUNNING THE SCRIPT
+# READ VARIABLES FROM CONFIGURATION FILE
+source gfc_parameters.conf
 
 for theme in gain_over30_ll
 do

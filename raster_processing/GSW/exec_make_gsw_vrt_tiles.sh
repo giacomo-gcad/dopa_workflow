@@ -1,5 +1,5 @@
 #!/bin/bash
-##COMPUTE STATISTICS ON CEP AND A USER DEFINED CONTINUOUS RASTER
+##BUILD 1 VRT FOR EACH TILE OF GSW TRANSITIONS - TILES ARE ALIGNED WITH CEP TILES 
 
 echo "-----------------------------------------------------------------------------------"
 echo "--- Script $(basename "$0") started at $(date)"
@@ -19,8 +19,8 @@ PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
 WORKINGDIR="/globes/processing_current/raster_processing/GSW"
 INRASTER="/spatial_data/Original_Datasets/COPERNICUS/GLOBAL_SURFACE_WATER/archives/2021/transitions/gsw_transitions_2021.vrt"
 VRT_PATH="/spatial_data/Derived_Datasets/RASTER/GSW/transitions_2021"
-LIST="filelist.txt"
-GSW_MAPSET=${LOCATION_LL_PATH}"/GSW"
+GSW_MAPSET="GSW_new"
+GSW_MAPSET_FULLPATH=${LOCATION_LL_PATH}"/"${GSW_MAPSET}
 NCORES=48
 
 
@@ -34,7 +34,7 @@ NCORES=48
 
 
 ## PART II: CREATE GSW MAPSET
-## grass ${PERMANENT_LL_MAPSET} --exec g.mapset -c ${GSW_MAPSET}
+grass ${PERMANENT_LL_MAPSET} --exec g.mapset -c ${GSW_MAPSET}
 
 ## PART III: PREPARING VRT AND IMPORTING IN GRASS
 cd ${VRT_PATH}
@@ -48,8 +48,9 @@ do
 	ecoor=$(echo ${obj} | while IFS="|" read a b c d e; do echo ${c}; done)
 	scoor=$(echo ${obj} | while IFS="|" read a b c d e; do echo ${d}; done)
 	ncoor=$(echo ${obj} | while IFS="|" read a b c d e; do echo ${e}; done)
-	echo "gdalbuildvrt -overwrite -te ${wcoor} ${scoor} ${ecoor} ${ncoor} gsw_${eid}.vrt ${INRASTER}"
-	echo "grass ${GSW_MAPSET} --exec r.external input=gsw_${eid}.vrt output=gsw_${eid} --q --o"
+	echo "gdalbuildvrt -overwrite -te ${wcoor} ${scoor} ${ecoor} ${ncoor} ${VRT_PATH}/gsw_${eid}.vrt ${INRASTER}"
+	echo "grass ${GSW_MAPSET_FULLPATH} --exec r.external input=gsw_${eid}.vrt output=gsw_${eid} --q --o"
+	echo "echo \"Tile gsw_${eid} imported in GRASS\" "
 done | parallel -j 1
 wait
 

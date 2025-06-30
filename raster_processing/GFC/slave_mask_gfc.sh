@@ -33,10 +33,10 @@ for FIL in $(cat ${TREE_LIST_FILE}|awk "NR >= (${TIL}+1) && NR <= (${TIL}+${TILE
 	ly_inp=${lossyear_indir}/${rootstring}"lossyear_"${FIL:36:48}
 	ly_out1=${lossyear_outdir_ll}/${rootstring}"lossyear_"${FIL:36:48}
     echo "
-gdal_calc.py -A ${tr_inp} --outfile=${mask} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"0*(A<=29)+1*(A>29)*(A<=100)\" --NoDataValue=255 --overwrite
-gdal_calc.py -A ${tr_inp} -B ${mask} --outfile=${tr_out2} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite
-gdal_calc.py -A ${ga_inp} -B ${mask} --outfile=${ga_out1} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite
-gdal_calc.py -A ${ly_inp} -B ${mask} --outfile=${ly_out1} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite
+gdal_calc.py -A ${tr_inp} --outfile=${mask} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"0*(A<=29)+1*(A>29)*(A<=100)\" --NoDataValue=255 --overwrite --quiet
+gdal_calc.py -A ${tr_inp} -B ${mask} --outfile=${tr_out2} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite --quiet
+gdal_calc.py -A ${ga_inp} -B ${mask} --outfile=${ga_out1} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite --quiet
+gdal_calc.py -A ${ly_inp} -B ${mask} --outfile=${ly_out1} --type Byte --co COMPRESS=DEFLATE --co TILED=YES --co BLOCKXSIZE=512 --co BLOCKYSIZE=512 --calc=\"A*B\" --NoDataValue=255 --overwrite --quiet
 "> ./dyn/mask_gfc_${FIL:36:44}.sh
     chmod u+x ./dyn/mask_gfc_${FIL:36:44}.sh
     ./dyn/mask_gfc_${FIL:36:44}.sh
