@@ -2,7 +2,7 @@
 ##COMPUTE STATISTICS ON CEP AND 5+1 carbon stocks
 
 echo "-----------------------------------------------------------------------------------"
-echo "1 of 6 - Script $(basename "$0") started at $(date)"
+echo "Script $(basename "$0") started at $(date)"
 echo "-----------------------------------------------------------------------------------"
 
 # READ VARIABLES FROM CONFIGURATION FILE

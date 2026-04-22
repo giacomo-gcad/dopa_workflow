@@ -16,7 +16,7 @@ NCORES=54
 
 ########################################################################################################
 # DEFINE CONTINUOUS RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.UNIVAR
-IN_RASTER="bgc2021_100m"
+IN_RASTER="bgc2022_100m"
 IN_RASTER_MAPSET="CARBON"
 ########################################################################################################
 
@@ -31,14 +31,17 @@ FINALCSV="r_univar_"${OUTCSV_ROOT}"_${wdpadate}"
 echo "Input raster: "${IN_RASTER}@${IN_RASTER_MAPSET}
 echo "now running r.univar in parallel on 648 CEP tiles and "${IN_RASTER}" using "${NCORES}" threads"
 
-for eid in {1..648}
+# for eid in {1..648}
+for til in $(cat ${SERVICEDIR}/eid_list_agc.csv)
 do	
+	tmp=$(echo ${til} | while IFS="|" read a b c d e; do echo ${a}; done)
+	eid=${tmp#*_}
 	TMP_MAPSET=qwe_${eid}
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 	OUTCSV=${OUTCSV_ROOT}_${eid}
 	grass ${PERMANENT_LL_MAPSET} -f --exec g.mapset --o --q -c ${TMP_MAPSET}
 	wait
-	echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+	echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
 done | parallel -j ${NCORES}
 
 wait
@@ -46,7 +49,7 @@ wait
 ## PART II: AGGREGATE CSV TILES
 
 rm -f ${RESULTSPATH}/${FINALCSV}.csv
-cat ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
+cat ${RESULTSPATH_TMP}/${OUTCSV_ROOT}_*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
 
 wait
 
@@ -62,7 +65,7 @@ wait
 
 ## PART IV : CLEAN UP (delete mapsets and intermediate files)
 rm -rf ${LOCATION_LL_PATH}/qwe_*
-rm -f ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv
+rm -f ${RESULTSPATH_TMP}/${OUTCSV_ROOT}_*.csv
 echo dyn/*.sh |xargs rm -f
 
 enddate=`date +%s`

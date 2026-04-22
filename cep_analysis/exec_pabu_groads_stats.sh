@@ -12,7 +12,7 @@ SERVICEDIR="/globes/processing_current/servicefiles"
 source ${SERVICEDIR}/cep_processing.conf
 
 ## OVERRIDE NCORES DEFINED IN CONF FILE
-NCORES=64
+NCORES=48
 
 # CREATES LIST OF EXISTINGS PABU TILES
 ls -1 ${DATABASE}/${LOCATION_LL}/${PABU_MAPSET}"/cell_misc"| sed 's/ceptile_//' >pabu_tiles.txt
@@ -75,7 +75,7 @@ do
 done | parallel -j 32
 
 rm -f ${RESULTSPATH}"/cid_area_pabu_groads_"${wdpadate}".csv"
-cat ${RESULTSPATH}/cid_area_groads_*.csv >> ${RESULTSPATH}"/cid_area_pabu_groads_"${wdpadate}".csv"
+cat ${RESULTSPATH}/tmp/cid_area_groads_*.csv >> ${RESULTSPATH}"/cid_area_pabu_groads_"${wdpadate}".csv"
 
 psql ${dbpar2} -t -c "DROP TABLE IF EXISTS ${RESULTSCH}.cid_area_pabu_groads_${wdpadate};
 CREATE TABLE ${RESULTSCH}.cid_area_pabu_groads_${wdpadate} (qid integer,cid integer,area_m2 double precision);"
@@ -87,7 +87,8 @@ wait
 rm -rf ${LOCATION_LL_PATH}/gro_*
 rm -rf ${LOCATION_LL_PATH}/sur_*
 rm -f ./dyn/rstats_*.sh
-rm -f ${RESULTSPATH}/cid_area_groads_*.csv
+rm -f ./dyn/cid*.sh
+rm -f ${RESULTSPATH}/tmp/cid_area_groads_*.csv
 
 for eid in $(cat pabu_tiles.txt)
 do	

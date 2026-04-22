@@ -10,10 +10,10 @@ startdate=`date +%s`
 # READ VARIABLES FROM CONFIGURATION FILE
 SERVICEDIR="/globes/processing_current/servicefiles"
 source ${SERVICEDIR}/cep_processing.conf
-PABU_MAPSET="PABU_FLAT_202302"
+PABU_MAPSET="PABU_FLAT_"${wdpadate}
 PABU_MAPSET_PATH=${DATABASE}/${LOCATION_LL}"/${PABU_MAPSET}"
 ## CEP_RASTER_TILES_PATH="/globes/processing_current/dopa_202202/flat_buffers_202202/raster_output/tiles"
-PABU_RASTER_PATH="/spatial_data/Derived_Datasets/CEP/cep202302_buffers"
+PABU_RASTER_PATH="/spatial_data/Derived_Datasets/CEP/cep202501_buffers"
 PABU_RASTER_TILES_PATH=${PABU_RASTER_PATH}"/tiles"
 
 

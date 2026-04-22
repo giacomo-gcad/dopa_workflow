@@ -37,7 +37,7 @@ do
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 	OUTCSV=${OUTCSV_ROOT}_${eid}.csv
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
-	echo "./slave_cep_catraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+	echo "./slave_cep_catraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
 done | parallel -j ${NCORES}
 
 wait
@@ -48,7 +48,7 @@ echo "r.stats completed, now aggregating results..."
 echo " "
 
 rm -f ${RESULTSPATH}/${FINALCSV}.csv
-cat ${RESULTSPATH}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
+cat ${RESULTSPATH_TMP}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
 wait
 
 ## PART IV : CREATE PG TABLE AND IMPORT FINAL CSV IN POSTGIS
@@ -68,11 +68,11 @@ do
 	OUTCSV_AREA="cid_area_groads_"${eid}".csv"
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
 	wait
-	echo "./slave_cid_area.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV_AREA} ${CEP_MAPSET}"
+	echo "./slave_cid_area.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV_AREA} ${CEP_MAPSET}"
 done | parallel -j 32
 
 rm -f ${RESULTSPATH}"/cid_area_cep_groads_"${wdpadate}".csv"
-cat ${RESULTSPATH}/cid_area_groads_*.csv >> ${RESULTSPATH}"/cid_area_cep_groads_"${wdpadate}".csv"
+cat ${RESULTSPATH_TMP}/cid_area_groads_*.csv >> ${RESULTSPATH}"/cid_area_cep_groads_"${wdpadate}".csv"
 
 psql ${dbpar2} -t -c "DROP TABLE IF EXISTS ${RESULTSCH}.cid_area_cep_groads_${wdpadate};
 CREATE TABLE ${RESULTSCH}.cid_area_cep_groads_${wdpadate} (qid integer,cid integer,area_m2 double precision);"
@@ -85,12 +85,12 @@ wait
 # PART VI : CLEAN UP (delete mapsets and intermediate results)
 rm -rf ${LOCATION_LL_PATH}/rst_*
 rm -rf ${LOCATION_LL_PATH}/pop_*
-rm -f ${RESULTSPATH}/cid_area_groads_*.csv
+rm -f ${RESULTSPATH_TMP}/cid_area_groads_*.csv
 echo dyn/*.sh |xargs rm -f
 
 for eid in {1..648}
 do	
-	rm -f  ${RESULTSPATH}/${OUTCSV_ROOT}_${eid}.csv
+	rm -f  ${RESULTSPATH_TMP}/${OUTCSV_ROOT}_${eid}.csv
 done
 
 enddate=`date +%s`

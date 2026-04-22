@@ -35,7 +35,7 @@ do
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 	OUTCSV=${OUTCSV_ROOT}_${eid}
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
-	echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}_${eid}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+	echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER}_${eid}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
 done | parallel -j ${NCORES}
 
 wait
@@ -43,7 +43,7 @@ wait
 ## PART II: AGGREGATE CSV TILES
 
 rm -f ${RESULTSPATH}/${FINALCSV}.csv
-cat ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
+cat ${RESULTSPATH_TMP}/${OUTCSV_ROOT}_*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
 
 wait
 
@@ -66,11 +66,11 @@ do
 	OUTCSV_AREA="cid_area_built_"${eid}".csv"
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
 	wait
-	echo "./slave_cid_area.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}_${eid}@${IN_RASTER_MAPSET} ${OUTCSV_AREA} ${CEP_MAPSET}"
+	echo "./slave_cid_area.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER}_${eid}@${IN_RASTER_MAPSET} ${OUTCSV_AREA} ${CEP_MAPSET}"
 done | parallel -j 64
 
 rm -f ${RESULTSPATH}"/cid_area_cep_built2020_"${wdpadate}".csv"
-cat ${RESULTSPATH}/cid_area_built_*.csv >> ${RESULTSPATH}"/cid_area_cep_built2020_"${wdpadate}".csv"
+cat ${RESULTSPATH_TMP}/cid_area_built_*.csv >> ${RESULTSPATH}"/cid_area_cep_built2020_"${wdpadate}".csv"
 
 psql ${dbpar2} -t -c "DROP TABLE IF EXISTS ${RESULTSCH}.cid_area_cep_built2020_${wdpadate};
 CREATE TABLE ${RESULTSCH}.cid_area_cep_built2020_${wdpadate} (qid integer,cid integer,area_m2 double precision);"
@@ -81,7 +81,9 @@ wait
 ## PART V : CLEAN UP (delete mapsets and intermediate files)
 rm -rf ${LOCATION_LL_PATH}/rst_*
 rm -rf ${LOCATION_LL_PATH}/qqq_*
-rm -f ${RESULTSPATH}/${OUTCSV_AREA}*.csv
+rm -f ${RESULTSPATH_TMP}/${OUTCSV_AREA}*.csv
+rm -f ${RESULTSPATH_TMP}/cid_area_built_*.csv
+
 echo dyn/*.sh |xargs rm -f
 
 enddate=`date +%s`

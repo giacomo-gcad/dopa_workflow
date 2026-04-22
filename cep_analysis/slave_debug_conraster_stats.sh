@@ -35,8 +35,6 @@ ${region_str}
 r.univar --q -e -t map=${IN_RASTER} zones=ceptile_${eid}@${CEP_MAPSET} output=${SUBDIR}/z_${OUTCSV}_${qid}.csv
 exit
 " > ./dyn/runivar_${eid}_${qid}.sh
-	wait
-	[ ! -f ./dyn/runivar_${eid}_${qid}.sh ] && echo "File ./dyn/runivar_${eid}_${qid}.sh not found!"
 	chmod u+x ./dyn/runivar_${eid}_${qid}.sh
 	grass ${TMP_MAPSET} -f --exec ./dyn/runivar_${eid}_${qid}.sh
 	wait

@@ -11,6 +11,7 @@ source ${SERVICEDIR}/cep_processing.conf
 
 startdate=`date +%s`
 
+echo "WDPA date is:      "${wdpadate}
 echo "CEP mapset is:     "${CEP_MAPSET}
 echo "Results folder is: "${RESULTSPATH}
 echo "Results schema is: "${RESULTSCH}
@@ -18,26 +19,27 @@ echo "Logpath is:        "${LOGPATH}
 echo "--------------------------------------------------------------------------------------------"
 
 echo " "
-#####################################################
-############ IMPORT CEP TILES IN GRASS ##############
 
-echo "Now importing CEP tiles in GRASS DB"
-./exec_import_tiles.sh >${LOGPATH}/import_cep_tiles.log 2>&1 
-wait
+# #####################################################
+# ############ IMPORT CEP TILES IN GRASS ##############
+
+# echo "Now importing CEP tiles in GRASS DB"
+# ./exec_import_tiles.sh >${LOGPATH}/import_cep_tiles.log 2>&1 
+# wait
 date1=`date +%s`
-proc_time=$(((date1-startdate) / 60))
-echo "1 of 17 - exec_import_tiles.sh ended at $(date). Proc. time: "${proc_time}" minutes"
-echo "--------------------------------------------------------------------------------------------"
+# proc_time=$(((date1-startdate) / 60))
+# echo "1 of 17 - exec_import_tiles.sh ended at $(date). Proc. time: "${proc_time}" minutes"
+# echo "--------------------------------------------------------------------------------------------"
 
 
 ################################################
 ################## SPECIES #####################
 echo "Now running master script for species..."
-./cep_species_stats.sh >${LOGPATH}/cep_species.log 2>&1 
+./exec_cep_species_stats.sh >${LOGPATH}/cep_species.log 2>&1 
 wait
 date2=`date +%s`
 proc_time=$(((date2-date1) / 60))
-echo "2 of 17 - cep_species_stats.sh ended at $(date). Proc. time: "${proc_time}" minutes"
+echo "2 of 17 - exec_cep_species_stats.sh ended at $(date). Proc. time: "${proc_time}" minutes"
 echo "--------------------------------------------------------------------------------------------"
 ################################################
 
@@ -142,7 +144,7 @@ echo "14 of 17 - exec_cep_builtup_r2023_stats.sh ended at $(date). Proc. time: "
 echo "--------------------------------------------------------------------------------------------"
 
 echo "Now running exec_cep_ghs_pop_stats..."
-/exec_cep_ghs_pop_stats.sh >${LOGPATH}/cep_ghs_pop.log 2>&1 
+./exec_cep_ghs_pop_stats.sh >${LOGPATH}/cep_ghs_pop.log 2>&1 
 wait
 date15=`date +%s`
 proc_time=$(((date15-date14) / 60))
@@ -165,7 +167,7 @@ echo "--------------------------------------------------------------------------
 ## CHANGE WORKING DIR
 echo "Now running exec_kba_stats..."
 cd /globes/processing_current/kba_processing
-./exec_kba_stats.sh  >logs/202408/cep_kba.log 2>&1 
+./exec_kba_stats.sh  >${LOGPATH}/cep_kba.log 2>&1 
 wait
 date17=`date +%s`
 proc_time=$(((date17-date16) / 60))

@@ -12,36 +12,32 @@ SERVICEDIR="/globes/processing_current/servicefiles"
 source ${SERVICEDIR}/cep_processing.conf
 
 ## OVERRIDE NCORES DEFINED IN CONF FILE
-NCORES=32
+NCORES=30
 
 ########################################################################################################
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="gfc_lossyear_over30"
-IN_RASTER_ROOT="lossyear_tile_"
-IN_RASTER_MAPSET="GFC2024"
+IN_RASTER="ecotile_"
+IN_RASTER_MAPSET="ECOREGIONS"
 ########################################################################################################
 
 ## Derived variables
 LOCATION_LL_PATH=${DATABASE}/${LOCATION_LL}
 PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
-OUTCSV_ROOT="cep_"${IN_RASTER}
-FINALCSV="r_stats_"${OUTCSV_ROOT}"_${wdpadate}"
+OUTCSV_ROOT="cep_"${IN_RASTER}"_eco2024"
+FINALCSV="r_stats_"${OUTCSV_ROOT}"_"${wdpadate}
 
 ## PART I: COMPUTATION OF STATISTICS
 
-echo "Input raster: "${IN_RASTER}
-echo "now running r.stats in parallel on 504 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
+echo "Input raster root: "${IN_RASTER}
+echo "now running r.stats in parallel on 648 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
 
-## for eid in $(cat /globes/processing_current/cep_analysis/treecover_tiles_selected.txt)
-# for fff in $(ls *.tif | xargs -n 1 basename)
-for ff in $(grass ${PERMANENT_LL_MAPSET} --exec g.list raster mapset=${IN_RASTER_MAPSET} pattern=lossyear*)
+for eid in {1..648}
 do	
-	eid=${ff:14}
 	TMP_MAPSET=rst_${eid}
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 	OUTCSV=${OUTCSV_ROOT}_${eid}.csv
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
-	echo "./slave_cep_catraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER_ROOT}${eid}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+	echo "./slave_cep_catraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER}_${eid}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
 done | parallel -j ${NCORES}
 
 wait
@@ -62,13 +58,13 @@ echo " "
 
 psql ${dbpar2} -t -v vNAME=${FINALCSV} -v vSCHEMA=${RESULTSCH} -f ./sql/create_table_rstats_qid.sql
 psql ${dbpar2} -t -c "\copy ${RESULTSCH}.${FINALCSV} FROM '${RESULTSPATH}/${FINALCSV}.csv' delimiter '|' csv"
-psql ${dbpar2} -t -c "DELETE FROM ${RESULTSCH}.${FINALCSV} WHERE cid =0"
+psql ${dbpar2} -t -c "DELETE FROM ${RESULTSCH}.${FINALCSV} WHERE cid=0"
 
-# PART V : CLEAN UP (delete mapsets and intermediate results)
-# rm -rf ${LOCATION_LL_PATH}/rst_*
+## PART V : CLEAN UP (delete mapsets and intermediate results)
+rm -rf ${LOCATION_LL_PATH}/rst_*
 echo dyn/*.sh |xargs rm -f
 
-for eid in {109..612}
+for eid in {1..648}
 do	
 	rm -f  ${RESULTSPATH_TMP}/${OUTCSV_ROOT}_${eid}.csv
 done

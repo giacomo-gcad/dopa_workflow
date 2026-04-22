@@ -34,7 +34,7 @@ do
 	TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 	OUTCSV=${OUTCSV_ROOT}_${eid}.csv
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
-	echo "./slave_cep_esa_lc_change.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER1}@${IN_RASTER_MAPSET} ${IN_RASTER2}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+	echo "./slave_cep_esa_lc_change.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER1}@${IN_RASTER_MAPSET} ${IN_RASTER2}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
 done | parallel -j ${NCORES}
 
 wait
@@ -45,7 +45,7 @@ echo "r.stats completed, now aggregating results..."
 echo " "
 
 rm -f ${RESULTSPATH}/${FINALCSV}.csv
-cat ${RESULTSPATH}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
+cat ${RESULTSPATH_TMP}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
 wait
 
 ## PART III : CREATE PG TABLE AND IMPORT FINAL CSV IN POSTGIS
@@ -75,7 +75,7 @@ echo dyn/*.sh |xargs rm -f
 
 for eid in {1..648}
 do	
-	rm -f  ${RESULTSPATH}/${OUTCSV_ROOT}_${eid}.csv
+	rm -f  ${RESULTSPATH_TMP}/${OUTCSV_ROOT}_${eid}.csv
 done
 
 enddate=`date +%s`

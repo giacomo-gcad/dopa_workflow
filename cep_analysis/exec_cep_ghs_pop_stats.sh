@@ -23,28 +23,28 @@ NCORES=54
 
 for year in 2000 2020
 do
-	IN_RASTER_ROOT="pop"${year}"_"
+	IN_RASTER_ROOT="pop"${year}
 	OUTCSV_ROOT="cep_"${IN_RASTER_ROOT}
 	
-	echo "Input raster: "${IN_RASTER}@${IN_RASTER_MAPSET}
+	echo "Input raster: "${IN_RASTER_ROOT}@${IN_RASTER_MAPSET}
 	echo "now running r.univar in parallel on 648 CEP tiles and "${IN_RASTER_ROOT}" using "${NCORES}" threads"
 	
 	for eid in {1..648}
 	do	
 		TMP_MAPSET=popmap_${eid}
-		IN_RASTER=${IN_RASTER_ROOT}${eid}
+		IN_RASTER=${IN_RASTER_ROOT}"_"${eid}
 		TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 		grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
 		wait
-		echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV_ROOT}${eid} ${CEP_MAPSET}"
+		echo "./slave_cep_conraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV_ROOT}"_"${eid} ${CEP_MAPSET}"
 	done | parallel -j ${NCORES}
 
 	wait
 
 	## PART Ib: AGGREGATE CSV TILES
-	FINALCSV="r_univar_"${OUTCSV_ROOT}${wdpadate}
+	FINALCSV="r_univar_"${OUTCSV_ROOT}"_"${wdpadate}
 	rm -f ${RESULTSPATH}/${FINALCSV}.csv
-	cat ${RESULTSPATH}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
+	cat ${RESULTSPATH_TMP}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
 
 	wait
 
@@ -59,7 +59,7 @@ do
 	wait
 
 	# PART Id : CLEAN UP (delete intermediate files)
-	rm -f ${RESULTSPATH}/${OUTCSV_ROOT}*.csv
+	rm -f ${RESULTSPATH_TMP}/${OUTCSV_ROOT}*.csv
 
 done
 
@@ -73,13 +73,13 @@ do
 	OUTCSV_AREA="cid_area_ghs_"${eid}".csv"
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
 	wait
-	echo "./slave_cid_area.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV_AREA} ${CEP_MAPSET}"
+	echo "./slave_cid_area.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV_AREA} ${CEP_MAPSET}"
 done | parallel -j 64
 
 rm -f ${RESULTSPATH}"/cid_area_cep_ghs_pop_"${wdpadate}".csv"
-cat ${RESULTSPATH}/cid_area_ghs_*.csv >> ${RESULTSPATH}"/cid_area_cep_ghs_pop_"${wdpadate}".csv"
+cat ${RESULTSPATH_TMP}/cid_area_ghs_*.csv >> ${RESULTSPATH}"/cid_area_cep_ghs_pop_"${wdpadate}".csv"
 
-psql ${dbpar2} -t -c "DROP TABLE IF EXISTS ${RESULTSCH}.cid_area_cep_ghs_pop_9as_${wdpadate};
+psql ${dbpar2} -t -c "DROP TABLE IF EXISTS ${RESULTSCH}.cid_area_cep_ghs_pop_${wdpadate};
 CREATE TABLE ${RESULTSCH}.cid_area_cep_ghs_pop_${wdpadate} (qid integer,cid integer,area_m2 double precision);"
 psql ${dbpar2} -t -c "\copy ${RESULTSCH}.cid_area_cep_ghs_pop_${wdpadate} FROM '${RESULTSPATH}/cid_area_cep_ghs_pop_${wdpadate}.csv' delimiter '|' csv"
 
@@ -87,7 +87,7 @@ wait
 
 ## PART V : CLEAN UP (delete intermediate csv, mapsets and scripts)
 rm -rf ${LOCATION_LL_PATH}/popmap_*
-rm -f ${RESULTSPATH}/${OUTCSV_ROOT}*.csv
+rm -f ${RESULTSPATH_TMP}/cid_area_ghs_*.csv
 echo dyn/cid_area_*.sh |xargs rm -f
 
 enddate=`date +%s`

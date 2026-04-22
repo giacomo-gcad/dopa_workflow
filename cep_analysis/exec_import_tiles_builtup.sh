@@ -12,8 +12,8 @@ SERVICEDIR="/globes/processing_current/servicefiles"
 source ${SERVICEDIR}/cep_processing.conf
 
 # LOCAL VARIABLES
-indir_root="/spatial_data/Derived_Datasets/RASTER/GHSL/R2023A/builtup/tiles_"
-infile_root="builtup_tile_"
+indir_root="/spatial_data/Derived_Datasets/RASTER/GHSL/R2023A/builtup"
+infile_root="builtup2020_"
 MAPSET=${DATABASE}/${LOCATION_LL}"/BUILTUP2023"
 
 # Import individual tiff tiles with r.external

@@ -17,7 +17,7 @@ PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
 IN_RASTER_MAPSET="POP_R2023"
 
 ## OVERRIDE VALUES FROM CONF FILE
-NCORES=52
+NCORES=64
 
 # CREATES LIST OF EXISTINGS PABU TILES
 ls -1 ${DATABASE}/${LOCATION_LL}/${PABU_MAPSET}"/cell_misc"| sed 's/ceptile_//' >pabu_tiles.txt
@@ -63,12 +63,19 @@ do
 
 	## PART IV : CLEAN UP (delete intermediate files)
 	rm -f ${RESULTSPATH}/${OUTCSV_ROOT}_*.csv
-
+	
+	echo " " 
+	echo "Stats on ${IN_RASTER_ROOT} computed"
+	echo " " 
 done
 
+wait
+
+# echo dyn/runivar_${eid}*.sh |xargs rm -f
+# wait
 
 ## COMPUTE AREA OF CIDs at GHS POP RESOLUTION
-
+echo "Now computing area of cids at ghs_pop resolution"
 IN_RASTER="pop2020_109"
 for eid in $(cat pabu_tiles.txt)
 do
@@ -78,10 +85,12 @@ do
 	grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
 	wait
 	echo "./slave_cid_area.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${IN_RASTER}@${IN_RASTER_MAPSET} ${OUTCSV_AREA} ${PABU_MAPSET}"
-done | parallel -j 32
+done | parallel -j ${NCORES}
+
+echo "cid area at ghs_pop resolution computed"
 
 rm -f ${RESULTSPATH}"/cid_area_pabu_ghs_pop_"${wdpadate}".csv"
-cat ${RESULTSPATH}/cid_area_pabu_ghs_*.csv >> ${RESULTSPATH}"/cid_area_pabu_ghs_pop_"${wdpadate}".csv"
+cat ${RESULTSPATH}"/tmp/"${OUTCSV_AREA}*.csv >> ${RESULTSPATH}"/cid_area_pabu_ghs_pop_"${wdpadate}".csv"
 
 psql ${dbpar2} -t -c "DROP TABLE IF EXISTS ${RESULTSCH}.cid_area_pabu_ghs_pop_${wdpadate};
 CREATE TABLE ${RESULTSCH}.cid_area_pabu_ghs_pop_${wdpadate} (qid integer,cid integer,area_m2 double precision);"
@@ -93,6 +102,7 @@ wait
 ## PART V : CLEAN UP (delete intermediate csv, mapsets and scripts)
 rm -rf ${LOCATION_LL_PATH}/pop_*
 echo dyn/cid_area_*.sh |xargs rm -f
+rm -f ${RESULTSPATH}/tmp/${OUTCSV_AREA}*.csv
 
 enddate=`date +%s`
 runtime=$(((enddate-startdate) / 60))

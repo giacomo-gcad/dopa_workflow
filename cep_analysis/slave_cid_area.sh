@@ -8,13 +8,18 @@ IN_RASTER=$4
 OUTCSV=$5
 CEP_MAPSET=$6
 
+SUBDIR=${RESULTSPATH}"/tmp"
+
 echo "#!/bin/bash
 ## SET REGION
 g.region --q raster=ceptile_${eid}@${CEP_MAPSET} align=${IN_RASTER}
 ## COMPUTE CID AREA AT IN_RASTER RESOLUTION WITH R.STATS
-r.stats -a --o --q input=qid_grid@PERMANENT,ceptile_${eid}@${CEP_MAPSET} separator=pipe null_value=0 output=${RESULTSPATH}/${OUTCSV}
+r.stats -a --o --q input=qid_grid@PERMANENT,ceptile_${eid}@${CEP_MAPSET} separator=pipe null_value=0 output=${SUBDIR}/${OUTCSV}
 exit
 " > ./dyn/cid_area_${eid}.sh
 chmod u+x ./dyn/cid_area_${eid}.sh
 grass ${TMP_MAPSET} --exec ./dyn/cid_area_${eid}.sh
+
+echo "cid area for ${eid} tile computed"
+
 exit

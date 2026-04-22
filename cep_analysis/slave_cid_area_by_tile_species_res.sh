@@ -9,9 +9,9 @@ CEP_MAPSET=$5
 
 echo "#!/bin/bash
     ## SET REGION
-	g.region raster=ceptile_${eid}@${CEP_MAPSET}
+	g.region raster=ceptile_${eid}@${CEP_MAPSET} align=esalc_2020@CATRASTERS
 	## ANALYZE IN_RASTER WITH R.STATS
-	r.stats -a --o --q input=qid_grid@PERMANENT,ceptile_${eid}@${CEP_MAPSET} separator=pipe null_value=0 output=${RESULTSPATH}/${OUTCSV}       
+	r.stats -a --o --q input=qid_grid@PERMANENT,ceptile_${eid}@${CEP_MAPSET} separator=pipe null_value=0 output=${RESULTSPATH}/${OUTCSV}
 	exit
 	" > ./dyn/cidarea_${eid}.sh
     chmod u+x ./dyn/cidarea_${eid}.sh

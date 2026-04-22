@@ -15,7 +15,7 @@ source ${SERVICEDIR}/cep_processing.conf
 NCORES=68
 
 ########################################################################################################
-IN_RASTER_MAPSET="SPECIES"
+IN_RASTER_MAPSET="SPECIES_2024"
 ########################################################################################################
 
 ## Derived variables
@@ -26,10 +26,11 @@ PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
 
 for spec in amphibians birds corals mammals reptiles sharks
 do
-
+	date1=`date +%s`
+	echo " "
 	echo "now running r.stats in parallel on 648 CEP tiles and "${spec}" using "${NCORES}" threads"
 	echo "Input raster: "${spec}@${IN_RASTER_MAPSET}
-	OUTCSV_ROOT="cep_species_"${spec}
+	OUTCSV_ROOT="cep_species2024_"${spec}
 	FINALCSV="r_stats_"${OUTCSV_ROOT}"_${wdpadate}"
 	for eid in {1..648}
 	do	
@@ -37,7 +38,7 @@ do
 		TMP_MAPSET_PATH=${LOCATION_LL_PATH}/${TMP_MAPSET}
 		OUTCSV=${OUTCSV_ROOT}_${eid}.csv
 		grass ${PERMANENT_LL_MAPSET} --exec g.mapset --o --q -c ${TMP_MAPSET}
-		echo "./slave_cep_catraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH} ${spec}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
+		echo "./slave_cep_catraster_stats.sh ${eid} ${TMP_MAPSET_PATH} ${RESULTSPATH_TMP} ${spec}@${IN_RASTER_MAPSET} ${OUTCSV} ${CEP_MAPSET}"
 	done | parallel -j ${NCORES}
 	wait
 
@@ -47,7 +48,7 @@ do
 	echo " "
 
 	rm -f ${RESULTSPATH}/${FINALCSV}.csv
-	cat ${RESULTSPATH}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
+	cat ${RESULTSPATH_TMP}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
 	wait
 
 	## PART IV : CREATE PG TABLE AND IMPORT FINAL CSV IN POSTGIS
@@ -63,8 +64,16 @@ do
 	echo dyn/*.sh |xargs rm -f
 	for eid in {1..648}
 	do	
-		rm -f  ${RESULTSPATH}/${OUTCSV_ROOT}_${eid}.csv
+		rm -f  ${RESULTSPATH_TMP}/${OUTCSV_ROOT}_${eid}.csv
 	done
+	
+	wait
+	
+	date2=`date +%s`
+	spectime=$(((date2-date1) / 60))
+	echo " "
+	echo ${spec}" processed in "${spectime}" minutes"
+	echo " "
 
 done
 
