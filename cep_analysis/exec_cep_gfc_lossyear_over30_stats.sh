@@ -18,7 +18,7 @@ NCORES=32
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
 IN_RASTER="gfc_lossyear_over30"
 IN_RASTER_ROOT="lossyear_tile_"
-IN_RASTER_MAPSET="GFC2024"
+IN_RASTER_MAPSET="GFC2025"
 ########################################################################################################
 
 ## Derived variables
@@ -30,7 +30,7 @@ FINALCSV="r_stats_"${OUTCSV_ROOT}"_${wdpadate}"
 ## PART I: COMPUTATION OF STATISTICS
 
 echo "Input raster: "${IN_RASTER}
-echo "now running r.stats in parallel on 504 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
+echo "now running r.stats in parallel on 280 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
 
 ## for eid in $(cat /globes/processing_current/cep_analysis/treecover_tiles_selected.txt)
 # for fff in $(ls *.tif | xargs -n 1 basename)

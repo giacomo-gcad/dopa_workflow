@@ -1,0 +1,550 @@
+Script exec_mask_gfc_lossyear_only.sh started at Fri May 29 11:48:57 AM CEST 2026
+GFC tiles masked
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_060W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_000E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_100W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_120W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_70N_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_060W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_090W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_010W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_120W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_020W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_110W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_010W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_010E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_020E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_060E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_070E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_110E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_120E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_090E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_100E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_080E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_150E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_170E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_160E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_160E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_060E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_020W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_010W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_020W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_110W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_120W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_060W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_090W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_100W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_70N_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_60N_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_120W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_000E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_110W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_010W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_020E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_030E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_070E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_040E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_120E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_080E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_130E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_140E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_170E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_100E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_170E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_160E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_090E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_130E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_170E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_060E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_020W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_070E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_060W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_120W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_070W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_040E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_100W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_110W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_70N_060W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_090W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_60N_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_010W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_120W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_030E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_000E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_040E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_080E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_020W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_050E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_130E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_090E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_150E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_100E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_060E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_170E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_140E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_160E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_070E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_090W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_080E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_110W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_120W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_100W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_60N_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_040E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_010W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_050E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_020W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_090E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_000E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_060E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_140E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_100E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_160E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_150E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_060E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_150E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_160E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_170E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_170E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_070E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_090W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_040W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_140E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_100W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_050W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_050E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_120W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_080E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40N_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_130W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_110W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_150W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_160W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_060E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_020W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_100E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_010W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_170W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_000E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_140W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30S_070E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_110E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_030W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50S_150E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_060E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_170E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_020W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20N_160E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10N_110W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_80N_000E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_40S_010E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_50N_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_180W.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_20S_080E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_30N_150E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_00N_050E.tif': No such file or directory
+mv: cannot stat '/spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/Hansen_GFC-2025-v1.13_lossyear_10S_090E.tif': No such file or directory
+GFC tiles renamed
+0...10...20...30...40...50...60...70...80...90...100 - done.
+GFC virtual catalogs built
+Driver: VRT/Virtual Raster
+Files: /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll.vrt
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_119.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_120.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_121.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_155.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_156.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_177.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_179.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_180.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_191.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_192.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_193.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_200.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_201.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_202.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_210.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_211.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_212.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_213.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_214.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_216.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_227.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_228.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_229.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_230.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_236.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_237.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_238.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_239.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_240.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_246.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_247.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_248.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_249.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_250.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_251.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_263.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_264.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_265.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_266.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_267.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_272.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_273.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_274.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_275.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_276.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_282.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_283.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_284.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_285.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_286.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_287.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_288.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_297.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_298.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_299.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_300.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_301.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_302.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_303.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_307.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_308.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_309.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_310.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_311.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_316.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_317.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_318.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_319.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_320.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_321.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_322.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_323.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_333.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_334.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_335.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_336.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_337.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_338.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_341.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_342.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_343.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_344.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_345.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_346.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_347.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_348.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_350.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_351.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_352.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_353.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_354.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_355.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_356.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_363.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_368.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_369.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_370.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_371.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_372.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_373.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_376.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_377.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_378.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_379.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_380.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_381.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_382.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_383.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_384.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_386.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_387.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_388.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_389.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_390.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_391.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_398.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_399.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_403.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_404.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_405.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_406.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_407.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_413.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_414.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_415.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_416.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_417.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_418.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_419.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_420.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_421.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_422.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_423.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_424.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_425.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_426.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_427.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_428.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_438.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_439.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_440.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_441.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_442.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_443.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_444.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_449.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_450.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_451.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_452.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_453.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_454.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_455.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_456.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_457.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_458.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_459.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_460.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_461.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_462.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_463.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_464.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_465.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_474.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_475.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_476.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_477.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_478.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_479.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_480.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_481.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_486.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_487.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_488.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_489.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_490.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_491.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_492.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_493.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_494.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_495.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_496.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_497.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_498.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_499.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_500.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_501.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_502.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_505.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_506.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_507.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_508.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_509.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_510.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_511.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_512.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_513.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_514.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_515.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_516.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_517.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_521.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_522.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_523.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_524.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_525.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_526.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_527.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_528.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_529.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_530.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_531.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_532.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_533.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_534.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_535.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_536.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_537.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_538.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_539.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_540.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_541.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_542.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_543.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_544.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_545.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_546.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_547.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_548.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_549.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_550.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_551.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_552.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_556.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_557.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_558.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_559.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_560.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_561.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_562.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_563.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_564.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_565.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_566.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_567.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_568.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_569.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_570.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_571.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_572.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_573.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_574.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_575.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_576.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_578.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_579.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_580.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_581.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_582.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_583.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_584.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_585.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_586.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_587.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_588.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_596.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_597.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_598.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_600.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_601.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_602.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_603.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_604.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_605.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_606.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_607.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_608.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_609.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_610.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_611.tif
+       /spatial_data/Derived_Datasets/RASTER/GFC/2025_V1.13/lossyear_over30_ll/tile_612.tif
+Size is 1440000, 560000
+Coordinate System is:
+GEOGCRS["WGS 84",
+    DATUM["World Geodetic System 1984",
+        ELLIPSOID["WGS 84",6378137,298.257223563,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    ID["EPSG",4326]]
+Data axis to CRS axis mapping: 2,1
+Origin = (-180.000000000000000,80.000000000000000)
+Pixel Size = (0.000250000000000,-0.000250000000000)
+Corner Coordinates:
+Upper Left  (-180.0000000,  80.0000000) (180d 0' 0.00"W, 80d 0' 0.00"N)
+Lower Left  (-180.0000000, -60.0000000) (180d 0' 0.00"W, 60d 0' 0.00"S)
+Upper Right ( 180.0000000,  80.0000000) (180d 0' 0.00"E, 80d 0' 0.00"N)
+Lower Right ( 180.0000000, -60.0000000) (180d 0' 0.00"E, 60d 0' 0.00"S)
+Center      (   0.0000000,  10.0000000) (  0d 0' 0.01"E, 10d 0' 0.00"N)
+Band 1 Block=128x128 Type=Byte, ColorInterp=Gray
+  Minimum=0.000, Maximum=25.000, Mean=0.323, StdDev=2.368
+  NoData Value=255
+  Metadata:
+    STATISTICS_APPROXIMATE=YES
+    STATISTICS_MAXIMUM=25
+    STATISTICS_MEAN=0.3234774568883
+    STATISTICS_MINIMUM=0
+    STATISTICS_STDDEV=2.368149367931
+    STATISTICS_VALID_PERCENT=55.56
+GFC stats computed on vrt
+----------------------------------------------------------------
+Global Forest Change tiles processed in 25 minutes
+----------------------------------------------------------------

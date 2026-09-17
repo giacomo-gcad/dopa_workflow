@@ -11,7 +11,7 @@ PERMANENT_MAPSET="${DATABASE}/${LOCATION}/PERMANENT/"
 TMP="tmp"
 TEMPORARY_MAPSET="${DATABASE}/${LOCATION}"
 INDIR="/spatial_data/Original_Datasets/GHSL/uncompressed/builtup/R2023A"
-OUTDIR_ROOT="/spatial_data/Derived_Datasets/RASTER/GHSL/R2023A/builtup"
+OUTDIR_ROOT="/spatial_data/Derived_Datasets/RASTER/GHSL/R2023A/builtup_new"
 OUTROOT="builtup_tile_"
 WORKDIR="/globes/processing_current/raster_processing/GHSL/dyn"
 
@@ -59,7 +59,7 @@ for ff in $(find -name '*.sh')
 do 
 	echo ${ff}
 	echo "${ff}"
-done | parallel -j 32
+done | parallel -j 4
 
 wait
 

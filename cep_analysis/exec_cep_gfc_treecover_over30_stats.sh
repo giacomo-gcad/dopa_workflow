@@ -18,7 +18,7 @@ NCORES=44
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
 IN_RASTER="gfc_treecover_over30"
 IN_RASTER_ROOT="treecover_tile_"
-IN_RASTER_MAPSET="GFC"
+IN_RASTER_MAPSET="GFC2025"
 ########################################################################################################
 
 ## Derived variables

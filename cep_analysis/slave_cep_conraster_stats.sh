@@ -15,7 +15,7 @@ starttime=`date +%s`
 # ## commenting/uncommenting 'align=${IN_RASTER}' allows to perform the analysis, respectively, at cep or IN_RASTER resolution
 
 # # CREATE TEMPORARY FOLDER TO STORE INTERMEDIATE RESULTS
-SUBDIR=${RESULTSPATH}/tmp_${eid}
+SUBDIR=${RESULTSPATH}_${eid}
 mkdir -p ${SUBDIR}
 
 for obj in $(cat ${SERVICEDIR}/qid_index.csv |grep "eid_${eid}|")
@@ -64,7 +64,7 @@ cat ${SUBDIR}/${OUTCSV}_*_final.csv >> ${RESULTSPATH}/${OUTCSV}.csv
 # clean results folder
 echo "now removing intermediate files"
 
-# echo dyn/runivar_${eid}*.sh |xargs rm -f
+echo dyn/runivar_${eid}*.sh |xargs rm -f
 rm -rf ${SUBDIR}
 
 endtime=`date +%s`

@@ -16,7 +16,7 @@ NCORES=54
 
 ########################################################################################################
 # DEFINE CONTINUOUS RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.UNIVAR
-IN_RASTER="gebco2024"
+IN_RASTER="gebco2026"
 IN_RASTER_MAPSET="CONRASTERS"
 ########################################################################################################
 

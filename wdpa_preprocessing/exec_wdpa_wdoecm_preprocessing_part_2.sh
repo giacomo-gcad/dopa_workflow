@@ -30,4 +30,3 @@ end1=`date +%s`
 runtime=$(((end1-start1) / 60))
 echo "Script $(basename "$0") (part 2) executed in ${runtime} minutes"
 exit
-

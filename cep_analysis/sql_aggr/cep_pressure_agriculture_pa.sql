@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS results_202601_cep_out.wdpa_pressure_agriculture_pa;CREATE TABLE results_202601_cep_out.wdpa_pressure_agriculture_pa AS
+SELECT
+wdpaid,(theme_sqkm/tot_sqkm*100) p_agriculture_pa_perc_tot
+FROM results_202601_cep_out.wdpa_intermediate_lc_copernicus
+WHERE cat=40;

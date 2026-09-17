@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS :v_rcep_out.country_elevation_profile;CREATE TABLE :v_rcep_out.country_elevation_profile AS
+SELECT
+country_id,country_land_elevation_profile_intermediate_min elev_min,country_land_elevation_profile_intermediate_max elev_max,country_land_elevation_profile_intermediate_mean elev_mean FROM :v_rcep_out.country_elevation_profile_intermediate;
+
+DROP TABLE IF EXISTS :v_rcep_out.ecoregion_elevation_profile;CREATE TABLE :v_rcep_out.ecoregion_elevation_profile AS
+SELECT eco_id,ecoregion_tot_elevation_profile_intermediate_min elev_min,ecoregion_tot_elevation_profile_intermediate_max elev_max,ecoregion_tot_elevation_profile_intermediate_mean elev_mean FROM :v_rcep_out.ecoregion_elevation_profile_intermediate;
+
+DROP TABLE IF EXISTS :v_rcep_out.wdpa_elevation_profile;CREATE TABLE :v_rcep_out.wdpa_elevation_profile AS
+SELECT wdpaid,pa_elevation_profile_intermediate_min elev_min,pa_elevation_profile_intermediate_max elev_max,pa_elevation_profile_intermediate_mean elev_mean FROM :v_rcep_out.wdpa_elevation_profile_intermediate;
+
+DROP TABLE IF EXISTS :v_rcep_out.country_elevation_profile_intermediate;
+DROP TABLE IF EXISTS :v_rcep_out.ecoregion_elevation_profile_intermediate;
+DROP TABLE IF EXISTS :v_rcep_out.wdpa_elevation_profile_intermediate;

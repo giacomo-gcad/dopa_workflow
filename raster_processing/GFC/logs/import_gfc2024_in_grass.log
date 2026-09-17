@@ -1,0 +1,736 @@
+Script import_gfc_in_grass.sh started at Fri Oct 24 05:41:17 PM CEST 2025
+90 degree north is exceeded by 0.494022 cells
+90 degree south is exceeded by 0.505978 cells
+360 degree EW extent is exceeded by 2 cells (East: 180.001, West: -180.001)
+Mapset switched.
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_109.tif: No such file or directory
+Tile 109 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_110.tif: No such file or directory
+Tile 110 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_111.tif: No such file or directory
+Tile 111 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_112.tif: No such file or directory
+Tile 112 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_113.tif: No such file or directory
+Tile 113 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_114.tif: No such file or directory
+Tile 114 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_115.tif: No such file or directory
+Tile 115 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_116.tif: No such file or directory
+Tile 116 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_117.tif: No such file or directory
+Tile 117 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_118.tif: No such file or directory
+Tile 118 imported
+Tile 119 imported
+Tile 120 imported
+Tile 121 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_122.tif: No such file or directory
+Tile 122 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_123.tif: No such file or directory
+Tile 123 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_124.tif: No such file or directory
+Tile 124 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_125.tif: No such file or directory
+Tile 125 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_126.tif: No such file or directory
+Tile 126 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_127.tif: No such file or directory
+Tile 127 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_128.tif: No such file or directory
+Tile 128 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_129.tif: No such file or directory
+Tile 129 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_130.tif: No such file or directory
+Tile 130 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_131.tif: No such file or directory
+Tile 131 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_132.tif: No such file or directory
+Tile 132 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_133.tif: No such file or directory
+Tile 133 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_134.tif: No such file or directory
+Tile 134 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_135.tif: No such file or directory
+Tile 135 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_136.tif: No such file or directory
+Tile 136 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_137.tif: No such file or directory
+Tile 137 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_138.tif: No such file or directory
+Tile 138 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_139.tif: No such file or directory
+Tile 139 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_140.tif: No such file or directory
+Tile 140 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_141.tif: No such file or directory
+Tile 141 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_142.tif: No such file or directory
+Tile 142 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_143.tif: No such file or directory
+Tile 143 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_144.tif: No such file or directory
+Tile 144 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_145.tif: No such file or directory
+Tile 145 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_146.tif: No such file or directory
+Tile 146 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_147.tif: No such file or directory
+Tile 147 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_148.tif: No such file or directory
+Tile 148 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_149.tif: No such file or directory
+Tile 149 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_150.tif: No such file or directory
+Tile 150 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_151.tif: No such file or directory
+Tile 151 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_152.tif: No such file or directory
+Tile 152 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_153.tif: No such file or directory
+Tile 153 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_154.tif: No such file or directory
+Tile 154 imported
+Tile 155 imported
+Tile 156 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_157.tif: No such file or directory
+Tile 157 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_158.tif: No such file or directory
+Tile 158 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_159.tif: No such file or directory
+Tile 159 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_160.tif: No such file or directory
+Tile 160 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_161.tif: No such file or directory
+Tile 161 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_162.tif: No such file or directory
+Tile 162 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_163.tif: No such file or directory
+Tile 163 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_164.tif: No such file or directory
+Tile 164 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_165.tif: No such file or directory
+Tile 165 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_166.tif: No such file or directory
+Tile 166 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_167.tif: No such file or directory
+Tile 167 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_168.tif: No such file or directory
+Tile 168 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_169.tif: No such file or directory
+Tile 169 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_170.tif: No such file or directory
+Tile 170 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_171.tif: No such file or directory
+Tile 171 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_172.tif: No such file or directory
+Tile 172 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_173.tif: No such file or directory
+Tile 173 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_174.tif: No such file or directory
+Tile 174 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_175.tif: No such file or directory
+Tile 175 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_176.tif: No such file or directory
+Tile 176 imported
+Tile 177 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_178.tif: No such file or directory
+Tile 178 imported
+Tile 179 imported
+Tile 180 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_181.tif: No such file or directory
+Tile 181 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_182.tif: No such file or directory
+Tile 182 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_183.tif: No such file or directory
+Tile 183 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_184.tif: No such file or directory
+Tile 184 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_185.tif: No such file or directory
+Tile 185 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_186.tif: No such file or directory
+Tile 186 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_187.tif: No such file or directory
+Tile 187 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_188.tif: No such file or directory
+Tile 188 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_189.tif: No such file or directory
+Tile 189 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_190.tif: No such file or directory
+Tile 190 imported
+Tile 191 imported
+Tile 192 imported
+Tile 193 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_194.tif: No such file or directory
+Tile 194 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_195.tif: No such file or directory
+Tile 195 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_196.tif: No such file or directory
+Tile 196 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_197.tif: No such file or directory
+Tile 197 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_198.tif: No such file or directory
+Tile 198 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_199.tif: No such file or directory
+Tile 199 imported
+Tile 200 imported
+Tile 201 imported
+Tile 202 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_203.tif: No such file or directory
+Tile 203 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_204.tif: No such file or directory
+Tile 204 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_205.tif: No such file or directory
+Tile 205 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_206.tif: No such file or directory
+Tile 206 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_207.tif: No such file or directory
+Tile 207 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_208.tif: No such file or directory
+Tile 208 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_209.tif: No such file or directory
+Tile 209 imported
+Tile 210 imported
+Tile 211 imported
+Tile 212 imported
+Tile 213 imported
+Tile 214 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_215.tif: No such file or directory
+Tile 215 imported
+Tile 216 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_217.tif: No such file or directory
+Tile 217 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_218.tif: No such file or directory
+Tile 218 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_219.tif: No such file or directory
+Tile 219 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_220.tif: No such file or directory
+Tile 220 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_221.tif: No such file or directory
+Tile 221 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_222.tif: No such file or directory
+Tile 222 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_223.tif: No such file or directory
+Tile 223 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_224.tif: No such file or directory
+Tile 224 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_225.tif: No such file or directory
+Tile 225 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_226.tif: No such file or directory
+Tile 226 imported
+Tile 227 imported
+Tile 228 imported
+Tile 229 imported
+Tile 230 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_231.tif: No such file or directory
+Tile 231 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_232.tif: No such file or directory
+Tile 232 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_233.tif: No such file or directory
+Tile 233 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_234.tif: No such file or directory
+Tile 234 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_235.tif: No such file or directory
+Tile 235 imported
+Tile 236 imported
+Tile 237 imported
+Tile 238 imported
+Tile 239 imported
+Tile 240 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_241.tif: No such file or directory
+Tile 241 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_242.tif: No such file or directory
+Tile 242 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_243.tif: No such file or directory
+Tile 243 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_244.tif: No such file or directory
+Tile 244 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_245.tif: No such file or directory
+Tile 245 imported
+Tile 246 imported
+Tile 247 imported
+Tile 248 imported
+Tile 249 imported
+Tile 250 imported
+Tile 251 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_252.tif: No such file or directory
+Tile 252 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_253.tif: No such file or directory
+Tile 253 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_254.tif: No such file or directory
+Tile 254 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_255.tif: No such file or directory
+Tile 255 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_256.tif: No such file or directory
+Tile 256 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_257.tif: No such file or directory
+Tile 257 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_258.tif: No such file or directory
+Tile 258 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_259.tif: No such file or directory
+Tile 259 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_260.tif: No such file or directory
+Tile 260 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_261.tif: No such file or directory
+Tile 261 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_262.tif: No such file or directory
+Tile 262 imported
+Tile 263 imported
+Tile 264 imported
+Tile 265 imported
+Tile 266 imported
+Tile 267 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_268.tif: No such file or directory
+Tile 268 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_269.tif: No such file or directory
+Tile 269 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_270.tif: No such file or directory
+Tile 270 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_271.tif: No such file or directory
+Tile 271 imported
+Tile 272 imported
+Tile 273 imported
+Tile 274 imported
+Tile 275 imported
+Tile 276 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_277.tif: No such file or directory
+Tile 277 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_278.tif: No such file or directory
+Tile 278 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_279.tif: No such file or directory
+Tile 279 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_280.tif: No such file or directory
+Tile 280 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_281.tif: No such file or directory
+Tile 281 imported
+Tile 282 imported
+Tile 283 imported
+Tile 284 imported
+Tile 285 imported
+Tile 286 imported
+Tile 287 imported
+Tile 288 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_289.tif: No such file or directory
+Tile 289 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_290.tif: No such file or directory
+Tile 290 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_291.tif: No such file or directory
+Tile 291 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_292.tif: No such file or directory
+Tile 292 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_293.tif: No such file or directory
+Tile 293 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_294.tif: No such file or directory
+Tile 294 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_295.tif: No such file or directory
+Tile 295 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_296.tif: No such file or directory
+Tile 296 imported
+Tile 297 imported
+Tile 298 imported
+Tile 299 imported
+Tile 300 imported
+Tile 301 imported
+Tile 302 imported
+Tile 303 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_304.tif: No such file or directory
+Tile 304 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_305.tif: No such file or directory
+Tile 305 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_306.tif: No such file or directory
+Tile 306 imported
+Tile 307 imported
+Tile 308 imported
+Tile 309 imported
+Tile 310 imported
+Tile 311 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_312.tif: No such file or directory
+Tile 312 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_313.tif: No such file or directory
+Tile 313 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_314.tif: No such file or directory
+Tile 314 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_315.tif: No such file or directory
+Tile 315 imported
+Tile 316 imported
+Tile 317 imported
+Tile 318 imported
+Tile 319 imported
+Tile 320 imported
+Tile 321 imported
+Tile 322 imported
+Tile 323 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_324.tif: No such file or directory
+Tile 324 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_325.tif: No such file or directory
+Tile 325 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_326.tif: No such file or directory
+Tile 326 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_327.tif: No such file or directory
+Tile 327 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_328.tif: No such file or directory
+Tile 328 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_329.tif: No such file or directory
+Tile 329 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_330.tif: No such file or directory
+Tile 330 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_331.tif: No such file or directory
+Tile 331 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_332.tif: No such file or directory
+Tile 332 imported
+Tile 333 imported
+Tile 334 imported
+Tile 335 imported
+Tile 336 imported
+Tile 337 imported
+Tile 338 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_339.tif: No such file or directory
+Tile 339 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_340.tif: No such file or directory
+Tile 340 imported
+Tile 341 imported
+Tile 342 imported
+Tile 343 imported
+Tile 344 imported
+Tile 345 imported
+Tile 346 imported
+Tile 347 imported
+Tile 348 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_349.tif: No such file or directory
+Tile 349 imported
+Tile 350 imported
+Tile 351 imported
+Tile 352 imported
+Tile 353 imported
+Tile 354 imported
+Tile 355 imported
+Tile 356 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_357.tif: No such file or directory
+Tile 357 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_358.tif: No such file or directory
+Tile 358 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_359.tif: No such file or directory
+Tile 359 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_360.tif: No such file or directory
+Tile 360 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_361.tif: No such file or directory
+Tile 361 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_362.tif: No such file or directory
+Tile 362 imported
+Tile 363 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_364.tif: No such file or directory
+Tile 364 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_365.tif: No such file or directory
+Tile 365 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_366.tif: No such file or directory
+Tile 366 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_367.tif: No such file or directory
+Tile 367 imported
+Tile 368 imported
+Tile 369 imported
+Tile 370 imported
+Tile 371 imported
+Tile 372 imported
+Tile 373 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_374.tif: No such file or directory
+Tile 374 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_375.tif: No such file or directory
+Tile 375 imported
+Tile 376 imported
+Tile 377 imported
+Tile 378 imported
+Tile 379 imported
+Tile 380 imported
+Tile 381 imported
+Tile 382 imported
+Tile 383 imported
+Tile 384 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_385.tif: No such file or directory
+Tile 385 imported
+Tile 386 imported
+Tile 387 imported
+Tile 388 imported
+Tile 389 imported
+Tile 390 imported
+Tile 391 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_392.tif: No such file or directory
+Tile 392 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_393.tif: No such file or directory
+Tile 393 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_394.tif: No such file or directory
+Tile 394 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_395.tif: No such file or directory
+Tile 395 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_396.tif: No such file or directory
+Tile 396 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_397.tif: No such file or directory
+Tile 397 imported
+Tile 398 imported
+Tile 399 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_400.tif: No such file or directory
+Tile 400 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_401.tif: No such file or directory
+Tile 401 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_402.tif: No such file or directory
+Tile 402 imported
+Tile 403 imported
+Tile 404 imported
+Tile 405 imported
+Tile 406 imported
+Tile 407 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_408.tif: No such file or directory
+Tile 408 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_409.tif: No such file or directory
+Tile 409 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_410.tif: No such file or directory
+Tile 410 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_411.tif: No such file or directory
+Tile 411 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_412.tif: No such file or directory
+Tile 412 imported
+Tile 413 imported
+Tile 414 imported
+Tile 415 imported
+Tile 416 imported
+Tile 417 imported
+Tile 418 imported
+Tile 419 imported
+Tile 420 imported
+Tile 421 imported
+Tile 422 imported
+Tile 423 imported
+Tile 424 imported
+Tile 425 imported
+Tile 426 imported
+Tile 427 imported
+Tile 428 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_429.tif: No such file or directory
+Tile 429 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_430.tif: No such file or directory
+Tile 430 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_431.tif: No such file or directory
+Tile 431 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_432.tif: No such file or directory
+Tile 432 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_433.tif: No such file or directory
+Tile 433 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_434.tif: No such file or directory
+Tile 434 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_435.tif: No such file or directory
+Tile 435 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_436.tif: No such file or directory
+Tile 436 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_437.tif: No such file or directory
+Tile 437 imported
+Tile 438 imported
+Tile 439 imported
+Tile 440 imported
+Tile 441 imported
+Tile 442 imported
+Tile 443 imported
+Tile 444 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_445.tif: No such file or directory
+Tile 445 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_446.tif: No such file or directory
+Tile 446 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_447.tif: No such file or directory
+Tile 447 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_448.tif: No such file or directory
+Tile 448 imported
+Tile 449 imported
+Tile 450 imported
+Tile 451 imported
+Tile 452 imported
+Tile 453 imported
+Tile 454 imported
+Tile 455 imported
+Tile 456 imported
+Tile 457 imported
+Tile 458 imported
+Tile 459 imported
+Tile 460 imported
+Tile 461 imported
+Tile 462 imported
+Tile 463 imported
+Tile 464 imported
+Tile 465 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_466.tif: No such file or directory
+Tile 466 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_467.tif: No such file or directory
+Tile 467 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_468.tif: No such file or directory
+Tile 468 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_469.tif: No such file or directory
+Tile 469 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_470.tif: No such file or directory
+Tile 470 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_471.tif: No such file or directory
+Tile 471 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_472.tif: No such file or directory
+Tile 472 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_473.tif: No such file or directory
+Tile 473 imported
+Tile 474 imported
+Tile 475 imported
+Tile 476 imported
+Tile 477 imported
+Tile 478 imported
+Tile 479 imported
+Tile 480 imported
+Tile 481 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_482.tif: No such file or directory
+Tile 482 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_483.tif: No such file or directory
+Tile 483 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_484.tif: No such file or directory
+Tile 484 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_485.tif: No such file or directory
+Tile 485 imported
+Tile 486 imported
+Tile 487 imported
+Tile 488 imported
+Tile 489 imported
+Tile 490 imported
+Tile 491 imported
+Tile 492 imported
+Tile 493 imported
+Tile 494 imported
+Tile 495 imported
+Tile 496 imported
+Tile 497 imported
+Tile 498 imported
+Tile 499 imported
+Tile 500 imported
+Tile 501 imported
+Tile 502 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_503.tif: No such file or directory
+Tile 503 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_504.tif: No such file or directory
+Tile 504 imported
+Tile 505 imported
+Tile 506 imported
+Tile 507 imported
+Tile 508 imported
+Tile 509 imported
+Tile 510 imported
+Tile 511 imported
+Tile 512 imported
+Tile 513 imported
+Tile 514 imported
+Tile 515 imported
+Tile 516 imported
+Tile 517 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_518.tif: No such file or directory
+Tile 518 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_519.tif: No such file or directory
+Tile 519 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_520.tif: No such file or directory
+Tile 520 imported
+Tile 521 imported
+Tile 522 imported
+Tile 523 imported
+Tile 524 imported
+Tile 525 imported
+Tile 526 imported
+Tile 527 imported
+Tile 528 imported
+Tile 529 imported
+Tile 530 imported
+Tile 531 imported
+Tile 532 imported
+Tile 533 imported
+Tile 534 imported
+Tile 535 imported
+Tile 536 imported
+Tile 537 imported
+Tile 538 imported
+Tile 539 imported
+Tile 540 imported
+Tile 541 imported
+Tile 542 imported
+Tile 543 imported
+Tile 544 imported
+Tile 545 imported
+Tile 546 imported
+Tile 547 imported
+Tile 548 imported
+Tile 549 imported
+Tile 550 imported
+Tile 551 imported
+Tile 552 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_553.tif: No such file or directory
+Tile 553 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_554.tif: No such file or directory
+Tile 554 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_555.tif: No such file or directory
+Tile 555 imported
+Tile 556 imported
+Tile 557 imported
+Tile 558 imported
+Tile 559 imported
+Tile 560 imported
+Tile 561 imported
+Tile 562 imported
+Tile 563 imported
+Tile 564 imported
+Tile 565 imported
+Tile 566 imported
+Tile 567 imported
+Tile 568 imported
+Tile 569 imported
+Tile 570 imported
+Tile 571 imported
+Tile 572 imported
+Tile 573 imported
+Tile 574 imported
+Tile 575 imported
+Tile 576 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_577.tif: No such file or directory
+Tile 577 imported
+Tile 578 imported
+Tile 579 imported
+Tile 580 imported
+Tile 581 imported
+Tile 582 imported
+Tile 583 imported
+Tile 584 imported
+Tile 585 imported
+Tile 586 imported
+Tile 587 imported
+Tile 588 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_589.tif: No such file or directory
+Tile 589 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_590.tif: No such file or directory
+Tile 590 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_591.tif: No such file or directory
+Tile 591 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_592.tif: No such file or directory
+Tile 592 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_593.tif: No such file or directory
+Tile 593 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_594.tif: No such file or directory
+Tile 594 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_595.tif: No such file or directory
+Tile 595 imported
+Tile 596 imported
+Tile 597 imported
+Tile 598 imported
+ERROR 4: /spatial_data/Derived_Datasets/RASTER/GFC/2024_V1.12/lossyear_over30_ll/tile_599.tif: No such file or directory
+Tile 599 imported
+Tile 600 imported
+Tile 601 imported
+Tile 602 imported
+Tile 603 imported
+Tile 604 imported
+Tile 605 imported
+Tile 606 imported
+Tile 607 imported
+Tile 608 imported
+Tile 609 imported
+Tile 610 imported
+Tile 611 imported
+Tile 612 imported
+----------------------------------------------------------------
+Global Forest Change tiles imported in GRASS in 52 minutes
+----------------------------------------------------------------

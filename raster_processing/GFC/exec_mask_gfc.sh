@@ -20,7 +20,7 @@ mkdir -p ${temp_dir}
 ((TILESIZE=(${ALLTILES}+${NTILES})/${NCORES}))   #TILESIZE is rounded up in order to ensure that [last tile + TILESIZE] is always > ALLTILES 
 for TIL in $(for i in $(eval echo {0..${NTILES}}); do ((start=${TILESIZE}*$i)); echo -n $start" "; done)
 	do
-    echo "./slave_mask_gfc.sh ${TIL} ${TILESIZE} ${TREE_LIST_FILE} ${base_indir} ${base_outdir} ${temp_dir} ${rootstring}"
+    echo "./slave_mask_gfc.sh ${TIL} ${TILESIZE} ${TREE_LIST_FILE} ${LOSS_LIST_FILE} ${base_indir} ${base_outdir} ${temp_dir} ${rootstring}"
 done | parallel -j ${NCORES}
 
 echo "GFC tiles masked"
@@ -62,8 +62,8 @@ wait
 
 echo "GFC stats computed on vrt"
 
-rm ${temp_dir} -rf
-rm -f ./dyn/*
+#rm ${temp_dir} -rf
+#rm -f ./dyn/*
 rm -f ${base_outdir}/temp_*.vrt
 
 

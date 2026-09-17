@@ -23,7 +23,7 @@ PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
 OUTCSV_ROOT="pabu_"${IN_RASTER}
 FINALCSV="r_univar_"${OUTCSV_ROOT}"_"${wdpadate}
 
-NCORES=48
+NCORES=64
 
 ## PART I: FIND COMMON TILES IN BOTH THEMES (PABU AND BUILTUP)
 # ls -1 ${DATABASE}/${LOCATION_LL}/${IN_RASTER_MAPSET}"/cell/builtup2020*"| sed 's/builtup2020_//' >builtup_tiles.txt
@@ -53,7 +53,7 @@ echo "r.univar completed, now aggregating results..."
 echo " "
 
 rm -f ${RESULTSPATH}/${FINALCSV}.csv
-cat ${RESULTSPATH}/tmp/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
+cat ${RESULTSPATH}/${OUTCSV_ROOT}*.csv >> ${RESULTSPATH}/${FINALCSV}.csv
 wait
 
 ## PART IV : CREATE PG TABLE AND IMPORT FINAL CSV IN POSTGIS

@@ -148,6 +148,16 @@ ${fpath_u}
 echo "
 Layer "${source}" imported in " ${db}
 
+# ###### PATCH ADDED ON 07/01/2025 TO UPDATE 1 OECM WITH DUPLICATED WDPAID ######
+# echo "DELETE FROM ${wdpa_schema}.${polytab} WHERE wdpaid IN (555704258, 555704262, 555704259) AND pa_def='0'" | psql ${dbpar2}
+# echo "DELETE FROM ${wdpa_schema}.${atts_tab} WHERE wdpaid IN (555704258, 555704262, 555704259) AND pa_def='0'" | psql ${dbpar2}
+# ########################         END OF PATCH          ########################
+
+# ###### PATCH ADDED ON 25/11/2024 TO CORRECT 1 OECM WITH DUPLICATED WDPAID  - NO MORE NEEDED ######
+echo "UPDATE ${wdpa_schema}.${polytab} SET pa_def = '1' WHERE wdpa_pid IN ('555515600_A','555515600_B')" | psql ${dbpar2}
+echo "UPDATE ${wdpa_schema}.${atts_tab} SET pa_def = 1 WHERE wdpa_pid IN ('555515600_A','555515600_B')" | psql ${dbpar2}
+# ########################         END OF PATCH          ########################
+
 echo "---------------------------------------------------------------------------------------------"
 echo "Tables with polygons, points and attributes imported in postgis."
 echo "Now run exec_wdpa_preprocessing_part_1.sh"

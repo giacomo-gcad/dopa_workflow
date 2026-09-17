@@ -68,17 +68,17 @@ ADD PRIMARY KEY (wdpaid),
 DROP COLUMN ogc_fid;
 CREATE INDEX wdpa_wdoecm_:vDATE:vidx ON :vSCHEMA.wdpa_wdoecm_:vDATE USING gist(geom);
 
-/* -- CREATE FINAL WDPA OVER 5 sqkm TABLE
-DROP TABLE IF EXISTS :vSCHEMA.wdoecm_o5_:vDATE;
-CREATE TABLE :vSCHEMA.wdoecm_o5_:vDATE AS
+-- CREATE FINAL WDPA OVER 5 sqkm TABLE
+DROP TABLE IF EXISTS :vSCHEMA.wdpa_wdoecm_o5_:vDATE;
+CREATE TABLE :vSCHEMA.wdpa_wdoecm_o5_:vDATE AS
 SELECT 
 *
-FROM :vSCHEMA.wdoecm_:vDATE
+FROM :vSCHEMA.wdpa_wdoecm_:vDATE
 WHERE area_geo >= :THRESHOLD and type NOT IN ('Point')
 ORDER BY wdpaid;
 
-ALTER TABLE :vSCHEMA.wdoecm_o5_:vDATE
+ALTER TABLE :vSCHEMA.wdpa_wdoecm_o5_:vDATE
 ADD PRIMARY KEY (wdpaid);
-CREATE INDEX wdoecm_o5_:vDATE:vgeomidx ON :vSCHEMA.wdoecm_o5_:vDATE USING gist (geom);
-CREATE INDEX wdoecm_o5_:vDATE:vwdpaididx ON :vSCHEMA.wdoecm_o5_:vDATE USING btree (wdpaid); */
+CREATE INDEX wdpa_wdoecm_o5_:vDATE:vgeomidx ON :vSCHEMA.wdpa_wdoecm_o5_:vDATE USING gist (geom);
+CREATE INDEX wdpa_wdoecm_o5_:vDATE:vwdpaididx ON :vSCHEMA.wdpa_wdoecm_o5_:vDATE USING btree (wdpaid);
 

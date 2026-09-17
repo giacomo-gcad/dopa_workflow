@@ -5,45 +5,83 @@ CREATE TABLE :vSCHEMA.wdpa_wdoecm_geom_:vDATE AS
 
 WITH
 
-polygons AS (
+polygons_wdpa AS (
 SELECT
-CAST(WDPAID AS integer) as wdpaid,
-COUNT(WDPAID) AS parcels,
+CAST(wdpaid AS integer) as wdpaid,
+COUNT(wdpaid) AS parcels,
 'Polygon' AS type,
 ST_UNION(shape) AS geom 
 FROM :vSCHEMA.:vINNAME_POLY
 WHERE
-WDPAID IN (
-SELECT WDPAID
+wdpaid IN (
+SELECT wdpaid
 FROM :vSCHEMA.:vINNAME_POLY
 WHERE STATUS NOT IN ('Not Reported', 'Proposed')
-AND
-DESIG_ENG NOT IN ('UNESCO-MAB Biosphere Reserve')
--- AND pa_def='0'        -- THIS ALLOWS TO PROCESS ONLY WDOECM 
-GROUP BY WDPAID
-HAVING COUNT(WDPAID) > 1
+AND DESIG_ENG NOT IN ('UNESCO-MAB Biosphere Reserve')
+AND pa_def='1' -- THIS SELECTS ONLY WDPA
+GROUP BY wdpaid
+HAVING COUNT(wdpaid) > 1
 )
-GROUP BY WDPAID
+GROUP BY wdpaid
 UNION
 SELECT
-CAST(WDPAID AS integer) as wdpaid,
+CAST(wdpaid AS integer) as wdpaid,
 CAST('1' AS integer) AS parcels,
 'Polygon' AS type,
 shape AS geom
 FROM :vSCHEMA.:vINNAME_POLY
 WHERE
-WDPAID IN (
-SELECT WDPAID
+wdpaid IN (
+SELECT wdpaid
 FROM :vSCHEMA.:vINNAME_POLY
 WHERE STATUS NOT IN ('Not Reported', 'Proposed')
-AND
-DESIG_ENG NOT IN ('UNESCO-MAB Biosphere Reserve')
--- AND pa_def='0'        -- THIS ALLOWS TO PROCESS ONLY WDOECM 
-GROUP BY WDPAID
-HAVING COUNT(WDPAID) = 1)
+AND DESIG_ENG NOT IN ('UNESCO-MAB Biosphere Reserve')
+AND pa_def='1' -- THIS SELECTS ONLY WDPA
+GROUP BY wdpaid
+HAVING COUNT(wdpaid) = 1)
 ),
 
-points AS (
+polygons_wdoecm AS (
+SELECT
+CAST(wdpaid AS integer) as wdpaid,
+COUNT(wdpaid) AS parcels,
+'Polygon' AS type,
+ST_UNION(shape) AS geom 
+FROM :vSCHEMA.:vINNAME_POLY
+WHERE
+wdpaid IN (
+SELECT wdpaid
+FROM :vSCHEMA.:vINNAME_POLY
+WHERE STATUS NOT IN ('Not Reported', 'Proposed')
+AND pa_def='0' -- THIS SELECTS ONLY WDOECM 
+GROUP BY wdpaid
+HAVING COUNT(wdpaid) > 1
+)
+GROUP BY wdpaid
+UNION
+SELECT
+CAST(wdpaid AS integer) as wdpaid,
+CAST('1' AS integer) AS parcels,
+'Polygon' AS type,
+shape AS geom
+FROM :vSCHEMA.:vINNAME_POLY
+WHERE
+wdpaid IN (
+SELECT wdpaid
+FROM :vSCHEMA.:vINNAME_POLY
+WHERE STATUS NOT IN ('Not Reported', 'Proposed')
+AND pa_def='0' -- THIS SELECTS ONLY WDOECM 
+GROUP BY wdpaid
+HAVING COUNT(wdpaid) = 1)
+),
+
+polygons AS (
+SELECT * FROM polygons_wdpa
+UNION
+SELECT * FROM polygons_wdoecm
+),
+
+points_wdpa AS (
 SELECT
 CAST(WDPAID AS integer) as wdpaid,
 'Point' AS type,
@@ -54,12 +92,32 @@ WHERE
 WDPAID IN (
 SELECT WDPAID
 FROM :vSCHEMA.:vINNAME_POINT
-WHERE STATUS NOT IN ('Not Reported', 'Proposed')
-AND
-DESIG_ENG NOT IN ('UNESCO-MAB Biosphere Reserve')
-AND
-REP_AREA > 0)
--- AND pa_def='0'        -- THIS ALLOWS TO PROCESS ONLY WDOECM 
+WHERE pa_def='1' -- THIS SELECTS ONLY WDPA
+AND STATUS NOT IN ('Not Reported', 'Proposed')
+AND DESIG_ENG NOT IN ('UNESCO-MAB Biosphere Reserve')
+AND REP_AREA > 0)
+),
+
+points_wdoecm AS (
+SELECT
+CAST(WDPAID AS integer) as wdpaid,
+'Point' AS type,
+REP_AREA AS rep_areas,
+shape AS geom
+FROM :vSCHEMA.:vINNAME_POINT
+WHERE
+WDPAID IN (
+SELECT WDPAID
+FROM :vSCHEMA.:vINNAME_POINT
+WHERE pa_def='0' -- THIS SELECTS ONLY WDPA
+AND STATUS NOT IN ('Not Reported', 'Proposed')
+AND REP_AREA > 0)
+),
+
+points AS  (
+SELECT * FROM points_wdpa
+UNION
+SELECT * FROM points_wdoecm
 ),
 
 non_intersecting_points AS (

@@ -28,7 +28,7 @@ psql ${dbpar} -c '\copy (SELECT * FROM '${pa_schema}'.list_pa_tc) to '${PA_TC_LI
 psql ${dbpar} -c '\copy (SELECT * FROM '${pa_schema}'.list_pa_ma) to '${PA_MA_LIST_FILE}' with csv'
 
 echo " "
-echo "Schemas and lists for PAs and buffers created"
+echo "Schemas and lists for PAs created"
 echo " "
 
 # CREATE INDIVIDUAL VIEWS FOR PAs

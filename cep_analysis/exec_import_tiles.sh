@@ -20,6 +20,8 @@ do
 	./slave_import_tiles.sh ${t} ${CEP_MAPSET_PATH} ${CEP_RASTER_TILES_PATH}
 done
 
+wait
+
 # Remove dynamic scripts
 echo dyn/*.sh |xargs rm -f
 

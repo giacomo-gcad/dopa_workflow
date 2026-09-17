@@ -12,18 +12,18 @@ SERVICEDIR="/globes/processing_current/servicefiles"
 source ${SERVICEDIR}/cep_processing.conf
 
 ## OVERRIDE NCORES DEFINED IN CONF FILE
-NCORES=30
+NCORES=36
 
 ########################################################################################################
 # DEFINE CATEGORICAL RASTER (NAME OF GRASS LAYER) AND MAPSET TO BE ANALYZED WITH R.STATS
-IN_RASTER="ecotile_"
+IN_RASTER="ecoreg"
 IN_RASTER_MAPSET="ECOREGIONS"
 ########################################################################################################
 
 ## Derived variables
 LOCATION_LL_PATH=${DATABASE}/${LOCATION_LL}
 PERMANENT_LL_MAPSET=${DATABASE}/${LOCATION_LL}"/PERMANENT"
-OUTCSV_ROOT="cep_"${IN_RASTER}"_eco2024"
+OUTCSV_ROOT="cep_"${IN_RASTER}
 FINALCSV="r_stats_"${OUTCSV_ROOT}"_"${wdpadate}
 
 ## PART I: COMPUTATION OF STATISTICS
@@ -53,7 +53,8 @@ wait
 
 ## PART IV : CREATE PG TABLE AND IMPORT FINAL CSV IN POSTGIS
 echo " "
-echo "Now importing csv table in Postgis..."
+date
+echo "Computation of statistics done. Now importing csv table in Postgis..."
 echo " "
 
 psql ${dbpar2} -t -v vNAME=${FINALCSV} -v vSCHEMA=${RESULTSCH} -f ./sql/create_table_rstats_qid.sql

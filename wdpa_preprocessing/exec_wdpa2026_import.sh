@@ -1,0 +1,176 @@
+#!/bin/bash
+## FIRST PART OF WDPA PRE-PROCESSING
+## IMPORT WDPA DATA FROM ZIPPED GDB
+
+date
+start1=`date +%s`
+
+# READ VARIABLES FROM CONFIGURATION FILE
+SERVICEDIR="/globes/processing_current/servicefiles"
+## TO BE USED TO PREPROCESS GDB FILES WITHOUT OECM
+## source ${SERVICEDIR}/wdpa_preprocessing.conf
+## TO BE USED TO PREPROCESS GDB FILES WITH OECM
+source ${SERVICEDIR}/wdpa_wdoecm_preprocessing.conf			
+
+# set local
+LC_TIME=en_US.utf8
+
+# SET DYNAMIC VARIABLES
+y1=`date -d $wdpadate"01" +%Y`
+m1=`date -d $wdpadate"01" +%m`
+y2=`date -d $wdpadate"01" +%y`
+m2=`date -d $wdpadate"01" +%b`
+
+# SET DERIVED VARIABLES
+arch=${pref}"_"${m2}${y1}"_"${suff}
+# fpath="/vsizip/"${vpath}"/"${y1}"/"${y2}${m1}"_"${arch}${ext1}"/"${arch}${ext2}   # DOES NOT WORK ANYMORE
+fpath_u=${upath}"/"${arch}${ext2}
+# THE FOLLOWING TWO LINES DO NOT WORK ANYMORE
+# poly=`ogrinfo -ro $fpath | grep poly | awk '{print $2}'`
+# point=`ogrinfo -ro $fpath | grep point | awk '{print $2}'` 
+poly=`ogrinfo -ro ${upath}"/"${arch}${ext2}| grep 'poly' | awk '{print $2}'`
+point=`ogrinfo -ro ${upath}"/"${arch}${ext2}| grep 'point' | awk '{print $2}'`
+source=`ogrinfo -ro ${upath}"/"${arch}${ext2}| grep 'source' | awk '{print $2}'`
+cpoly=`ogrinfo -ro -al -so $fpath_u ${poly} | grep 'Feature Count' | awk '{print $3}'`
+cpoint=`ogrinfo -ro -al -so $fpath_u ${point} | grep 'Feature Count' | awk '{print $3}'`
+((ctot=${cpoly}+${cpoint}))
+atts_tab=${atts_table}"_"${y1}${m1}
+polytab=${poly_table}"_"${y1}${m1}
+pointtab=${point_table}"_"${y1}${m1}
+sourcetab=${source_table}"_"${y1}${m1}
+dbpar1="host=${host} user=${user} dbname=${db}"
+dbpar2="-h ${host} -U ${user} -d ${db} -w"
+
+# echo "Processing ${arch}${ext2}.
+
+# Geometry ${poly} contains ${cpoly} objects.
+
+# Geometry ${point} contains ${cpoint} objects.
+
+# The final number of rows should be ${ctot}."
+
+# ## CREATE THE OUTPUT SCHEMA  IF NOT EXISTS.
+# psql ${dbpar2} -c 'CREATE SCHEMA IF NOT EXISTS '${wdpa_schema}' AUTHORIZATION h05ibex; GRANT ALL ON SCHEMA '${wdpa_schema}' TO h05ibex; GRANT ALL ON SCHEMA '${wdpa_schema}' TO h05mandand; GRANT USAGE ON SCHEMA '${wdpa_schema}' TO h05ibexro;'
+
+
+# # IMPORT POLY AND POINT ATTRIBUTES
+# # SET LONG SQL
+# sql="
+# SELECT DISTINCT SITE_ID,SITE_PID,SITE_TYPE,NAME_ENG,NAME,DESIG,DESIG_ENG,DESIG_TYPE,IUCN_CAT,INT_CRIT,REALM,INLND_WTRS,REP_M_AREA,GIS_M_AREA,REP_AREA,GIS_AREA,NO_TAKE,NO_TK_AREA,STATUS,STATUS_YR,GOV_TYPE,OWN_TYPE,MANG_AUTH,MANG_PLAN,VERIF,METADATAID,GOVSUBTYPE,OWNSUBTYPE,PRNT_ISO3,ISO3
+# FROM ${poly}
+# UNION
+# SELECT DISTINCT SITE_ID,SITE_PID,SITE_TYPE,NAME_ENG,NAME,DESIG,DESIG_ENG,DESIG_TYPE,IUCN_CAT,INT_CRIT,REALM,INLND_WTRS,REP_M_AREA,'' AS GIS_M_AREA,REP_AREA,'' AS GIS_AREA,NO_TAKE,NO_TK_AREA,STATUS,STATUS_YR,GOV_TYPE,OWN_TYPE,MANG_AUTH,MANG_PLAN,VERIF,METADATAID,GOVSUBTYPE,OWNSUBTYPE,PRNT_ISO3,ISO3
+# FROM ${point}
+# "
+
+# echo "Importing ${poly} and ${point} attributes in "${wdpa_schema}"."${atts_tab}
+
+# echo ${sql}
+
+# ogr2ogr \
+# -overwrite \
+# -dialect sqlite \
+# -sql """$sql""" \
+# -f "PostgreSQL" PG:"host=${host} user=${user} dbname=${db}" \
+# """$fpath_u""" \
+# -nln ${wdpa_schema}"."${atts_tab}
+
+# wait
+
+# crows=`ogrinfo -ro -al -so PG:"host=$host user=$user dbname=$db" ${wdpa_schema}"."$atts_tab | grep 'Feature Count' | awk '{print $3}'`
+
+# echo "
+# Attributes of ${poly} and ${point} imported in final table ${wdpa_schema}"."$atts_tab.
+
+# Final table ${wdpa_schema}.${atts_tab} contains $crows rows.
+
+# "
+
+# # compare number of objects in source and target
+        # if ((${ctot} - ${crows} == 0)); then
+            # tput setaf 2;
+            # echo "Number of objects imported is ${GREEN}correct."
+        # else
+            # tput setaf 1; 
+            # echo "Number of objects imported is ${RED}NOT correct. Check the results."
+        # fi
+# echo " "
+
+# ## IMPORT POLYGONS LAYER
+# ogr2ogr \
+# -overwrite \
+# -skipfailures \
+# -dialect sqlite \
+# -sql "
+# SELECT * FROM "${poly}" 
+# " \
+# -f "PostgreSQL" PG:"host=${host} user=${user} dbname=${db} active_schema=${wdpa_schema}" \
+# -nln ${wdpa_schema}.${polytab} \
+# -nlt "MULTIPOLYGON" \
+# ${fpath_u}
+
+# echo "
+# Layer "${poly}" imported in " ${db}
+
+# ## IMPORT POINTS LAYER
+# ogr2ogr \
+# -overwrite \
+# -skipfailures \
+# -explodecollections \
+# -dialect sqlite \
+# -sql "
+# SELECT * FROM "${point}" 
+# " \
+# -f "PostgreSQL" PG:"host=${host} user=${user} dbname=${db} active_schema=${wdpa_schema}" \
+# -nln ${wdpa_schema}.${pointtab} \
+# -nlt "MULTIPOINT" \
+# ${fpath_u}
+
+# echo "
+# Layer "${point}" imported in " ${db} 
+# echo " "
+
+# wait 
+
+# ## IMPORT METADATA TABLE
+# ogr2ogr \
+# -overwrite \
+# -skipfailures \
+# -explodecollections \
+# -dialect sqlite \
+# -sql "
+# SELECT * FROM "${source}" 
+# " \
+# -f "PostgreSQL" PG:"host=${host} user=${user} dbname=${db} active_schema=${wdpa_schema}" \
+# -nln ${wdpa_schema}.${sourcetab} \
+# ${fpath_u}
+
+# echo "
+# Layer "${source}" imported in " ${db}
+
+# # ###### PATCH ADDED ON 07/01/2025 TO UPDATE 1 OECM WITH DUPLICATED WDPAID ######
+# # echo "DELETE FROM ${wdpa_schema}.${polytab} WHERE wdpaid IN (555704258, 555704262, 555704259) AND pa_def='0'" | psql ${dbpar2}
+# # echo "DELETE FROM ${wdpa_schema}.${atts_tab} WHERE wdpaid IN (555704258, 555704262, 555704259) AND pa_def='0'" | psql ${dbpar2}
+# # ########################         END OF PATCH          ########################
+
+# # # ###### PATCH ADDED ON 25/11/2024 TO CORRECT 1 OECM WITH DUPLICATED WDPAID  - NO MORE NEEDED ######
+# # echo "UPDATE ${wdpa_schema}.${polytab} SET pa_def = '1' WHERE wdpa_pid IN ('555515600_A','555515600_B')" | psql ${dbpar2}
+# # echo "UPDATE ${wdpa_schema}.${atts_tab} SET pa_def = 1 WHERE wdpa_pid IN ('555515600_A','555515600_B')" | psql ${dbpar2}
+# # # ########################         END OF PATCH          ########################
+
+## SINCE 202601: patch to make the new db structure compatible with all the other scripts.
+psql ${dbpar2} 	-v POINTS=${wdpa_schema}.${pointtab} \
+				-v POLYGONS=${wdpa_schema}.${polytab} \
+				-v ATTRIBUTES=${wdpa_schema}"."${atts_tab} \
+				-f ${SQLDIR}/modify_wdpa_wdoecm_structure.sql 
+
+echo "---------------------------------------------------------------------------------------------"
+echo "Tables with polygons, points and attributes imported in postgis."
+echo "Now run exec_wdpa_preprocessing_part_1.sh"
+echo "---------------------------------------------------------------------------------------------"
+date
+end1=`date +%s`
+runtime=$(((end1-start1) / 60))
+echo "Script $(basename "$0") executed in ${runtime} minutes"
+exit
+

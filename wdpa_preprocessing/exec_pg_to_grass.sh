@@ -24,7 +24,6 @@ dbpars="-h ${host} -u ${user} -P ${pw}"
 WDPA_MAPSET=${DATABASE}/${LOCATION_LL}"/WDPA_"${wdpadate}
 FLAT="wdpa_flat@WDPA_"${wdpadate}
 
-
 ## PARALLEL PROCESSING BLOCK: EXPORT PAs TO SHAPEFILE
 # Override NCORES parameter as defined in .conf file (pgsql2shp gives errors with higher values, 
 # too many connections to database)
@@ -65,6 +64,7 @@ grass ${PERMANENT_MAPSET_PATH} --exec g.mapset --q -c --overwrite mapset=${PA_MA
 
 
 #IMPORT PAs
+
 for PA in $(cat ${PA_LIST_FILE})
 	do
 	grass ${PA_MAPSET_PATH} --exec v.in.ogr --quiet --overwrite -o -t input=${SHPDIR_PA}/${PA}.shp output=${PA%} key=wdpaid

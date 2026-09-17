@@ -15,7 +15,7 @@ source ${SERVICEDIR}/cep_processing.conf
 NCORES=68
 
 ########################################################################################################
-IN_RASTER_MAPSET="SPECIES_2024"
+IN_RASTER_MAPSET="SPECIES_2025"
 ########################################################################################################
 
 ## Derived variables
@@ -30,7 +30,7 @@ do
 	echo " "
 	echo "now running r.stats in parallel on 648 CEP tiles and "${spec}" using "${NCORES}" threads"
 	echo "Input raster: "${spec}@${IN_RASTER_MAPSET}
-	OUTCSV_ROOT="cep_species2024_"${spec}
+	OUTCSV_ROOT="cep_species2025_"${spec}
 	FINALCSV="r_stats_"${OUTCSV_ROOT}"_${wdpadate}"
 	for eid in {1..648}
 	do	

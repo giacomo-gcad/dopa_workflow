@@ -30,7 +30,7 @@ ls -1 ${DATABASE}/${LOCATION_LL}/${PABU_MAPSET}"/cell_misc"| sed 's/ceptile_//' 
 
 ## PART II: COMPUTATION OF STATISTICS
 echo "Input raster: "${IN_RASTER}
-echo "now running r.stats in parallel on 440 CEP tiles and "${IN_RASTER}" using ${NCORES} threads"
+echo "now running r.stats in parallel on 337 PABU tiles and "${IN_RASTER}" using ${NCORES} threads"
 
 for eid in $(cat pabu_tiles.txt)
 do	
